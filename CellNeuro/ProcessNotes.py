@@ -1,4 +1,4 @@
-#Create flashcards from notes and point out things to review
+#Create flash cards csv from notes for import to anki and point out things to review (?) before creating flash cards
 import re, sys
 
 with open(sys.argv[1], 'r', encoding="utf-8") as file:
