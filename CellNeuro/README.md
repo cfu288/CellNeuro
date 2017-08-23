@@ -6,7 +6,7 @@ Notes are written in markdown for easy formatting and printing.
 
 ProcessNotes.sh skims my notes and uses RE to detect and auto-generate a csv file of vocabulary terms that should be memorized. Lines in the format:
 
- * **Term** - Definition of terms
+ * **Term** - Definition of term
 
  will be added to the csv.
 
