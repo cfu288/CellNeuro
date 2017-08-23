@@ -11,17 +11,17 @@
       * Tapping below the knee stretches the muscle, contracts to regain original length, foot swings
       * In muscle, stretch is detected by sensory neuron
           * Neuron exists in ganglion, extends a process out to the muscle to sense
-      * **Ganglion** - physical expansion of spinal chord, connects processes out to muscles.
+      * **Ganglion** - structure containing a number of nerve cell bodies, physical expansion of spinal chord, connects processes out to muscles.
       * **Dorsal root ganglion** - contains the cell bodies of sensory neurons that bring information from the periphery to the spinal cord. Used in stretch reflex
-      * **Ganglion =?= nucleous** - A collection of nerve cell bodies
+      * **Ganglion/nucleous** - A collection of nerve cell bodies
       * **Process** - (neurite) extends from ganglion to muscle (term used instead of axon/dendrite)
       * CNS - Spinal chord
           * White matter and gray matter (cross section image)
       * **Sensory Neuron** - Detects signals from environment, sends a process to the CNS into the inner gray matter
           * Then interacts with a second neuron at synapse, *motor neuron*
       * **Pre-Synaptic** - Sensory neuron endings, releases neurotransmitters
-      * **Post-Synaptic** - Motor neuron
-      * **Motor neuron** - exists in gray matter of spinal chord
+      * **Post-Synaptic** - Motor neuron, receives neurotransmitters
+      * **Motor neuron** - exists in gray matter of spinal chord, sends signals to muscle via process from CNS
       * **Synaptic cleft** - gap, interacts with receptors on post-synaptic cell
       * Motor neuron's response travels out of the CNS to muscle via a process, here it becomes a pre-synaptic contact with the now post-synaptic muscle.
       * Signal leads to contraction
@@ -41,5 +41,5 @@
   * **Anaxonal neuron** - Difficult to distinguish between inputs and outputs, no obvious axon
   * **Monopolar** - (unipolar) only one process extends from body
   * **Bipolar** - Branch goes up one way and down another
-  * **Multipolar neuron** - Classic neuron, cell body with dendrites on body and single axon
+  * **Multipolar neuron** - classic neuron, cell body with dendrites on body and single axon
   * **Interneurons** - process signals between sensory and motor neurons
