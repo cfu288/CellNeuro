@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 #Create flash cards csv from notes for import to anki and point out things to review (?) before creating flash cards
 import re, sys
 
