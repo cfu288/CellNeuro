@@ -26,7 +26,7 @@ if len(qlist) != 0:
     for item in qlist:
         print (item)
 else:
-    with open('output.csv', 'w', newline='') as csvfile:
+    with open('Flashcards/output.csv', 'w', newline='') as csvfile:
       writer = csv.writer(csvfile, delimiter='|',quotechar='|')
       for line in lines_list:
         #Pull out bolded terms and their definitions from the file
