@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 #Create flash cards csv from notes for import to anki and point out things to review (?) before creating flash cards
-import re, sys
+import re, sys, csv
 
 fileName = ""
 
@@ -26,8 +26,13 @@ if len(qlist) != 0:
     for item in qlist:
         print (item)
 else:
-    for line in lines_list:
+    with open('output.csv', 'w', newline='') as csvfile:
+      writer = csv.writer(csvfile, delimiter='|',quotechar='|')
+      for line in lines_list:
         #Pull out bolded terms and their definitions from the file
         m = re.match(r'\s*\**.*\*\*(.*)\*\*\s*\-\s*(.*)\s' , line)
         if m != None:
-            print(m.groups())
+            writer.writerow([m.group(1),m.group(2)])
+            #print(m.groups())
+
+print("Done")
