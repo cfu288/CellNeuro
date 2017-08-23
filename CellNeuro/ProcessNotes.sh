@@ -2,7 +2,15 @@
 #Create flash cards csv from notes for import to anki and point out things to review (?) before creating flash cards
 import re, sys
 
-with open(sys.argv[1], 'r', encoding="utf-8") as file:
+fileName = ""
+
+try:
+  fileName = sys.argv[1]
+except IndexError:
+  print("No file provided, using Notes.md")
+  fileName = "Notes.md"
+
+with open(fileName, 'r', encoding="utf-8") as file:
     lines_list = file.readlines()
 
 qlist = []
