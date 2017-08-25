@@ -78,3 +78,4 @@
     * CNS - Brain + spinal cord
     * PNS - Nerves that run to and from organs and muscles, includes nerves and ganglia
     * **Enteric Nervous System** - network of neurons and ganglia on the gut
+  * Brains integrate information from a collection of sensors at the front end of the animal
