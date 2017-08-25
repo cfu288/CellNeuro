@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-#Create flash cards csv from notes for import to anki and point out things to review (?) before creating flash cards
-import re, sys, csv
+# Create flash cards csv from notes for import to anki and point out things to
+# review (?) and HW items (HW) before creating flash cards
+import re, sys, csv, datetime
 
 fileName = ""
 
@@ -12,6 +13,23 @@ except IndexError:
 
 with open(fileName, 'r', encoding="utf-8") as file:
     lines_list = file.readlines()
+
+hwList = []
+
+for line in lines_list:
+    #Check for (?), dont make flashcards if these exist
+    n = re.match(r'.*(\(HW\)).*' , line)
+    m = re.match(r'.*\~\~(\(HW\))\~\~.*' , line)
+    if (m != None): #skip hw if crossed out
+        pass
+    elif (n != None):
+        hwList.append(line)
+if len(hwList) != 0:
+    print("Homework: ")
+    for item in hwList:
+        print (item)
+else:
+    print("No Homework.")
 
 qlist = []
 
@@ -26,7 +44,10 @@ if len(qlist) != 0:
     for item in qlist:
         print (item)
 else:
-    with open('Flashcards/output.csv', 'w', newline='') as csvfile:
+    print("No questions to resolve.")
+    today = datetime.date.today()
+    saveName = 'Flashcards/'+ str(today) +'.csv'
+    with open(saveName, 'w', newline='') as csvfile:
       writer = csv.writer(csvfile, delimiter='|',quotechar='|')
       for line in lines_list:
         #Pull out bolded terms and their definitions from the file
