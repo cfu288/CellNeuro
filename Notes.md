@@ -71,4 +71,10 @@
   * Even single cell organisms have some type of nervous systems.
   * **Nerve net** - Networks of interconnected neurons, can have activity that spreads throughout the net. Found in Hydras.
     * Humans have similar arrangements of nerve cells in gut (peristalsis)
-  *
+  * Most invertebrate animals have a brain and nerve cords, large ganglic along the nerve cord
+  * Mammals and other vertabrates also have brain and nerve cord. also have ganglic
+  * But invertebrate nerve cords run along the belly side, vertebrate along the _back_ and system is made from a tube and remains tube-like
+  * Basic Organization
+    * CNS - Brain + spinal cord
+    * PNS - Nerves that run to and from organs and muscles, includes nerves and ganglia
+    * **Enteric Nervous System** - network of neurons and ganglia on the gut
