@@ -51,9 +51,9 @@
     * **Astrogilia** - look like stars, common. Provide physical support and nutrients for neurons. Regulate k+ conc outside nervous system. Remove excess neurotransmitters from extracellular space.
     * **Radialgilia** - Around throughout life of org, important in development. Provide scaffold for migration of neurons.
     * **Microgilia** - immune response. made in bone marrow, highly mobile. clean up cellular debris, see a lot near infections or neurodegenerative diseases (Parkison's, Huntington's, Alzheimer's). Excessive activity during development may remove too many synapses leading to issues like possibly autism??
-    * **Oligodenetroglia** - found in CNS (brain, spinal cord) only, generate _myelin_ (flattened cell membrane w/o plasma) from glial cell. Electrical insulator, allows action potentials to move quicker and more reliably. Each _oligodentrocyte_ myelinates several axons.
+    * **Oligodenetroglia** - found in CNS (brain, spinal cord) only, generate _myelin_ (flattened cell membrane w/o plasma) from glial cell. Electrical insulator, allows action potentials to move quicker and more reliably. Each _oligodentrocyte_ myelinates several axons. Block axon regrowth on damage.
       * **Nodes of Ranvier** - nodes where AP are generated, gaps in myelin.
-    * **Schwann cells** - glial cells outside the CNS, in the PNS. Provide myelin. Myelantes only _one_ axon. Takes own cell body and wraps around, squeezing out most cytoplasm.
+    * **Schwann cells** - glial cells outside the CNS, in the PNS. Provide myelin. Myelantes only _one_ axon. Takes own cell body and wraps around, squeezing out most cytoplasm. Help regenerate nerve damage.
     * Difference between _Schwann cells_ and _Oligodentrocyte_:
       * Schwann cells help regenerate nerve damage
       * Oligodentrocytes actually block axon regrowth. Complex issue.
@@ -63,9 +63,9 @@
       * Change in response to signals - electrical and neurotransmitters
       * Glial cells are electrically connected to each other and can be connected ot neurons as well
     * Differences between gilia and neuons:
-      * glial cells electrical potential changes are much smaller
-      * glial cells do not have AP
-      * glial cells have smaller cell bodies and are smaller
+      * Glial cells electrical potential changes are much smaller
+      * Glial cells do not have AP
+      * Glial cells have smaller cell bodies and are smaller
 
 ## Organization of Neural structure
   * Even single cell organisms have some type of nervous systems.
@@ -79,3 +79,51 @@
     * PNS - Nerves that run to and from organs and muscles, includes nerves and ganglia
     * **Enteric Nervous System** - network of neurons and ganglia on the gut
   * Brains integrate information from a collection of sensors at the front end of the animal
+
+### 8-28
+## Major parts of the brain
+  * **Dorsal** - Back or top of animal
+  * **Ventral** - Belly or bottom of animal
+  * **Anterior** - Front, head
+  * **Posterior** - Back, legs
+  * **Rostral** - Toward the nose
+  * **Coudral** - Toward the tail
+  * **Lateral** - to the outside
+  * **Medial** - Toward the midline
+  * **Proximal** - used in reference to another object, closer object to intended object you are referring to
+  * **Distal** - used in reference to another object, further object to intended object you are referring to
+  * **Superior** - above (in brain)
+  * **Inferior** - below (in brain)
+  * Sections of the brain:
+    * **Coronal** - sliced like a sausage, front and back of brain
+    * **Saggital** - split down midline, corpus callusom, so you get two mirror image halves
+    * **Transverse/Horizontal** - cut on plane parallel to ground while standing, split into top half and bottom half
+  * Nervous system starts as a tube
+    * As time progresses, portions of the tube develop in different ways
+    (INSERT IMG)
+    * Starts with a tube with forrbrain, midbrain, hindbrain, and spinal cord
+      * **Forebrain** develops first
+        * **Telencephalon** - Higher mental functions. Processes sensory info and motor control. Two cerebral hemispheres connected by corpus callosum. Contains 4 lobes of the brain determined by brain folds
+          * **Gyrus** - mountain fold of brain
+          * **Sulcus** - Valley fold of brain
+          * **Corpus callosum** - big myelinated bundle of axons that connects hemispheres
+          * **Frontal lobe** - Personality, "higher mental functions"
+          * **Parietal lobe** - Behind central sulcus
+          * **Occipital lobe** - Back end of brain, visual processing
+          * **Temporal lobe** - Ventral to other lobes, around your temples. Hearing and speech
+          * **Basal ganglia** - Ganglia, interior of cortical folds (not part of cortex), important in postural adjustments and planning movements. Putamen, globus pallidus, caudate
+          * **Lymic system** - Amygdala, Hippocampus, Nucleus accumbens
+            * **Amygdala** - area of emotion, rage, repulsion, fear
+            * **Hippocampus** - Memory is formed
+            * **Nucleus accumbens** - reward/pleasure circuit. Plays role in addiction, other non destructive behavior.
+          * HM - surgery at age of 27, removed hippocampus, could not form new memories
+          * **Olfactory bulb** - Chemical sensors in nose project to bulb, underside of brain. Neurons project to olfactory cortex.
+        * **Diencephalon** - Thalamus, Lateral gerniculate, Medial geniculate, hypothalamus
+          * **Thalamus** - Sensory processes and distributes most sensory and motor information to and from the Telencephalon
+          * **Lateral gerniculate** - Visual processing, receives information from the retina, conveyed by the optic nerve.
+          * **Medial geniculate** - Processes auditory information
+          * **Hypothalamus** - below the Thalamus, important for homeostasis. Regulates hormone secretion using pituitary(body temp, blood pressure, salt balance), regulates behavior for eating drinking, thirst, salt consumption, shivering
+      * Midbrain (**Mesencephalon**) -
+      * Hindbrain
+        * **Metencephalon** -
+        * **Myelencephalon** -
