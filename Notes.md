@@ -97,12 +97,12 @@
   * Sections of the brain:
     * **Coronal** - sliced like a sausage, front and back of brain
     * **Saggital** - split down midline, corpus callusom, so you get two mirror image halves
-    * **Transverse/Horizontal** - cut on plane parallel to ground while standing, split into top half and bottom half
+    * **Transverse/Horizontal** - cut on plane parallel to ground while standing, split into top half and bottom half. Used in midbrain and spinal
   * Nervous system starts as a tube
     * As time progresses, portions of the tube develop in different ways
     (INSERT IMG)
     * Starts with a tube with forrbrain, midbrain, hindbrain, and spinal cord
-      * **Forebrain** develops first
+      * **_Forebrain_** develops first
         * **Telencephalon** - Higher mental functions. Processes sensory info and motor control. Two cerebral hemispheres connected by corpus callosum. Contains 4 lobes of the brain determined by brain folds
           * **Gyrus** - mountain fold of brain
           * **Sulcus** - Valley fold of brain
@@ -112,7 +112,7 @@
           * **Occipital lobe** - Back end of brain, visual processing
           * **Temporal lobe** - Ventral to other lobes, around your temples. Hearing and speech
           * **Basal ganglia** - Ganglia, interior of cortical folds (not part of cortex), important in postural adjustments and planning movements. Putamen, globus pallidus, caudate
-          * **Lymic system** - Amygdala, Hippocampus, Nucleus accumbens
+          * **Lymbic system** - Amygdala, Hippocampus, Nucleus accumbens
             * **Amygdala** - area of emotion, rage, repulsion, fear
             * **Hippocampus** - Memory is formed
             * **Nucleus accumbens** - reward/pleasure circuit. Plays role in addiction, other non destructive behavior.
@@ -123,7 +123,24 @@
           * **Lateral gerniculate** - Visual processing, receives information from the retina, conveyed by the optic nerve.
           * **Medial geniculate** - Processes auditory information
           * **Hypothalamus** - below the Thalamus, important for homeostasis. Regulates hormone secretion using pituitary(body temp, blood pressure, salt balance), regulates behavior for eating drinking, thirst, salt consumption, shivering
-      * Midbrain (**Mesencephalon**) -
-      * Hindbrain
-        * **Metencephalon** -
-        * **Myelencephalon** -
+
+### 8-30
+      * **_Midbrain_** (**Mesencephalon**) - the midbrain. Relay station for visual (superior colliculus), auditory (inferior colliculus), nuclei.
+        * **Superior colliculus** - visual relay station in midbrain
+        * **Inferior colliculus** - auditory relay station in midbrain
+        * **Red nucleous** - relay station between cerebellum and fuebrain
+        * **Subdtantia nigra** - postural and motor control nuclei, where cells die in parkinson's disease
+        (IMAGE here)
+      * **_Hindbrain_** -  2 devisions, Metencephalon and Myelencephalon
+        * **Metencephalon** - Pons and cerebellum
+          * **Pons** - Major fiber tract. Pathway to and from cerebellum and hindbrain. Has some nuclei which control respiration and sleep.
+          * **Cerebellum** - Maintain muscle tone and balance. Helps in planning out movement smoothly. Motor memory.
+            * Receives information from cerebral cortex indirectly about planned movements. Receives info from cerebral cortex about sensory feedback from movement as well. Cerebellum compares these pieces of information to make sure movement happened correctly, generated correction
+            * **Motor error** - signals indicate incorrect motion compared to intended motion in cerebellum, correction is then made
+            * Output from _cerebellum_ is carried by the axons of the _Purkinje cells_, is inhibitory, goes to deep cerebellar nuclei. From here it goes to cerebral cortex where corrective movements are generated if needed.
+            (IMAGE here)
+            * **Pontire nucleous** - receive info about _intended_ movement. Extend out into mossy fibers which synapse with granule cells. Granule cells send up its own axon that synapse the _Purkinje cells_ using parallel fibers.
+            * **Inferior olive of Myelencephalon** - Gets input about _actual_ movements, synapse with _Purkinje cells_ using climbing fibers, wrap dendrites.
+            * **Deep cerebellum nuclei** - gets info from _Purkinje cells_ about actual and intended movements; output corrected movement is sent to motor cortex if needed.
+            * Damage to cerebellum - intended movement is jerky
+        * **Myelencephalon** - _Medulla oblongata_, continuation of spinal cord. Blood rate, breathing, coughing, gagging. Controls basic functions, required for survival.
