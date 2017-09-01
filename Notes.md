@@ -80,7 +80,7 @@
     * **Enteric Nervous System** - network of neurons and ganglia on the gut
   * Brains integrate information from a collection of sensors at the front end of the animal
 
-### 8-28
+### 8-28, 8-30
 ## Major parts of the brain
   * **Dorsal** - Back or top of animal
   * **Ventral** - Belly or bottom of animal
@@ -102,7 +102,7 @@
     * As time progresses, portions of the tube develop in different ways
     (INSERT IMG)
     * Starts with a tube with forrbrain, midbrain, hindbrain, and spinal cord
-      * **_Forebrain_** develops first
+      * **_Forebrain_** develops first. Telencephalon and Diencephalon.
         * **Telencephalon** - Higher mental functions. Processes sensory info and motor control. Two cerebral hemispheres connected by corpus callosum. Contains 4 lobes of the brain determined by brain folds
           * **Gyrus** - mountain fold of brain
           * **Sulcus** - Valley fold of brain
@@ -123,9 +123,7 @@
           * **Lateral gerniculate** - Visual processing, receives information from the retina, conveyed by the optic nerve.
           * **Medial geniculate** - Processes auditory information
           * **Hypothalamus** - below the Thalamus, important for homeostasis. Regulates hormone secretion using pituitary(body temp, blood pressure, salt balance), regulates behavior for eating drinking, thirst, salt consumption, shivering
-
-### 8-30
-      * **_Midbrain_** (**Mesencephalon**) - the midbrain. Relay station for visual (superior colliculus), auditory (inferior colliculus), nuclei.
+      * **_Mesencephalon_** - Midbrain. Relay station for visual (superior colliculus), auditory (inferior colliculus), nuclei.
         * **Superior colliculus** - visual relay station in midbrain
         * **Inferior colliculus** - auditory relay station in midbrain
         * **Red nucleous** - relay station between cerebellum and fuebrain
@@ -144,3 +142,11 @@
             * **Deep cerebellum nuclei** - gets info from _Purkinje cells_ about actual and intended movements; output corrected movement is sent to motor cortex if needed.
             * Damage to cerebellum - intended movement is jerky
         * **Myelencephalon** - _Medulla oblongata_, continuation of spinal cord. Blood rate, breathing, coughing, gagging. Controls basic functions, required for survival.
+### 9-1
+  * Coming off the brain on its ventral side are 12 cranial nerves, go between brain and periphery
+    * **Optic nerve(II)** - lateral geniculate to eye
+  * Spinal cord is CNS that is more directly innervating
+  * x-section(transverse) - white matter(mylin axons) and grey matter(cell bodies)
+  (IMAGE)
+  ![spine](Images/spinal_cord_cs_diagram.jpg)
+  * Central canal, Dorsal horn and ganglia, ventral horn and ganglia
