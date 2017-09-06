@@ -178,7 +178,7 @@
     * For S and PS, many of the cell bodies are in the CNS
       * **Sympathetic** neurons in spinal cord send axons out of cord to sympathetic ganglion where a synapse is made
         * Preganglionic fiber, neurotransmitter is *ACH*
-        * Postsynaptic cell in the sumpathetic ganglion extends axon to organs (postganglionic fiber), long. Neurotransmitter is *norepinephrine*
+        * Postsynaptic cell in the sympathetic ganglion extends axon to organs (postganglionic fiber), long. Neurotransmitter is *norepinephrine*
           * **norepinephrine** - fight or flight, causes effects like inc hr, inc blood flow to muscles, sweat, inhibit digestion, mobilizes glucose, activates adrenal glands, dialates pupils.
       * **Parasympathetic**
         * nerve bodies in CNS but in brainstem and in the sacral region of spinal cord
@@ -188,3 +188,30 @@
           * rest and digest, inc blood to gut
           * reduces blood flow to muscles
           * slows hr
+    * **Enteric**
+      * Nerve net with ganglia throughout
+      * Neurons interact with each other for peristalsis
+      * Many neurotransmitters
+
+### Anatonomy in neurons
+  * **Neuronal membrane** - Phospholipid bilayer. Phosphate head is hydrophilic
+  * Proteins ca move a bit, some cant move that much.
+  * Proteins in neurons
+    * Transport proteins
+    * Ion Channels
+      * Can be gated - needed something to open
+      * Ligand, voltage, stretch-sensitive
+    * Membrane can have very different
+      * [K+]out 3mM, [K+]in 90mM
+      * By diffusion, prefers to exit(concentration), but prefers to stay inside because its more negative (electrical gradient)
+      * _Nernst equation_ is used here - calculate membrane potential based on [ions] inside and outside cells
+      * membrane potential **Vm** -  constant * [k+]out/[k+]in, 8.31 j/mol*K, Rt/zf
+        * t is temp in K (273+celcius, ~293)
+        * z = valance of ions
+        * F - faraday's constant 96500 C/mol
+        * **Constant of 25 mv** - assuming temp is 20C and valance of 1. Needs to be multiplied by ln of concentration gradient
+          * 25mV ln( K+out/k+in)
+          * if permiable membrane,  this is the potential.
+          * example : (25mV)ln( 3mM/90mM) = -85mV
+            * use 58 instead of 25 if use log base 10
+          * usual mammalian cells have out 106mM,in 4mM
