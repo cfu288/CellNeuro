@@ -143,6 +143,7 @@
             * Damage to cerebellum - intended movement is jerky
         * **Myelencephalon** - _Medulla oblongata_, continuation of spinal cord. Blood rate, breathing, coughing, gagging. Controls basic functions, required for survival.
 ### 9-1
+## CNS
   * Coming off the brain on its ventral side are 12 cranial nerves, go between brain and periphery
     * **Optic nerve(II)** - lateral geniculate to eye
   * Spinal cord is CNS that is more directly innervating
@@ -150,3 +151,40 @@
   (IMAGE)
   ![spine](Images/spinal_cord_cs_diagram.jpg)
   * Central canal, Dorsal horn and ganglia, ventral horn and ganglia
+  * Spinal cord shows some basic features of the CNS
+    * Tubular nature, continuous with ventricles in brain, central caral of spinal cord
+      * filled with and surrounded by cerebrospinal fluid _CSF_
+      Contains the correct ionic balance for neural functions and a few proteins
+        * Produced from blood in _chorid plexus_ in addition to ionic balance, its important as a shock absorber
+    * Grey and white matter
+  * **Meninges** - Surrounding the CNS, set of 3 membranes
+    * CSF bathes the CNS inside the meninges "sheath"
+    * CSF reabsorbed at the meninges
+  * **Blood brain barrier** - also regulates what ions/proteins reach brain
+    * Capillary endothelial cells in CNS are joined by the tight junctions. Stuff cannot exit or enter these capillaries unless they pass through endothelial cells membranes.
+      * small lipid soluble molecules, water
+      * Transporters in the cell membrane can move molecules
+        * Glucose transporter
+    * _Astrocytes_ play a role, structures (feet) extend and surround capillary. Secrete molecules/proteins to stimulate endothelial cells of capillaries to regulate tightness of  tight junction, regulate permeability of blood brain barrier.
+    * To get drugs to CNS, must deal with BBB
+      * tiny and lipid soluble ok
+      * or attach to nano-particles which get transported
+### PNS - Autonomic nervous system
+  * also includes peripheral nerves
+  * 3 major divisions
+    * Sympathetic
+    * Parasympathetic
+    * Enteric
+    * For S and PS, many of the cell bodies are in the CNS
+      * **Sympathetic** neurons in spinal cord send axons out of cord to sympathetic ganglion where a synapse is made
+        * Preganglionic fiber, neurotransmitter is *ACH*
+        * Postsynaptic cell in the sumpathetic ganglion extends axon to organs (postganglionic fiber), long. Neurotransmitter is *norepinephrine*
+          * **norepinephrine** - fight or flight, causes effects like inc hr, inc blood flow to muscles, sweat, inhibit digestion, mobilizes glucose, activates adrenal glands, dialates pupils.
+      * **Parasympathetic**
+        * nerve bodies in CNS but in brainstem and in the sacral region of spinal cord
+        * sends axons (preganglionic fibers) out to ganglia which are close to or on the organ innervated
+          * long preganglion fiber, short postganglionic fiber
+        * *ACH* is neurotransmitter in ganglia, AND uses **ACh** postganglionic, not NE like in Sympathetic
+          * rest and digest, inc blood to gut
+          * reduces blood flow to muscles
+          * slows hr
