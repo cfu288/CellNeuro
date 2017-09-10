@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8" />
+      <title>Notes</title>
+      <style>.markdown-preview:not([data-use-github-style]) { padding: 2em; font-size: 1.2em; color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); overflow: auto; }
+.markdown-preview:not([data-use-github-style]) > :first-child { margin-top: 0px; }
+.markdown-preview:not([data-use-github-style]) h1, .markdown-preview:not([data-use-github-style]) h2, .markdown-preview:not([data-use-github-style]) h3, .markdown-preview:not([data-use-github-style]) h4, .markdown-preview:not([data-use-github-style]) h5, .markdown-preview:not([data-use-github-style]) h6 { line-height: 1.2; margin-top: 1.5em; margin-bottom: 0.5em; color: rgb(255, 255, 255); }
+.markdown-preview:not([data-use-github-style]) h1 { font-size: 2.4em; font-weight: 300; }
+.markdown-preview:not([data-use-github-style]) h2 { font-size: 1.8em; font-weight: 400; }
+.markdown-preview:not([data-use-github-style]) h3 { font-size: 1.5em; font-weight: 500; }
+.markdown-preview:not([data-use-github-style]) h4 { font-size: 1.2em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) h5 { font-size: 1.1em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) h6 { font-size: 1em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) strong { color: rgb(255, 255, 255); }
+.markdown-preview:not([data-use-github-style]) del { color: rgb(124, 135, 156); }
+.markdown-preview:not([data-use-github-style]) a, .markdown-preview:not([data-use-github-style]) a code { color: rgb(82, 139, 255); }
+.markdown-preview:not([data-use-github-style]) img { max-width: 100%; }
+.markdown-preview:not([data-use-github-style]) > p { margin-top: 0px; margin-bottom: 1.5em; }
+.markdown-preview:not([data-use-github-style]) > ul, .markdown-preview:not([data-use-github-style]) > ol { margin-bottom: 1.5em; }
+.markdown-preview:not([data-use-github-style]) blockquote { margin: 1.5em 0px; font-size: inherit; color: rgb(124, 135, 156); border-color: rgb(75, 83, 98); border-width: 4px; }
+.markdown-preview:not([data-use-github-style]) hr { margin: 3em 0px; border-top: 2px dashed rgb(75, 83, 98); background: none; }
+.markdown-preview:not([data-use-github-style]) table { margin: 1.5em 0px; }
+.markdown-preview:not([data-use-github-style]) th { color: rgb(255, 255, 255); }
+.markdown-preview:not([data-use-github-style]) th, .markdown-preview:not([data-use-github-style]) td { padding: 0.66em 1em; border: 1px solid rgb(75, 83, 98); }
+.markdown-preview:not([data-use-github-style]) code { color: rgb(255, 255, 255); background-color: rgb(58, 63, 75); }
+.markdown-preview:not([data-use-github-style]) pre.editor-colors { margin: 1.5em 0px; padding: 1em; font-size: 0.92em; border-radius: 3px; background-color: rgb(49, 54, 63); }
+.markdown-preview:not([data-use-github-style]) kbd { color: rgb(255, 255, 255); border-width: 1px 1px 2px; border-style: solid; border-color: rgb(75, 83, 98) rgb(75, 83, 98) rgb(62, 68, 81); border-image: initial; background-color: rgb(58, 63, 75); }
+.markdown-preview[data-use-github-style] { font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif; line-height: 1.6; word-wrap: break-word; padding: 30px; font-size: 16px; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); overflow: scroll; }
+.markdown-preview[data-use-github-style] > :first-child { margin-top: 0px !important; }
+.markdown-preview[data-use-github-style] > :last-child { margin-bottom: 0px !important; }
+.markdown-preview[data-use-github-style] a:not([href]) { color: inherit; text-decoration: none; }
+.markdown-preview[data-use-github-style] .absent { color: rgb(204, 0, 0); }
+.markdown-preview[data-use-github-style] .anchor { position: absolute; top: 0px; left: 0px; display: block; padding-right: 6px; padding-left: 30px; margin-left: -30px; }
+.markdown-preview[data-use-github-style] .anchor:focus { outline: none; }
+.markdown-preview[data-use-github-style] h1, .markdown-preview[data-use-github-style] h2, .markdown-preview[data-use-github-style] h3, .markdown-preview[data-use-github-style] h4, .markdown-preview[data-use-github-style] h5, .markdown-preview[data-use-github-style] h6 { position: relative; margin-top: 1em; margin-bottom: 16px; font-weight: bold; line-height: 1.4; }
+.markdown-preview[data-use-github-style] h1 .octicon-link, .markdown-preview[data-use-github-style] h2 .octicon-link, .markdown-preview[data-use-github-style] h3 .octicon-link, .markdown-preview[data-use-github-style] h4 .octicon-link, .markdown-preview[data-use-github-style] h5 .octicon-link, .markdown-preview[data-use-github-style] h6 .octicon-link { display: none; color: rgb(0, 0, 0); vertical-align: middle; }
+.markdown-preview[data-use-github-style] h1:hover .anchor, .markdown-preview[data-use-github-style] h2:hover .anchor, .markdown-preview[data-use-github-style] h3:hover .anchor, .markdown-preview[data-use-github-style] h4:hover .anchor, .markdown-preview[data-use-github-style] h5:hover .anchor, .markdown-preview[data-use-github-style] h6:hover .anchor { padding-left: 8px; margin-left: -30px; text-decoration: none; }
+.markdown-preview[data-use-github-style] h1:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h2:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h3:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h4:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h5:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h6:hover .anchor .octicon-link { display: inline-block; }
+.markdown-preview[data-use-github-style] h1 tt, .markdown-preview[data-use-github-style] h2 tt, .markdown-preview[data-use-github-style] h3 tt, .markdown-preview[data-use-github-style] h4 tt, .markdown-preview[data-use-github-style] h5 tt, .markdown-preview[data-use-github-style] h6 tt, .markdown-preview[data-use-github-style] h1 code, .markdown-preview[data-use-github-style] h2 code, .markdown-preview[data-use-github-style] h3 code, .markdown-preview[data-use-github-style] h4 code, .markdown-preview[data-use-github-style] h5 code, .markdown-preview[data-use-github-style] h6 code { font-size: inherit; }
+.markdown-preview[data-use-github-style] h1 { padding-bottom: 0.3em; font-size: 2.25em; line-height: 1.2; border-bottom: 1px solid rgb(238, 238, 238); }
+.markdown-preview[data-use-github-style] h1 .anchor { line-height: 1; }
+.markdown-preview[data-use-github-style] h2 { padding-bottom: 0.3em; font-size: 1.75em; line-height: 1.225; border-bottom: 1px solid rgb(238, 238, 238); }
+.markdown-preview[data-use-github-style] h2 .anchor { line-height: 1; }
+.markdown-preview[data-use-github-style] h3 { font-size: 1.5em; line-height: 1.43; }
+.markdown-preview[data-use-github-style] h3 .anchor { line-height: 1.2; }
+.markdown-preview[data-use-github-style] h4 { font-size: 1.25em; }
+.markdown-preview[data-use-github-style] h4 .anchor { line-height: 1.2; }
+.markdown-preview[data-use-github-style] h5 { font-size: 1em; }
+.markdown-preview[data-use-github-style] h5 .anchor { line-height: 1.1; }
+.markdown-preview[data-use-github-style] h6 { font-size: 1em; color: rgb(119, 119, 119); }
+.markdown-preview[data-use-github-style] h6 .anchor { line-height: 1.1; }
+.markdown-preview[data-use-github-style] p, .markdown-preview[data-use-github-style] blockquote, .markdown-preview[data-use-github-style] ul, .markdown-preview[data-use-github-style] ol, .markdown-preview[data-use-github-style] dl, .markdown-preview[data-use-github-style] table, .markdown-preview[data-use-github-style] pre { margin-top: 0px; margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] hr { height: 4px; padding: 0px; margin: 16px 0px; background-color: rgb(231, 231, 231); border: 0px none; }
+.markdown-preview[data-use-github-style] ul, .markdown-preview[data-use-github-style] ol { padding-left: 2em; }
+.markdown-preview[data-use-github-style] ul.no-list, .markdown-preview[data-use-github-style] ol.no-list { padding: 0px; list-style-type: none; }
+.markdown-preview[data-use-github-style] ul ul, .markdown-preview[data-use-github-style] ul ol, .markdown-preview[data-use-github-style] ol ol, .markdown-preview[data-use-github-style] ol ul { margin-top: 0px; margin-bottom: 0px; }
+.markdown-preview[data-use-github-style] li > p { margin-top: 16px; }
+.markdown-preview[data-use-github-style] dl { padding: 0px; }
+.markdown-preview[data-use-github-style] dl dt { padding: 0px; margin-top: 16px; font-size: 1em; font-style: italic; font-weight: bold; }
+.markdown-preview[data-use-github-style] dl dd { padding: 0px 16px; margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] blockquote { padding: 0px 15px; color: rgb(119, 119, 119); border-left: 4px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] blockquote > :first-child { margin-top: 0px; }
+.markdown-preview[data-use-github-style] blockquote > :last-child { margin-bottom: 0px; }
+.markdown-preview[data-use-github-style] table { display: block; width: 100%; overflow: auto; word-break: keep-all; }
+.markdown-preview[data-use-github-style] table th { font-weight: bold; }
+.markdown-preview[data-use-github-style] table th, .markdown-preview[data-use-github-style] table td { padding: 6px 13px; border: 1px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] table tr { background-color: rgb(255, 255, 255); border-top: 1px solid rgb(204, 204, 204); }
+.markdown-preview[data-use-github-style] table tr:nth-child(2n) { background-color: rgb(248, 248, 248); }
+.markdown-preview[data-use-github-style] img { max-width: 100%; box-sizing: border-box; }
+.markdown-preview[data-use-github-style] .emoji { max-width: none; }
+.markdown-preview[data-use-github-style] span.frame { display: block; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.frame > span { display: block; float: left; width: auto; padding: 7px; margin: 13px 0px 0px; overflow: hidden; border: 1px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] span.frame span img { display: block; float: left; }
+.markdown-preview[data-use-github-style] span.frame span span { display: block; padding: 5px 0px 0px; clear: both; color: rgb(51, 51, 51); }
+.markdown-preview[data-use-github-style] span.align-center { display: block; overflow: hidden; clear: both; }
+.markdown-preview[data-use-github-style] span.align-center > span { display: block; margin: 13px auto 0px; overflow: hidden; text-align: center; }
+.markdown-preview[data-use-github-style] span.align-center span img { margin: 0px auto; text-align: center; }
+.markdown-preview[data-use-github-style] span.align-right { display: block; overflow: hidden; clear: both; }
+.markdown-preview[data-use-github-style] span.align-right > span { display: block; margin: 13px 0px 0px; overflow: hidden; text-align: right; }
+.markdown-preview[data-use-github-style] span.align-right span img { margin: 0px; text-align: right; }
+.markdown-preview[data-use-github-style] span.float-left { display: block; float: left; margin-right: 13px; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.float-left span { margin: 13px 0px 0px; }
+.markdown-preview[data-use-github-style] span.float-right { display: block; float: right; margin-left: 13px; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.float-right > span { display: block; margin: 13px auto 0px; overflow: hidden; text-align: right; }
+.markdown-preview[data-use-github-style] code, .markdown-preview[data-use-github-style] tt { padding: 0.2em 0px; margin: 0px; font-size: 85%; background-color: rgba(0, 0, 0, 0.0392157); border-radius: 3px; }
+.markdown-preview[data-use-github-style] code::before, .markdown-preview[data-use-github-style] tt::before, .markdown-preview[data-use-github-style] code::after, .markdown-preview[data-use-github-style] tt::after { letter-spacing: -0.2em; content: " "; }
+.markdown-preview[data-use-github-style] code br, .markdown-preview[data-use-github-style] tt br { display: none; }
+.markdown-preview[data-use-github-style] del code { text-decoration: inherit; }
+.markdown-preview[data-use-github-style] pre > code { padding: 0px; margin: 0px; font-size: 100%; word-break: normal; white-space: pre; background: transparent; border: 0px; }
+.markdown-preview[data-use-github-style] .highlight { margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] .highlight pre, .markdown-preview[data-use-github-style] pre { padding: 16px; overflow: auto; font-size: 85%; line-height: 1.45; background-color: rgb(247, 247, 247); border-radius: 3px; }
+.markdown-preview[data-use-github-style] .highlight pre { margin-bottom: 0px; word-break: normal; }
+.markdown-preview[data-use-github-style] pre { word-wrap: normal; }
+.markdown-preview[data-use-github-style] pre code, .markdown-preview[data-use-github-style] pre tt { display: inline; max-width: initial; padding: 0px; margin: 0px; overflow: initial; line-height: inherit; word-wrap: normal; background-color: transparent; border: 0px; }
+.markdown-preview[data-use-github-style] pre code::before, .markdown-preview[data-use-github-style] pre tt::before, .markdown-preview[data-use-github-style] pre code::after, .markdown-preview[data-use-github-style] pre tt::after { content: normal; }
+.markdown-preview[data-use-github-style] kbd { display: inline-block; padding: 3px 5px; font-size: 11px; line-height: 10px; color: rgb(85, 85, 85); vertical-align: middle; background-color: rgb(252, 252, 252); border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(204, 204, 204) rgb(187, 187, 187); border-image: initial; border-radius: 3px; box-shadow: rgb(187, 187, 187) 0px -1px 0px inset; }
+.markdown-preview[data-use-github-style] a { color: rgb(51, 122, 183); }
+.markdown-preview[data-use-github-style] code { color: inherit; }
+.markdown-preview[data-use-github-style] pre.editor-colors { padding: 0.8em 1em; margin-bottom: 1em; font-size: 0.85em; border-radius: 4px; overflow: auto; }
+.scrollbars-visible-always .markdown-preview pre.editor-colors .vertical-scrollbar, .scrollbars-visible-always .markdown-preview pre.editor-colors .horizontal-scrollbar { visibility: hidden; }
+.scrollbars-visible-always .markdown-preview pre.editor-colors:hover .vertical-scrollbar, .scrollbars-visible-always .markdown-preview pre.editor-colors:hover .horizontal-scrollbar { visibility: visible; }
+.markdown-preview .task-list-item-checkbox { position: absolute; margin: 0.25em 0px 0px -1.4em; }
+.bracket-matcher .region {
+  border-bottom: 1px dotted lime;
+  position: absolute;
+}
+
+.spell-check-misspelling .region {
+  border-bottom: 2px dotted rgba(255, 51, 51, 0.75);
+}
+.spell-check-corrections {
+  width: 25em !important;
+}
+
+pre.editor-colors {
+  background-color: #282c34;
+  color: #abb2bf;
+}
+pre.editor-colors .line.cursor-line {
+  background-color: rgba(153, 187, 255, 0.04);
+}
+pre.editor-colors .invisible {
+  color: #abb2bf;
+}
+pre.editor-colors .cursor {
+  border-left: 2px solid #528bff;
+}
+pre.editor-colors .selection .region {
+  background-color: #3e4451;
+}
+pre.editor-colors .bracket-matcher .region {
+  border-bottom: 1px solid #528bff;
+  box-sizing: border-box;
+}
+pre.editor-colors .invisible-character {
+  color: rgba(171, 178, 191, 0.15);
+}
+pre.editor-colors .indent-guide {
+  color: rgba(171, 178, 191, 0.15);
+}
+pre.editor-colors .wrap-guide {
+  background-color: rgba(171, 178, 191, 0.15);
+}
+pre.editor-colors .find-result .region.region.region,
+pre.editor-colors .current-result .region.region.region {
+  border-radius: 2px;
+  background-color: rgba(82, 139, 255, 0.24);
+  transition: border-color 0.4s;
+}
+pre.editor-colors .find-result .region.region.region {
+  border: 2px solid transparent;
+}
+pre.editor-colors .current-result .region.region.region {
+  border: 2px solid #528bff;
+  transition-duration: .1s;
+}
+pre.editor-colors .gutter .line-number {
+  color: #636d83;
+  -webkit-font-smoothing: antialiased;
+}
+pre.editor-colors .gutter .line-number.cursor-line {
+  color: #abb2bf;
+  background-color: #2c313a;
+}
+pre.editor-colors .gutter .line-number.cursor-line-no-selection {
+  background-color: transparent;
+}
+pre.editor-colors .gutter .line-number .icon-right {
+  color: #abb2bf;
+}
+pre.editor-colors .gutter:not(.git-diff-icon) .line-number.git-line-removed.git-line-removed::before {
+  bottom: -3px;
+}
+pre.editor-colors .gutter:not(.git-diff-icon) .line-number.git-line-removed::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 25px;
+  border-bottom: 1px dotted rgba(224, 82, 82, 0.5);
+  pointer-events: none;
+}
+pre.editor-colors .gutter .line-number.folded,
+pre.editor-colors .gutter .line-number:after,
+pre.editor-colors .fold-marker:after {
+  color: #abb2bf;
+}
+.syntax--comment {
+  color: #5c6370;
+  font-style: italic;
+}
+.syntax--comment .syntax--markup.syntax--link {
+  color: #5c6370;
+}
+.syntax--entity.syntax--name.syntax--type {
+  color: #e5c07b;
+}
+.syntax--entity.syntax--other.syntax--inherited-class {
+  color: #98c379;
+}
+.syntax--keyword {
+  color: #c678dd;
+}
+.syntax--keyword.syntax--control {
+  color: #c678dd;
+}
+.syntax--keyword.syntax--operator {
+  color: #abb2bf;
+}
+.syntax--keyword.syntax--other.syntax--special-method {
+  color: #61afef;
+}
+.syntax--keyword.syntax--other.syntax--unit {
+  color: #d19a66;
+}
+.syntax--storage {
+  color: #c678dd;
+}
+.syntax--storage.syntax--type.syntax--annotation,
+.syntax--storage.syntax--type.syntax--primitive {
+  color: #c678dd;
+}
+.syntax--storage.syntax--modifier.syntax--package,
+.syntax--storage.syntax--modifier.syntax--import {
+  color: #abb2bf;
+}
+.syntax--constant {
+  color: #d19a66;
+}
+.syntax--constant.syntax--variable {
+  color: #d19a66;
+}
+.syntax--constant.syntax--character.syntax--escape {
+  color: #56b6c2;
+}
+.syntax--constant.syntax--numeric {
+  color: #d19a66;
+}
+.syntax--constant.syntax--other.syntax--color {
+  color: #56b6c2;
+}
+.syntax--constant.syntax--other.syntax--symbol {
+  color: #56b6c2;
+}
+.syntax--variable {
+  color: #e06c75;
+}
+.syntax--variable.syntax--interpolation {
+  color: #be5046;
+}
+.syntax--variable.syntax--parameter {
+  color: #abb2bf;
+}
+.syntax--string {
+  color: #98c379;
+}
+.syntax--string.syntax--regexp {
+  color: #56b6c2;
+}
+.syntax--string.syntax--regexp .syntax--source.syntax--ruby.syntax--embedded {
+  color: #e5c07b;
+}
+.syntax--string.syntax--other.syntax--link {
+  color: #e06c75;
+}
+.syntax--punctuation.syntax--definition.syntax--comment {
+  color: #5c6370;
+}
+.syntax--punctuation.syntax--definition.syntax--method-parameters,
+.syntax--punctuation.syntax--definition.syntax--function-parameters,
+.syntax--punctuation.syntax--definition.syntax--parameters,
+.syntax--punctuation.syntax--definition.syntax--separator,
+.syntax--punctuation.syntax--definition.syntax--seperator,
+.syntax--punctuation.syntax--definition.syntax--array {
+  color: #abb2bf;
+}
+.syntax--punctuation.syntax--definition.syntax--heading,
+.syntax--punctuation.syntax--definition.syntax--identity {
+  color: #61afef;
+}
+.syntax--punctuation.syntax--definition.syntax--bold {
+  color: #e5c07b;
+  font-weight: bold;
+}
+.syntax--punctuation.syntax--definition.syntax--italic {
+  color: #c678dd;
+  font-style: italic;
+}
+.syntax--punctuation.syntax--section.syntax--embedded {
+  color: #be5046;
+}
+.syntax--punctuation.syntax--section.syntax--method,
+.syntax--punctuation.syntax--section.syntax--class,
+.syntax--punctuation.syntax--section.syntax--inner-class {
+  color: #abb2bf;
+}
+.syntax--support.syntax--class {
+  color: #e5c07b;
+}
+.syntax--support.syntax--type {
+  color: #56b6c2;
+}
+.syntax--support.syntax--function {
+  color: #56b6c2;
+}
+.syntax--support.syntax--function.syntax--any-method {
+  color: #61afef;
+}
+.syntax--entity.syntax--name.syntax--function {
+  color: #61afef;
+}
+.syntax--entity.syntax--name.syntax--class,
+.syntax--entity.syntax--name.syntax--type.syntax--class {
+  color: #e5c07b;
+}
+.syntax--entity.syntax--name.syntax--section {
+  color: #61afef;
+}
+.syntax--entity.syntax--name.syntax--tag {
+  color: #e06c75;
+}
+.syntax--entity.syntax--other.syntax--attribute-name {
+  color: #d19a66;
+}
+.syntax--entity.syntax--other.syntax--attribute-name.syntax--id {
+  color: #61afef;
+}
+.syntax--meta.syntax--class {
+  color: #e5c07b;
+}
+.syntax--meta.syntax--class.syntax--body {
+  color: #abb2bf;
+}
+.syntax--meta.syntax--method-call,
+.syntax--meta.syntax--method {
+  color: #abb2bf;
+}
+.syntax--meta.syntax--definition.syntax--variable {
+  color: #e06c75;
+}
+.syntax--meta.syntax--link {
+  color: #d19a66;
+}
+.syntax--meta.syntax--require {
+  color: #61afef;
+}
+.syntax--meta.syntax--selector {
+  color: #c678dd;
+}
+.syntax--meta.syntax--separator {
+  background-color: #373b41;
+  color: #abb2bf;
+}
+.syntax--meta.syntax--tag {
+  color: #abb2bf;
+}
+.syntax--underline {
+  text-decoration: underline;
+}
+.syntax--none {
+  color: #abb2bf;
+}
+.syntax--invalid.syntax--deprecated {
+  color: #523d14 !important;
+  background-color: #e0c285 !important;
+}
+.syntax--invalid.syntax--illegal {
+  color: white !important;
+  background-color: #e05252 !important;
+}
+.syntax--markup.syntax--bold {
+  color: #d19a66;
+  font-weight: bold;
+}
+.syntax--markup.syntax--changed {
+  color: #c678dd;
+}
+.syntax--markup.syntax--deleted {
+  color: #e06c75;
+}
+.syntax--markup.syntax--italic {
+  color: #c678dd;
+  font-style: italic;
+}
+.syntax--markup.syntax--heading {
+  color: #e06c75;
+}
+.syntax--markup.syntax--heading .syntax--punctuation.syntax--definition.syntax--heading {
+  color: #61afef;
+}
+.syntax--markup.syntax--link {
+  color: #56b6c2;
+}
+.syntax--markup.syntax--inserted {
+  color: #98c379;
+}
+.syntax--markup.syntax--quote {
+  color: #d19a66;
+}
+.syntax--markup.syntax--raw {
+  color: #98c379;
+}
+.syntax--source.syntax--c .syntax--keyword.syntax--operator {
+  color: #c678dd;
+}
+.syntax--source.syntax--cpp .syntax--keyword.syntax--operator {
+  color: #c678dd;
+}
+.syntax--source.syntax--cs .syntax--keyword.syntax--operator {
+  color: #c678dd;
+}
+.syntax--source.syntax--css .syntax--property-name,
+.syntax--source.syntax--css .syntax--property-value {
+  color: #828997;
+}
+.syntax--source.syntax--css .syntax--property-name.syntax--support,
+.syntax--source.syntax--css .syntax--property-value.syntax--support {
+  color: #abb2bf;
+}
+.syntax--source.syntax--gfm .syntax--markup {
+  -webkit-font-smoothing: auto;
+}
+.syntax--source.syntax--gfm .syntax--link .syntax--entity {
+  color: #61afef;
+}
+.syntax--source.syntax--go .syntax--storage.syntax--type.syntax--string {
+  color: #c678dd;
+}
+.syntax--source.syntax--ini .syntax--keyword.syntax--other.syntax--definition.syntax--ini {
+  color: #e06c75;
+}
+.syntax--source.syntax--java .syntax--storage.syntax--modifier.syntax--import {
+  color: #e5c07b;
+}
+.syntax--source.syntax--java .syntax--storage.syntax--type {
+  color: #e5c07b;
+}
+.syntax--source.syntax--java .syntax--keyword.syntax--operator.syntax--instanceof {
+  color: #c678dd;
+}
+.syntax--source.syntax--java-properties .syntax--meta.syntax--key-pair {
+  color: #e06c75;
+}
+.syntax--source.syntax--java-properties .syntax--meta.syntax--key-pair > .syntax--punctuation {
+  color: #abb2bf;
+}
+.syntax--source.syntax--js .syntax--keyword.syntax--operator {
+  color: #56b6c2;
+}
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--delete,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--in,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--of,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--instanceof,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--new,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--typeof,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--void {
+  color: #c678dd;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--string.syntax--quoted.syntax--json {
+  color: #e06c75;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation.syntax--string {
+  color: #e06c75;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--array.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--array.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation {
+  color: #98c379;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--constant.syntax--language.syntax--json,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--array.syntax--json > .syntax--constant.syntax--language.syntax--json {
+  color: #56b6c2;
+}
+.syntax--source.syntax--ruby .syntax--constant.syntax--other.syntax--symbol > .syntax--punctuation {
+  color: inherit;
+}
+.syntax--source.syntax--python .syntax--keyword.syntax--operator.syntax--logical.syntax--python {
+  color: #c678dd;
+}
+.syntax--source.syntax--python .syntax--variable.syntax--parameter {
+  color: #d19a66;
+}
+</style>
+  </head>
+  <body class='markdown-preview' data-use-github-style><h1 id="cellular-neurobiology">Cellular Neurobiology</h1>
+<h3 id="8-23">8-23</h3>
+<ul>
+<li>Textbook not required but recommended.</li>
+<li>Make 2 copies of HW, one to keep one to hand in</li>
+<li>May move to UU 109 - Keep an eye out</li>
+<li>Neurobiology - study of neurons</li>
+<li>(HW) Read chapter 4</li>
+</ul>
+<h2 id="simple-neural-circuit-knee-jerk-reflex">Simple neural circuit - Knee jerk reflex</h2>
+<p><img src="C:\Users\inven\Documents\CellNeuro\Images\Patellar_tendon_reflex_arc.png" alt="Knee Jerk Reflex"></p>
+<ul>
+<li><strong>Patellar Stretch Reflex</strong> - Maintains specific tension and length of quadriceps muscle<ul>
+<li>Tapping below the knee stretches the muscle, contracts to regain original length, foot swings</li>
+<li>In muscle, stretch is detected by sensory neuron<ul>
+<li>Neuron exists in ganglion, extends a process out to the muscle to sense</li>
+</ul>
+</li>
+<li><strong>Ganglion</strong> - structure containing a number of nerve cell bodies, physical expansion of spinal chord, connects processes out to muscles.</li>
+<li><strong>Dorsal root ganglion</strong> - contains the cell bodies of sensory neurons that bring information from the periphery to the spinal cord. Used in stretch reflex</li>
+<li><strong>Ganglion/nucleous</strong> - A collection of nerve cell bodies</li>
+<li><strong>Process</strong> - (neurite) extends from ganglion to muscle (term used instead of axon/dendrite)</li>
+<li>CNS - Spinal chord<ul>
+<li>White matter and gray matter (cross section image)</li>
+</ul>
+</li>
+<li><strong>Sensory Neuron</strong> - Detects signals from environment, sends a process to the CNS into the inner gray matter<ul>
+<li>Then interacts with a second neuron at synapse, <em>motor neuron</em></li>
+</ul>
+</li>
+<li><strong>Pre-Synaptic</strong> - Sensory neuron endings, releases neurotransmitters</li>
+<li><strong>Post-Synaptic</strong> - Motor neuron, receives neurotransmitters</li>
+<li><strong>Motor neuron</strong> - exists in gray matter of spinal chord, sends signals to muscle via process from CNS</li>
+<li><strong>Synaptic cleft</strong> - gap, interacts with receptors on post-synaptic cell</li>
+<li>Motor neuron&#39;s response travels out of the CNS to muscle via a process, here it becomes a pre-synaptic contact with the now post-synaptic muscle.</li>
+<li>Signal leads to contraction</li>
+<li>Motor neuron then extends a process back to the muscle</li>
+<li><strong>Nerre</strong> - Collection of processes, bundle of sensory and motor fibers</li>
+<li><strong>Afferent</strong> - incoming signal to CNS - <em>dorsal root</em></li>
+<li><strong>Efferent</strong> - outgoing signal from CNS - <em>ventral root</em></li>
+<li><strong>Sensory neuron</strong> - synapses with motor neuron are on the motor neuron&#39;s <em>dendrites</em></li>
+<li><strong>Motor neuron</strong> - extends an <em>axon</em> out to the muscle</li>
+<li>Neuron has <em>resting potential</em> - electrical difference between interior and outside. When electrical potential changes,this signal can be sent through the neuron and to the next neuron in line</li>
+<li>ACH -  neurotransmitter in the preganglionic sympathetic and parasympathetic neurons</li>
+</ul>
+</li>
+</ul>
+<h2 id="the-neuron">The Neuron</h2>
+<p><img src="C:\Users\inven\Documents\CellNeuro\Images\shapes.png" alt="alt text"></p>
+<ul>
+<li>What differs neurons from other cells - Shapes</li>
+<li><strong>Shapes of neurons</strong> - reflect who they&#39;re connected to (long processes for motor neurons can be 3ft long), where they receive inputs and where they send them</li>
+<li><strong>Anaxonal neuron</strong> - Difficult to distinguish between inputs and outputs, no obvious axon</li>
+<li><strong>Monopolar</strong> - (unipolar) only one process extends from body</li>
+<li><strong>Bipolar</strong> - Branch goes up one way and down another</li>
+<li><strong>Multipolar neuron</strong> - classic neuron, cell body with dendrites on body and single axon</li>
+<li><strong>Interneurons</strong> - process signals between sensory and motor neurons</li>
+</ul>
+<h3 id="8-25">8-25</h3>
+<ul>
+<li>(HW) will be posted today, due next week wen. Make two copies</li>
+<li><strong>Neuroglia cells</strong> - 2-3 times as many than neurons. 5 kinds<ul>
+<li><strong>Astrogilia</strong> - look like stars, common. Provide physical support and nutrients for neurons. Regulate k+ conc outside nervous system. Remove excess neurotransmitters from extracellular space.</li>
+<li><strong>Radialgilia</strong> - Around throughout life of org, important in development. Provide scaffold for migration of neurons.</li>
+<li><strong>Microgilia</strong> - immune response. made in bone marrow, highly mobile. clean up cellular debris, see a lot near infections or neurodegenerative diseases (Parkison&#39;s, Huntington&#39;s, Alzheimer&#39;s). Excessive activity during development may remove too many synapses leading to issues like possibly autism??</li>
+<li><strong>Oligodenetroglia</strong> - found in CNS (brain, spinal cord) only, generate <em>myelin</em> (flattened cell membrane w/o plasma) from glial cell. Electrical insulator, allows action potentials to move quicker and more reliably. Each <em>oligodentrocyte</em> myelinates several axons. Block axon regrowth on damage.<ul>
+<li><strong>Nodes of Ranvier</strong> - nodes where AP are generated, gaps in myelin.</li>
+</ul>
+</li>
+<li><strong>Schwann cells</strong> - glial cells outside the CNS, in the PNS. Provide myelin. Myelantes only <em>one</em> axon. Takes own cell body and wraps around, squeezing out most cytoplasm. Help regenerate nerve damage.</li>
+<li>Difference between <em>Schwann cells</em> and <em>Oligodentrocyte</em>:<ul>
+<li>Schwann cells help regenerate nerve damage</li>
+<li>Oligodentrocytes actually block axon regrowth. Complex issue.<ul>
+<li>Oligodentrocytes block axon regrowth because it prevents mistakes that could be made during regrowth.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Similarities between gilia and neurons:<ul>
+<li>Electrical potentials across membranes exist in both</li>
+<li>Change in response to signals - electrical and neurotransmitters</li>
+<li>Glial cells are electrically connected to each other and can be connected ot neurons as well</li>
+</ul>
+</li>
+<li>Differences between gilia and neuons:<ul>
+<li>Glial cells electrical potential changes are much smaller</li>
+<li>Glial cells do not have AP</li>
+<li>Glial cells have smaller cell bodies and are smaller</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="organization-of-neural-structure">Organization of Neural structure</h2>
+<ul>
+<li>Even single cell organisms have some type of nervous systems.</li>
+<li><strong>Nerve net</strong> - Networks of interconnected neurons, can have activity that spreads throughout the net. Found in Hydras.<ul>
+<li>Humans have similar arrangements of nerve cells in gut (peristalsis)</li>
+</ul>
+</li>
+<li>Most invertebrate animals have a brain and nerve cords, large ganglic along the nerve cord</li>
+<li>Mammals and other vertebrates also have brain and nerve cord. also have ganglic</li>
+<li>But invertebrate nerve cords run along the belly side, vertebrate along the <em>back</em> and system is made from a tube and remains tube-like</li>
+<li>Basic Organization<ul>
+<li>CNS - Brain + spinal cord</li>
+<li>PNS - Nerves that run to and from organs and muscles, includes nerves and ganglia</li>
+<li><strong>Enteric Nervous System</strong> - network of neurons and ganglia on the gut</li>
+</ul>
+</li>
+<li>Brains integrate information from a collection of sensors at the front end of the animal</li>
+</ul>
+<h3 id="8-28-8-30">8-28, 8-30</h3>
+<h2 id="major-parts-of-the-brain">Major parts of the brain</h2>
+<ul>
+<li><strong>Dorsal</strong> - Back or top of animal</li>
+<li><strong>Ventral</strong> - Belly or bottom of animal</li>
+<li><strong>Anterior</strong> - Front, head</li>
+<li><strong>Posterior</strong> - Back, legs</li>
+<li><strong>Rostral</strong> - Toward the nose</li>
+<li><strong>Coudral</strong> - Toward the tail</li>
+<li><strong>Lateral</strong> - to the outside</li>
+<li><strong>Medial</strong> - Toward the midline</li>
+<li><strong>Proximal</strong> - used in reference to another object, closer object to intended object you are referring to</li>
+<li><strong>Distal</strong> - used in reference to another object, further object to intended object you are referring to</li>
+<li><strong>Superior</strong> - above (in brain)</li>
+<li><strong>Inferior</strong> - below (in brain)</li>
+<li>Sections of the brain:<ul>
+<li><strong>Coronal</strong> - sliced like a sausage, front and back of brain</li>
+<li><strong>Saggital</strong> - split down midline, corpus callusom, so you get two mirror image halves</li>
+<li><strong>Transverse/Horizontal</strong> - cut on plane parallel to ground while standing, split into top half and bottom half. Used in midbrain and spinal</li>
+</ul>
+</li>
+<li>Nervous system starts as a tube<ul>
+<li>As time progresses, portions of the tube develop in different ways
+(INSERT IMG)</li>
+<li>Starts with a tube with forrbrain, midbrain, hindbrain, and spinal cord<ul>
+<li><strong><em>Forebrain</em></strong> develops first. Telencephalon and Diencephalon.<ul>
+<li><strong>Telencephalon</strong> - Higher mental functions. Processes sensory info and motor control. Two cerebral hemispheres connected by corpus callosum. Contains 4 lobes of the brain determined by brain folds<ul>
+<li><strong>Gyrus</strong> - mountain fold of brain</li>
+<li><strong>Sulcus</strong> - Valley fold of brain</li>
+<li><strong>Corpus callosum</strong> - big myelinated bundle of axons that connects hemispheres</li>
+<li><strong>Frontal lobe</strong> - Personality, &quot;higher mental functions&quot;</li>
+<li><strong>Parietal lobe</strong> - Behind central sulcus</li>
+<li><strong>Occipital lobe</strong> - Back end of brain, visual processing</li>
+<li><strong>Temporal lobe</strong> - Ventral to other lobes, around your temples. Hearing and speech</li>
+<li><strong>Basal ganglia</strong> - Ganglia, interior of cortical folds (not part of cortex), important in postural adjustments and planning movements. Putamen, globus pallidus, caudate</li>
+<li><strong>Lymbic system</strong> - Amygdala, Hippocampus, Nucleus accumbens<ul>
+<li><strong>Amygdala</strong> - area of emotion, rage, repulsion, fear</li>
+<li><strong>Hippocampus</strong> - Memory is formed</li>
+<li><strong>Nucleus accumbens</strong> - reward/pleasure circuit. Plays role in addiction, other non destructive behavior.</li>
+</ul>
+</li>
+<li>HM - surgery at age of 27, removed hippocampus, could not form new memories</li>
+<li><strong>Olfactory bulb</strong> - Chemical sensors in nose project to bulb, underside of brain. Neurons project to olfactory cortex.</li>
+</ul>
+</li>
+<li><strong>Diencephalon</strong> - Thalamus, Lateral gerniculate, Medial geniculate, hypothalamus<ul>
+<li><strong>Thalamus</strong> - Sensory processes and distributes most sensory and motor information to and from the Telencephalon</li>
+<li><strong>Lateral gerniculate</strong> - Visual processing, receives information from the retina, conveyed by the optic nerve.</li>
+<li><strong>Medial geniculate</strong> - Processes auditory information</li>
+<li><strong>Hypothalamus</strong> - below the Thalamus, important for homeostasis. Regulates hormone secretion using pituitary(body temp, blood pressure, salt balance), regulates behavior for eating drinking, thirst, salt consumption, shivering</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong><em>Mesencephalon</em></strong> - Midbrain. Relay station for visual (superior colliculus), auditory (inferior colliculus), nuclei.<ul>
+<li><strong>Superior colliculus</strong> - visual relay station in midbrain</li>
+<li><strong>Inferior colliculus</strong> - auditory relay station in midbrain</li>
+<li><strong>Red nucleous</strong> - relay station between cerebellum and fuebrain</li>
+<li><strong>Subdtantia nigra</strong> - postural and motor control nuclei, where cells die in parkinson&#39;s disease
+(IMAGE here)</li>
+</ul>
+</li>
+<li><strong><em>Hindbrain</em></strong> -  2 devisions, Metencephalon and Myelencephalon<ul>
+<li><strong>Metencephalon</strong> - Pons and cerebellum<ul>
+<li><strong>Pons</strong> - Major fiber tract. Pathway to and from cerebellum and hindbrain. Has some nuclei which control respiration and sleep.</li>
+<li><strong>Cerebellum</strong> - Maintain muscle tone and balance. Helps in planning out movement smoothly. Motor memory.<ul>
+<li>Receives information from cerebral cortex indirectly about planned movements. Receives info from cerebral cortex about sensory feedback from movement as well. Cerebellum compares these pieces of information to make sure movement happened correctly, generated correction</li>
+<li><strong>Motor error</strong> - signals indicate incorrect motion compared to intended motion in cerebellum, correction is then made</li>
+<li>Output from <em>cerebellum</em> is carried by the axons of the <em>Purkinje cells</em>, is inhibitory, goes to deep cerebellar nuclei. From here it goes to cerebral cortex where corrective movements are generated if needed.
+(IMAGE here)</li>
+<li><strong>Pontire nucleous</strong> - receive info about <em>intended</em> movement. Extend out into mossy fibers which synapse with granule cells. Granule cells send up its own axon that synapse the <em>Purkinje cells</em> using parallel fibers.</li>
+<li><strong>Inferior olive of Myelencephalon</strong> - Gets input about <em>actual</em> movements, synapse with <em>Purkinje cells</em> using climbing fibers, wrap dendrites.</li>
+<li><strong>Deep cerebellum nuclei</strong> - gets info from <em>Purkinje cells</em> about actual and intended movements; output corrected movement is sent to motor cortex if needed.</li>
+<li>Damage to cerebellum - intended movement is jerky</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Myelencephalon</strong> - <em>Medulla oblongata</em>, continuation of spinal cord. Blood rate, breathing, coughing, gagging. Controls basic functions, required for survival.<h3 id="9-1">9-1</h3>
+<h2 id="cns">CNS</h2>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Coming off the brain on its ventral side are 12 cranial nerves, go between brain and periphery<ul>
+<li><strong>Optic nerve(II)</strong> - lateral geniculate to eye</li>
+</ul>
+</li>
+<li>Spinal cord is CNS that is more directly innervating</li>
+<li>x-section(transverse) - white matter(mylin axons) and grey matter(cell bodies)
+(IMAGE)
+<img src="C:\Users\inven\Documents\CellNeuro\Images\spinal_cord_cs_diagram.jpg" alt="spine"></li>
+<li>Central canal, Dorsal horn and ganglia, ventral horn and ganglia</li>
+<li>Spinal cord shows some basic features of the CNS<ul>
+<li>Tubular nature, continuous with ventricles in brain, central caral of spinal cord<ul>
+<li>filled with and surrounded by cerebrospinal fluid <em>CSF</em>
+Contains the correct ionic balance for neural functions and a few proteins<ul>
+<li>Produced from blood in <em>chorid plexus</em> in addition to ionic balance, its important as a shock absorber</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Grey and white matter</li>
+</ul>
+</li>
+<li><strong>Meninges</strong> - Surrounding the CNS, set of 3 membranes<ul>
+<li>CSF bathes the CNS inside the meninges &quot;sheath&quot;</li>
+<li>CSF reabsorbed at the meninges</li>
+</ul>
+</li>
+<li><strong>Blood brain barrier</strong> - also regulates what ions/proteins reach brain<ul>
+<li>Capillary endothelial cells in CNS are joined by the tight junctions. Stuff cannot exit or enter these capillaries unless they pass through endothelial cells membranes.<ul>
+<li>small lipid soluble molecules, water</li>
+<li>Transporters in the cell membrane can move molecules<ul>
+<li>Glucose transporter</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><em>Astrocytes</em> play a role, structures (feet) extend and surround capillary. Secrete molecules/proteins to stimulate endothelial cells of capillaries to regulate tightness of  tight junction, regulate permeability of blood brain barrier.</li>
+<li>To get drugs to CNS, must deal with BBB<ul>
+<li>tiny and lipid soluble ok</li>
+<li>or attach to nano-particles which get transported<h3 id="pns-autonomic-nervous-system">PNS - Autonomic nervous system</h3>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>also includes peripheral nerves</li>
+<li>3 major divisions<ul>
+<li>Sympathetic</li>
+<li>Parasympathetic</li>
+<li>Enteric</li>
+<li>For S and PS, many of the cell bodies are in the CNS<ul>
+<li><strong>Sympathetic</strong> neurons in spinal cord send axons out of cord to sympathetic ganglion where a synapse is made<ul>
+<li>Preganglionic fiber, neurotransmitter is <em>ACH</em></li>
+<li>Postsynaptic cell in the sympathetic ganglion extends axon to organs (postganglionic fiber), long. Neurotransmitter is <em>norepinephrine</em><ul>
+<li><strong>norepinephrine</strong> - fight or flight, causes effects like inc hr, inc blood flow to muscles, sweat, inhibit digestion, mobilizes glucose, activates adrenal glands, dialates pupils.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Parasympathetic</strong><ul>
+<li>nerve bodies in CNS but in brainstem and in the sacral region of spinal cord</li>
+<li>sends axons (preganglionic fibers) out to ganglia which are close to or on the organ innervated<ul>
+<li>long preganglion fiber, short postganglionic fiber</li>
+</ul>
+</li>
+<li><em>ACH</em> is neurotransmitter in ganglia, AND uses <strong>ACh</strong> postganglionic, not NE like in Sympathetic<ul>
+<li>rest and digest, inc blood to gut</li>
+<li>reduces blood flow to muscles</li>
+<li>slows hr</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Enteric</strong><ul>
+<li>Nerve net with ganglia throughout</li>
+<li>Neurons interact with each other for peristalsis</li>
+<li>Many neurotransmitters</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="anatonomy-in-neurons">Anatonomy in neurons</h3>
+<ul>
+<li><strong>Neuronal membrane</strong> - Phospholipid bilayer. Phosphate head is hydrophilic</li>
+<li>Proteins ca move a bit, some cant move that much.</li>
+<li>Proteins in neurons<ul>
+<li>Transport proteins</li>
+<li>Ion Channels<ul>
+<li>Can be gated - needed something to open</li>
+<li>Ligand, voltage, stretch-sensitive</li>
+</ul>
+</li>
+<li>Membrane can have very different<ul>
+<li>[K+]out 3mM, [K+]in 90mM</li>
+<li>By diffusion, prefers to exit(concentration), but prefers to stay inside because its more negative (electrical gradient)</li>
+<li><em>Nernst equation</em> is used here - calculate membrane potential based on [ions] inside and outside cells</li>
+<li>membrane potential <strong>Vm</strong> -  constant <em> [k+]out/[k+]in, 8.31 j/mol</em>K, Rt/zf<ul>
+<li>t is temp in K (273+celcius, ~293)</li>
+<li>z = valance of ions</li>
+<li>F - faraday&#39;s constant 96500 C/mol</li>
+<li><strong>Constant of 25 mv</strong> - assuming temp is 20C and valance of 1. Needs to be multiplied by ln of concentration gradient<ul>
+<li>25mV ln( K+out/k+in)</li>
+<li>if permiable membrane,  this is the potential.</li>
+<li>example : (25mV)ln( 3mM/90mM) = -85mV<ul>
+<li>use 58 instead of 25 if use log base 10</li>
+<li>58 log([ion]out/[ion]in)</li>
+</ul>
+</li>
+<li>usual mammalian cells have out 106mM,in 4mM</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>The <strong>driving force</strong> - tells you the strength of the forces acting on each ion, it is the difference between the membrane potential and the ion&#39;s equilibrium potential<ul>
+<li>Vm = Eion (?)</li>
+<li>The direction of the ion inside or out of the newuron depends on the sign of the driving force and the charge of the ion</li>
+<li>When you calculate the driving force, assume this is the value of the ion<ul>
+<li>&quot;Sees&quot; inside of the neuron<ul>
+<li><ul>
+<li>repels + ion, accracts - and vice versa</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Permiable to 3 ions: Na+, K+, and Cl-   <ul>
+<li>at rest, neuron is permiable to K+ and Cl-</li>
+<li>resting potential is not the same as the equilibrium ptential for K+</li>
+<li>Driving force pushes K+ out</li>
+<li>Na+ has strong driving force, can leak a little wven  when channels are not open</li>
+<li><strong>Na+/K+</strong> - pump to counteract leak. Removes 3 Na+, brings in 2K+, uses 1 ATP</li>
+</ul>
+</li>
+</ul></body>
+</html>
