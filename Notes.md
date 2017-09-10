@@ -214,4 +214,19 @@
           * if permiable membrane,  this is the potential.
           * example : (25mV)ln( 3mM/90mM) = -85mV
             * use 58 instead of 25 if use log base 10
+            * 58 log([ion]out/[ion]in)
           * usual mammalian cells have out 106mM,in 4mM
+      * The **driving force** - tells you the strength of the forces acting on each ion, it is the difference between the membrane potential and the ion's equilibrium potential
+       * Vm = Eion (?)
+       * The direction of the ion inside or out of the newuron depends on the sign of the driving force and the charge of the ion
+       * When you calculate the driving force, assume this is the value of the ion
+         * "Sees" inside of the neuron
+           * + repels + ion, accracts - and vice versa
+  * Permiable to 3 ions: Na+, K+, and Cl-   
+    * at rest, neuron is permiable to K+ and Cl-
+    * resting potential is not the same as the equilibrium ptential for K+
+    * Driving force pushes K+ out
+    * Na+ has strong driving force, can leak a little wven  when channels are not open
+    * **Na+/K+** - pump to conteract leak. Removes 3 Na+, brings in 2K+, uses 1 ATP
+     
+         
