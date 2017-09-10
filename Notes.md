@@ -205,7 +205,7 @@
       * [K+]out 3mM, [K+]in 90mM
       * By diffusion, prefers to exit(concentration), but prefers to stay inside because its more negative (electrical gradient)
       * _Nernst equation_ is used here - calculate membrane potential based on [ions] inside and outside cells
-      * membrane potential **Vm** -  constant * [k+]out/[k+]in, 8.31 j/mol*K, Rt/zf
+      * membrane potential **Vm** -  constant * ln( [k+]out/[k+]in ), 8.31 j/mol*K, Rt/zf
         * t is temp in K (273+celcius, ~293)
         * z = valance of ions
         * F - faraday's constant 96500 C/mol
