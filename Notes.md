@@ -213,11 +213,11 @@
           * 25mV ln( K+out/k+in)
           * if permiable membrane,  this is the potential.
           * example : (25mV)ln( 3mM/90mM) = -85mV
-            * use 58 instead of 25 if use log base 10
+            * use 58 instead of 25 if use log base 10 (?)
             * 58 log([ion]out/[ion]in)
           * usual mammalian cells have out 106mM,in 4mM
       * The **driving force** - tells you the strength of the forces acting on each ion, it is the difference between the membrane potential and the ion's equilibrium potential
-       * V~m~ - E_ion (?)
+       * F_Driving = V_m - E_ion
        * The direction of the ion inside or out of the neuron depends on the sign of the driving force and the charge of the ion
        * When you calculate the driving force, assume this is the value of the ion
          * "Sees" inside of the neuron
@@ -228,3 +228,42 @@
     * Driving force pushes K+ out
     * Na+ has strong driving force, can leak a little when channels are not open
     * **Na+/K+** - pump to counteract leak. Removes 3 Na+, brings in 2K+, uses 1 ATP
+  * Membrane potential is not = to equilibrium potential  
+    * Na+, K+, Cl- are important for determining membrane potential, Vm, because they pass through specific ion channels in the membrane
+    * Each ion has a specific permeability though the membrane
+    * Permeability to an ion is a factor in what the Vm would be.
+    * To factor in permeability, we talk about _relative permeability_ - relative to K+ permiability PK+:PNa+:PCl-
+      * squid axon at rest - PK+:PNa+:PCl- ; 1:0.4:0.45
+      * How to determine Vm at rest?
+      * use [ions] and P_ions using *goldman equation (constant field equation)*
+      * **Membrane potential** = 58 log([ (Pk+)[K+]out * (PNa+)[Na+]out * (PCl-)[Cl-]in ]/[ (Pk+)[K+]in * (PNa+)[Na+]in * (PCl-)[Cl-]out ])
+      * Why is cl in/out? - because -log a/b = logb/a
+      * Given K+:Na+:Cl- permeability ratio 1:0.4:0.45 and concentrations of 20mM,400mM:440mM,50mM:560mM,51mM
+        * > Vm = 58 log([ 20mM * (0.4)440mM * (0.45)51mM ]/[ 400mM * (0.4)50mM * (0.45)560mM ])
+        * > Vm = -59.9mV
+
+      * Suppose cell is only permeable to k+, 1:0:0
+        * > Vm = 58 log([ 20mM * (0)440mM * (0)51mM ]/[ 400mM * (0)50mM * (0)560mM ])
+        * > Vm = 58 log([ 20mM ]/[ 400mM ])
+        * > Vm = 58 log( [K+]out / [K+]in ), nernst equation
+
+      * In an action potential, PNa+ increases dramatically
+        * 1:20:.45, Na+ is 20 times more permeable
+        * > Vm = 58 log([ 20mM * (20)440mM * (0.45)51mM ]/[ 400mM * (20)50mM * (0.45)560mM ])
+        * > Vm = +42 mV
+        * Large difference during AP from -60 to 42
+
+      * **Action potential** - come about as there is a transient increase in Pna+. Not for long, ~1msec
+        * Vm over time
+        * **AP steps** - start at -60(Resting), spike up positive(depolarization), Peak(overshoot), Falling phase(repolarization), dip back below -60(undershoot/hypopolarization) for a split second, back to -60(Resting) all in 1msec
+        * Called spikes
+        * ![](Images/Action_potential.png)
+      * All or none is valid, but there are degrees of AP
+      * AP occur when Vm reaches **threshold** - unstable equilibrium for neurons, -20mV
+        * **Na+ channels** - are gated by voltage
+        * at -60mV, most Na+ channels are closed, at -40, some channels will be triggered and open
+        * However membrane is permeable to K+, and this will be further from Ek+ so driving force on K+ is large and k+ exits to counteract this Vm and Vm will return to rest.
+        * At threshold (-20 mV), equal number of Na+ entering the cell(voltage gated open up) as K+ leaving the cell (through k+ leakage channels)
+        * one more Na+ entering tips the balance of open Na+ channels that cause many more to enter a + feedback loop,
+        * Vm becomes more positive -> opening Na+ channels -> Na+ exits neuron -> Vm becomes more positive
+        * Vm will rapidly become more positive until Vm nears Ena+(equilibrium)
