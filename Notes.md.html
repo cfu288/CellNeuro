@@ -494,7 +494,7 @@ pre.editor-colors .fold-marker:after {
 <li>(HW) Read chapter 4</li>
 </ul>
 <h2 id="simple-neural-circuit-knee-jerk-reflex">Simple neural circuit - Knee jerk reflex</h2>
-<p><img src="C:\Users\inven\Documents\CellNeuro\Images\Patellar_tendon_reflex_arc.png" alt="Knee Jerk Reflex"></p>
+<p><img src="/home/cfu288/Documents/CellNeuro/Images/Patellar_tendon_reflex_arc.png" alt="Knee Jerk Reflex"></p>
 <ul>
 <li><strong>Patellar Stretch Reflex</strong> - Maintains specific tension and length of quadriceps muscle<ul>
 <li>Tapping below the knee stretches the muscle, contracts to regain original length, foot swings</li>
@@ -532,7 +532,7 @@ pre.editor-colors .fold-marker:after {
 </li>
 </ul>
 <h2 id="the-neuron">The Neuron</h2>
-<p><img src="C:\Users\inven\Documents\CellNeuro\Images\shapes.png" alt="alt text"></p>
+<p><img src="/home/cfu288/Documents/CellNeuro/Images/shapes.png" alt="alt text"></p>
 <ul>
 <li>What differs neurons from other cells - Shapes</li>
 <li><strong>Shapes of neurons</strong> - reflect who they&#39;re connected to (long processes for motor neurons can be 3ft long), where they receive inputs and where they send them</li>
@@ -689,7 +689,7 @@ pre.editor-colors .fold-marker:after {
 <li>Spinal cord is CNS that is more directly innervating</li>
 <li>x-section(transverse) - white matter(mylin axons) and grey matter(cell bodies)
 (IMAGE)
-<img src="C:\Users\inven\Documents\CellNeuro\Images\spinal_cord_cs_diagram.jpg" alt="spine"></li>
+<img src="/home/cfu288/Documents/CellNeuro/Images/spinal_cord_cs_diagram.jpg" alt="spine"></li>
 <li>Central canal, Dorsal horn and ganglia, ventral horn and ganglia</li>
 <li>Spinal cord shows some basic features of the CNS<ul>
 <li>Tubular nature, continuous with ventricles in brain, central caral of spinal cord<ul>
@@ -780,7 +780,7 @@ Contains the correct ionic balance for neural functions and a few proteins<ul>
 <li>[K+]out 3mM, [K+]in 90mM</li>
 <li>By diffusion, prefers to exit(concentration), but prefers to stay inside because its more negative (electrical gradient)</li>
 <li><em>Nernst equation</em> is used here - calculate membrane potential based on [ions] inside and outside cells</li>
-<li>membrane potential <strong>Vm</strong> -  constant <em> [k+]out/[k+]in, 8.31 j/mol</em>K, Rt/zf<ul>
+<li>membrane potential <strong>Vm</strong> -  constant <em> ln( [k+]out/[k+]in ), 8.31 j/mol</em>K, Rt/zf<ul>
 <li>t is temp in K (273+celcius, ~293)</li>
 <li>z = valance of ions</li>
 <li>F - faraday&#39;s constant 96500 C/mol</li>
@@ -788,7 +788,7 @@ Contains the correct ionic balance for neural functions and a few proteins<ul>
 <li>25mV ln( K+out/k+in)</li>
 <li>if permiable membrane,  this is the potential.</li>
 <li>example : (25mV)ln( 3mM/90mM) = -85mV<ul>
-<li>use 58 instead of 25 if use log base 10</li>
+<li>use 58 instead of 25 if use log base 10 (?)</li>
 <li>58 log([ion]out/[ion]in)</li>
 </ul>
 </li>
@@ -798,12 +798,11 @@ Contains the correct ionic balance for neural functions and a few proteins<ul>
 </ul>
 </li>
 <li>The <strong>driving force</strong> - tells you the strength of the forces acting on each ion, it is the difference between the membrane potential and the ion&#39;s equilibrium potential<ul>
-<li>Vm = Eion (?)</li>
-<li>The direction of the ion inside or out of the newuron depends on the sign of the driving force and the charge of the ion</li>
+<li>F_Driving = V_m - E_ion</li>
+<li>The direction of the ion inside or out of the neuron depends on the sign of the driving force and the charge of the ion</li>
 <li>When you calculate the driving force, assume this is the value of the ion<ul>
 <li>&quot;Sees&quot; inside of the neuron<ul>
-<li><ul>
-<li>repels + ion, accracts - and vice versa</li>
+<li>+ repels + ion, attracts - and vice versa</li>
 </ul>
 </li>
 </ul>
@@ -814,15 +813,156 @@ Contains the correct ionic balance for neural functions and a few proteins<ul>
 </li>
 </ul>
 </li>
-</ul>
-</li>
-<li>Permiable to 3 ions: Na+, K+, and Cl-   <ul>
-<li>at rest, neuron is permiable to K+ and Cl-</li>
-<li>resting potential is not the same as the equilibrium ptential for K+</li>
+<li>Permeable to 3 ions: Na+, K+, and Cl-   <ul>
+<li>at rest, neuron is permeable to K+ and Cl-</li>
+<li>resting potential is not the same as the equilibrium potential for K+</li>
 <li>Driving force pushes K+ out</li>
-<li>Na+ has strong driving force, can leak a little wven  when channels are not open</li>
+<li>Na+ has strong driving force, can leak a little when channels are not open</li>
 <li><strong>Na+/K+</strong> - pump to counteract leak. Removes 3 Na+, brings in 2K+, uses 1 ATP</li>
 </ul>
 </li>
-</ul></body>
+<li><p>Membrane potential is not = to equilibrium potential  </p>
+<ul>
+<li>Na+, K+, Cl- are important for determining membrane potential, Vm, because they pass through specific ion channels in the membrane</li>
+<li>Each ion has a specific permeability though the membrane</li>
+<li>Permeability to an ion is a factor in what the Vm would be.</li>
+<li><p>To factor in permeability, we talk about <em>relative permeability</em> - relative to K+ permiability PK+:PNa+:PCl-</p>
+<ul>
+<li>squid axon at rest - PK+:PNa+:PCl- ; 1:0.4:0.45</li>
+<li>How to determine Vm at rest?</li>
+<li>use [ions] and P_ions using <em>goldman equation (constant field equation)</em></li>
+<li><strong>Membrane potential</strong> = 58 log([ (Pk+)[K+]out <em> (PNa+)[Na+]out </em> (PCl-)[Cl-]in ]/[ (Pk+)[K+]in <em> (PNa+)[Na+]in </em> (PCl-)[Cl-]out ])</li>
+<li>Why is cl in/out? - because -log a/b = logb/a</li>
+<li><p>Given K+:Na+:Cl- permeability ratio 1:0.4:0.45 and concentrations of 20mM,400mM:440mM,50mM:560mM,51mM</p>
+<ul>
+<li><blockquote>
+<p>Vm = 58 log([ 20mM <em> (0.4)440mM </em> (0.45)51mM ]/[ 400mM <em> (0.4)50mM </em> (0.45)560mM ])</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p>Vm = -59.9mV</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li><p>Suppose cell is only permeable to k+, 1:0:0</p>
+<ul>
+<li><blockquote>
+<p>Vm = 58 log([ 20mM <em> (0)440mM </em> (0)51mM ]/[ 400mM <em> (0)50mM </em> (0)560mM ])</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p>Vm = 58 log([ 20mM ]/[ 400mM ])</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p>Vm = 58 log( [K+]out / [K+]in ), nernst equation</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li><p>In an action potential, PNa+ increases dramatically</p>
+<ul>
+<li>1:20:.45, Na+ is 20 times more permeable</li>
+<li><blockquote>
+<p>Vm = 58 log([ 20mM <em> (20)440mM </em> (0.45)51mM ]/[ 400mM <em> (20)50mM </em> (0.45)560mM ])</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p>Vm = +42 mV</p>
+</blockquote>
+</li>
+<li>Large difference during AP from -60 to 42</li>
+</ul>
+</li>
+<li><p><strong>Action potential</strong> - come about as there is a transient increase in Pna+. Not for long, ~1msec</p>
+<ul>
+<li>Vm over time</li>
+<li><strong>AP steps</strong> - start at -60(Resting), spike up positive(depolarization), Peak(overshoot), Falling phase(repolarization), dip back below -60(undershoot/hypopolarization) for a split second, back to -60(Resting) all in 1msec</li>
+<li>Called spikes</li>
+<li><img src="/home/cfu288/Documents/CellNeuro/Images/Action_potential.png" alt=""></li>
+</ul>
+</li>
+<li>All or none is valid, but there are degrees of AP</li>
+<li><p>AP occur when Vm reaches <strong>threshold</strong> - unstable equilibrium for neurons, -20mV</p>
+<ul>
+<li><strong>Na+ channels</strong> - are gated by voltage</li>
+<li>at -60mV, most Na+ channels are closed, at -40, some channels will be triggered and open</li>
+<li>However membrane is permeable to K+, and this will be further from Ek+ so driving force on K+ is large and k+ exits to counteract this Vm and Vm will return to rest.</li>
+<li>At threshold (-20 mV), equal number of Na+ entering the cell(voltage gated open up) as K+ leaving the cell (through k+ leakage channels)</li>
+<li>one more Na+ entering tips the balance of open Na+ channels that cause many more to enter a + feedback loop,</li>
+<li>Vm becomes more positive -&gt; opening Na+ channels -&gt; Na+ exits neuron -&gt; Vm becomes more positive</li>
+<li>Vm will rapidly become more positive until Vm nears Ena+(equilibrium)</li>
+</ul>
+<p>-- missed lecture --</p>
+<ul>
+<li><p>Na+ is 20 times more permeable than K+ at AP - how do we know?</p>
+<ul>
+<li><p><strong>Voltage clamp</strong> - allows you to measure how permeable a membrane is and how ions are moving across it in real time. 2 electrodes needed inside cell</p>
+<ul>
+<li>one electron to measure Vm - info sent to voltage clamp circuitry</li>
+<li><strong>Command voltage</strong> - you tell the circuitry what you want Vm to be</li>
+<li><strong>voltage clamp circuitry</strong> - look at Vm is, where you set it (command voltage), then pass current into cell to make them match using the second electrode</li>
+<li>What you read out of the <em>voltage clamp</em> is the <em>current</em> it must pass into the cell to hold Vm at a certain level</li>
+<li>Counteract current(I) from increased Vm from clamp. if AP threshold is not met, current only slightly changes to oppose current. Above threshold it activates an AP</li>
+<li><p>Current over time plot:
+(IMAGE) instead of Vm over time of an AP, in a voltage clamp where we set Vm above threshold:</p>
+<ul>
+<li>I over time, outward above 0, inward below 0</li>
+</ul>
+</li>
+<li><p><strong>Current during action potential measured by clamp:</strong></p>
+<pre class="editor-colors lang-text"><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--paragraph syntax--text"><span>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;-------------&nbsp;\</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--paragraph syntax--text"><span>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--paragraph syntax--text"><span>I&nbsp;&nbsp;0|-------------------------------------------------</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--paragraph syntax--text"><span>|&nbsp;&nbsp;\&nbsp;----/</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--paragraph syntax--text"><span>|</span></span></span></div></pre></li>
+<li><strong>Set Vm to -40 in squid (below threshold at -20)</strong>
+```
+|
+Vm  |   |---------|(-40)
+|---|         |---------(-60)
+|
+|---------------------------</li>
+</ul>
+<p>|<br>|<br>I  0|-------------------------------------------------
+|   --------/&#39;&#39;&#39;&#39;&#39; (Overall inward current)
+|</p>
+<pre class="editor-colors lang-text"><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--bullet-point syntax--star syntax--text"><span class="syntax--punctuation syntax--definition syntax--item syntax--text"><span>*</span></span><span>&nbsp;Set&nbsp;above&nbsp;threshold</span></span></span></div></pre><p>|   |---------|(-20)
+Vm  |   |         |
+|---|         |---------(-60)
+|
+|---------------------------</p>
+<pre class="editor-colors lang-text"><div class="line"><span class="syntax--text syntax--plain"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--meta syntax--paragraph syntax--text"><span>__________</span></span></span></div></pre><p>|           /          \
+|          /            \ (Sustained outward)
+I  0|-----------------------------------------------
+|   ____/ (initial inward of Na)
+|</p>
+<pre class="editor-colors lang-text"><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--bullet-point syntax--star syntax--text"><span class="syntax--punctuation syntax--definition syntax--item syntax--text"><span>*</span></span><span>&nbsp;**Set&nbsp;Vm&nbsp;to&nbsp;+26mV**</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--bullet-point syntax--star syntax--text"><span>&nbsp;&nbsp;</span><span class="syntax--punctuation syntax--definition syntax--item syntax--text"><span>*</span></span><span>&nbsp;compared&nbsp;to&nbsp;previous,&nbsp;smaller&nbsp;inward&nbsp;current&nbsp;and&nbsp;larger&nbsp;outward&nbsp;current</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--bullet-point syntax--star syntax--text"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--punctuation syntax--definition syntax--item syntax--text"><span>*</span></span><span>&nbsp;because&nbsp;driving&nbsp;force&nbsp;on&nbsp;Na+&nbsp;when&nbsp;Vm&nbsp;is&nbsp;+26</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--bullet-point syntax--star syntax--text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--punctuation syntax--definition syntax--item syntax--text"><span>*</span></span><span>&nbsp;df&nbsp;=&nbsp;vm&nbsp;-&nbsp;E_ion</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--bullet-point syntax--star syntax--text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--punctuation syntax--definition syntax--item syntax--text"><span>*</span></span><span>&nbsp;26mV&nbsp;-&nbsp;55&nbsp;=&nbsp;-29mV</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--bullet-point syntax--star syntax--text"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--punctuation syntax--definition syntax--item syntax--text"><span>*</span></span><span>&nbsp;while&nbsp;at&nbsp;-20mV&nbsp;for&nbsp;Vm</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--bullet-point syntax--star syntax--text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--punctuation syntax--definition syntax--item syntax--text"><span>*</span></span><span>&nbsp;df&nbsp;=&nbsp;-20&nbsp;-&nbsp;55&nbsp;=&nbsp;-75mV</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--bullet-point syntax--star syntax--text"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--punctuation syntax--definition syntax--item syntax--text"><span>*</span></span><span>&nbsp;For&nbsp;Na+,&nbsp;driving&nbsp;force&nbsp;is&nbsp;less&nbsp;at&nbsp;+26mV&nbsp;so&nbsp;inward&nbsp;current&nbsp;it&nbsp;carries&nbsp;is&nbsp;less</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--bullet-point syntax--star syntax--text"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--punctuation syntax--definition syntax--item syntax--text"><span>*</span></span><span>&nbsp;BUT&nbsp;for&nbsp;K+,&nbsp;at&nbsp;Vm&nbsp;=&nbsp;-20,&nbsp;df&nbsp;is&nbsp;-20&nbsp;-(-75)&nbsp;=&nbsp;+55mV</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--bullet-point syntax--star syntax--text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--punctuation syntax--definition syntax--item syntax--text"><span>*</span></span><span>&nbsp;but&nbsp;when&nbsp;Vm&nbsp;=&nbsp;+20mV</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--bullet-point syntax--star syntax--text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--punctuation syntax--definition syntax--item syntax--text"><span>*</span></span><span>&nbsp;df&nbsp;is&nbsp;26mV&nbsp;-(-75)&nbsp;=&nbsp;+101mV,&nbsp;Much&nbsp;bigger!!</span></span></span></div></pre><p>|   |---------|(+26)
+Vm  |   |         |
+|   |         |
+|---|         |---------(-60)
+|
+|---------------------------</p>
+<pre class="editor-colors lang-text"><div class="line"><span class="syntax--text syntax--plain"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--meta syntax--paragraph syntax--text"><span>________</span></span></span></div></pre><p>|            /        \
+|           /          \
+|          /            \ (Larger sustained outward)
+I  0|-----------------------------------------------
+|   ----/ (smaller initial inward of Na)
+|
+```</p>
+<ul>
+<li><strong>Set Vm to +55mV or Driving force of Na+(ENa+)</strong><ul>
+<li>df = 55-55 = 0 mV</li>
+<li>No inward current at all but a large outward current because we are even further from eq potential for K+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<pre class="editor-colors lang-text"><div class="line"><span class="syntax--text syntax--plain"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--meta syntax--paragraph syntax--text"><span>|&nbsp;&nbsp;&nbsp;|---------|(+55)</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--meta syntax--paragraph syntax--text"><span>Vm&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--meta syntax--paragraph syntax--text"><span>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--paragraph syntax--text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---------(-60)</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--paragraph syntax--text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--paragraph syntax--text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---------------------------</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span>&nbsp;</span></span></div><div class="line"><span class="syntax--text syntax--plain"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--meta syntax--paragraph syntax--text"><span>________</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--meta syntax--paragraph syntax--text"><span>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\&nbsp;(K+&nbsp;leaves)</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--paragraph syntax--text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--paragraph syntax--text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\&nbsp;(Even&nbsp;larger&nbsp;sustained&nbsp;outward)</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--meta syntax--paragraph syntax--text"><span>I&nbsp;&nbsp;0|-----------------------------------------------</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--meta syntax--paragraph syntax--text"><span>|&nbsp;&nbsp;&nbsp;(Na+&nbsp;neither&nbsp;comes&nbsp;in&nbsp;or&nbsp;leaves)</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--paragraph syntax--text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</span></span></span></div></pre><pre class="editor-colors lang-text"><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--bullet-point syntax--star syntax--text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--punctuation syntax--definition syntax--item syntax--text"><span>*</span></span><span>&nbsp;**Set&nbsp;Vm&nbsp;to&nbsp;+65,&nbsp;10&nbsp;mB&nbsp;more&nbsp;positive&nbsp;that&nbsp;Ena+**</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--bullet-point syntax--star syntax--text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--punctuation syntax--definition syntax--item syntax--text"><span>*</span></span><span>&nbsp;df&nbsp;=&nbsp;65&nbsp;-&nbsp;55&nbsp;=&nbsp;+10mV</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--bullet-point syntax--star syntax--text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--punctuation syntax--definition syntax--item syntax--text"><span>*</span></span><span>&nbsp;Two&nbsp;outward&nbsp;currents</span></span></span></div></pre><pre class="editor-colors lang-text"><div class="line"><span class="syntax--text syntax--plain"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--meta syntax--paragraph syntax--text"><span>________</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--meta syntax--paragraph syntax--text"><span>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--paragraph syntax--text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\&nbsp;(&nbsp;K+&nbsp;leaves)</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--paragraph syntax--text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\&nbsp;(Even&nbsp;larger&nbsp;sustained&nbsp;outward)</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--meta syntax--paragraph syntax--text"><span>I&nbsp;&nbsp;0|-----------------------------------------------</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--meta syntax--paragraph syntax--text"><span>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(&nbsp;^&nbsp;Na+&nbsp;leaves)</span></span></span></div></pre><pre class="editor-colors lang-text"><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--bullet-point syntax--star syntax--text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--punctuation syntax--definition syntax--item syntax--text"><span>*</span></span><span>&nbsp;You&nbsp;can&nbsp;determine&nbsp;resistance&nbsp;of&nbsp;membrane&nbsp;V&nbsp;=&nbsp;IR&nbsp;-&nbsp;ohms&nbsp;law</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--bullet-point syntax--star syntax--text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--punctuation syntax--definition syntax--item syntax--text"><span>*</span></span><span>&nbsp;Conductance&nbsp;is&nbsp;the&nbsp;inverse&nbsp;of&nbsp;resistance:&nbsp;&nbsp;G&nbsp;=&nbsp;(1/R)</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--bullet-point syntax--star syntax--text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--punctuation syntax--definition syntax--item syntax--text"><span>*</span></span><span>&nbsp;By&nbsp;calculating&nbsp;G&nbsp;over&nbsp;AP,&nbsp;you&nbsp;can&nbsp;see:</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--bullet-point syntax--star syntax--text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--punctuation syntax--definition syntax--item syntax--text"><span>*</span></span><span>&nbsp;Conductance&nbsp;of&nbsp;Na+&nbsp;high&nbsp;at&nbsp;beginning&nbsp;of&nbsp;AP,&nbsp;lower&nbsp;later&nbsp;during&nbsp;AP&nbsp;-&nbsp;V-gated&nbsp;channels&nbsp;and&nbsp;soon&nbsp;close</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--bullet-point syntax--star syntax--text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="syntax--punctuation syntax--definition syntax--item syntax--text"><span>*</span></span><span>&nbsp;K+&nbsp;conductance&nbsp;high&nbsp;and&nbsp;peaks&nbsp;later&nbsp;than&nbsp;Na+&nbsp;in&nbsp;AP&nbsp;-&nbsp;V-gated&nbsp;channesl&nbsp;open&nbsp;with&nbsp;a&nbsp;slight&nbsp;delay&nbsp;and&nbsp;stay&nbsp;open&nbsp;for&nbsp;a&nbsp;while</span></span></span></div></pre></body>
 </html>

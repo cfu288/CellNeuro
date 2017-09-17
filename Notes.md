@@ -267,3 +267,116 @@
         * one more Na+ entering tips the balance of open Na+ channels that cause many more to enter a + feedback loop,
         * Vm becomes more positive -> opening Na+ channels -> Na+ exits neuron -> Vm becomes more positive
         * Vm will rapidly become more positive until Vm nears Ena+(equilibrium)
+
+        -- missed lecture --
+
+        * Na+ is 20 times more permeable than K+ at AP - how do we know?
+          * **Voltage clamp** - allows you to measure how permeable a membrane is and how ions are moving across it in real time. 2 electrodes needed inside cell
+            * one electron to measure Vm - info sent to voltage clamp circuitry
+            * **Command voltage** - you tell the circuitry what you want Vm to be
+            * **voltage clamp circuitry** - look at Vm is, where you set it (command voltage), then pass current into cell to make them match using the second electrode
+            * What you read out of the _voltage clamp_ is the _current_ it must pass into the cell to hold Vm at a certain level
+            * Counteract current(I) from increased Vm from clamp. if AP threshold is not met, current only slightly changes to oppose current. Above threshold it activates an AP
+            * Current over time plot:
+            (IMAGE) instead of Vm over time of an AP, in a voltage clamp where we set Vm above threshold:
+              * I over time, outward above 0, inward below 0
+
+            * **Current during action potential measured by clamp:**
+```
+            |           / ------------- \
+            |          /                 \
+        I  0|-------------------------------------------------
+            |  \ ----/
+            |
+```
+            * **Set Vm to -40 in squid (below threshold at -20)**
+```
+            |
+        Vm  |   |---------|(-40)
+            |---|         |---------(-60)
+            |
+            |---------------------------
+
+            |           
+            |         
+        I  0|-------------------------------------------------
+            |   \--------/''''' (Overall inward current)
+            |
+```
+            * Set above threshold
+```
+            |   |---------|(-20)
+        Vm  |   |         |
+            |---|         |---------(-60)
+            |
+            |---------------------------
+                         __________
+            |           /          \
+            |          /            \ (Sustained outward)
+        I  0|-----------------------------------------------
+            |   \____/ (initial inward of Na)
+            |
+```
+            * **Set Vm to +26mV**
+              * compared to previous, smaller inward current and larger outward current
+                * because driving force on Na+ when Vm is +26
+                  * df = vm - E_ion
+                  * 26mV - 55 = -29mV
+                * while at -20mV for Vm
+                  * df = -20 - 55 = -75mV
+                * For Na+, driving force is less at +26mV so inward current it carries is less
+                * BUT for K+, at Vm = -20, df is -20 -(-75) = +55mV
+                  * but when Vm = +20mV
+                  * df is 26mV -(-75) = +101mV, Much bigger!!
+```
+            |   |---------|(+26)
+        Vm  |   |         |
+            |   |         |
+            |---|         |---------(-60)
+            |
+            |---------------------------
+
+                          ________
+            |            /        \
+            |           /          \
+            |          /            \ (Larger sustained outward)
+        I  0|-----------------------------------------------
+            |   \----/ (smaller initial inward of Na)
+            |
+```
+            * **Set Vm to +55mV or Driving force of Na+(ENa+)**
+              * df = 55-55 = 0 mV
+              * No inward current at all but a large outward current because we are even further from eq potential for K+
+
+```
+            |   |---------|(+55)
+        Vm  |   |         |
+            |   |         |
+            |---|         |---------(-60)
+            |
+            |---------------------------
+
+                          ________
+            |            /        \ (K+ leaves)
+            |           /          \
+            |          /            \ (Even larger sustained outward)
+        I  0|-----------------------------------------------
+            |   (Na+ neither comes in or leaves)
+            |
+```
+            * **Set Vm to +65, 10 mB more positive that Ena+**
+              * df = 65 - 55 = +10mV
+              * Two outward currents
+```
+                             ________
+            |               /        \
+            |           __ /          \ ( K+ leaves)
+            |          /               \ (Even larger sustained outward)
+        I  0|-----------------------------------------------
+            |        ( ^ Na+ leaves)
+```
+            * You can determine resistance of membrane V = IR - ohms law
+            * Conductance is the inverse of resistance:  G = (1/R)
+            * By calculating G over AP, you can see:
+              * Conductance of Na+ high at beginning of AP, lower later during AP - V-gated channels and soon close
+              * K+ conductance high and peaks later than Na+ in AP - V-gated channesl open with a slight delay and stay open for a while
