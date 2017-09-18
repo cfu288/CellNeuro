@@ -11,7 +11,7 @@ except IndexError:
   print("No file provided, using Notes.md")
   fileName = "Notes.md"
 
-with open(fileName, 'r', encoding="utf-8") as file:
+with open(fileName, 'r') as file:
     lines_list = file.readlines()
 
 hwList = []
@@ -47,7 +47,7 @@ else:
     print("No questions to resolve.")
     today = datetime.date.today()
     saveName = 'Flashcards/'+ str(today) +'.csv'
-    with open(saveName, 'w', newline='') as csvfile:
+    with open(saveName, 'w') as csvfile:
       writer = csv.writer(csvfile, delimiter='|',quotechar='|')
       for line in lines_list:
         #Pull out bolded terms and their definitions from the file

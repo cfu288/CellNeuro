@@ -197,7 +197,7 @@
           * 25mV ln( K+out/k+in)
           * if permiable membrane,  this is the potential.
           * example : (25mV)ln( 3mM/90mM) = -85mV
-            * use 58 instead of 25 if use log base 10 (?)
+            * use 58 instead of 25 if use log base 10
             * 58 log([ion]out/[ion]in)
           * usual mammalian cells have out 106mM,in 4mM
       * The **driving force** - tells you the strength of the forces acting on each ion, it is the difference between the membrane potential and the ion's equilibrium potential. df = V_m - E_ion (membrane potential - equilibrium potential)
