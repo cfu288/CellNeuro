@@ -1,10 +1,4 @@
 # Cellular Neurobiology
-### 8-23
-* Textbook not required but recommended.
-* Make 2 copies of HW, one to keep one to hand in
-* May move to UU 109 - Keep an eye out
-* Neurobiology - study of neurons
-* (HW) Read chapter 4
 
 ## Simple neural circuit - Knee jerk reflex
 ![Knee Jerk Reflex](/Images/Patellar_tendon_reflex_arc.png)
@@ -44,10 +38,7 @@
   * **Bipolar** - Branch goes up one way and down another
   * **Multipolar neuron** - classic neuron, cell body with dendrites on body and single axon
   * **Interneurons** - process signals between sensory and motor neurons
-
-### 8-25
-  * (HW) will be posted today, due next week wen. Make two copies
-  * **Neuroglia cells** - 2-3 times as many than neurons. 5 kinds
+  * **Neuroglia (glial) cells** - 2-3 times as many than neurons. 5 kinds
     * **Astrogilia** - look like stars, common. Provide physical support and nutrients for neurons. Regulate k+ conc outside nervous system. Remove excess neurotransmitters from extracellular space.
     * **Radialgilia** - Around throughout life of org, important in development. Provide scaffold for migration of neurons.
     * **Microgilia** - immune response. made in bone marrow, highly mobile. clean up cellular debris, see a lot near infections or neurodegenerative diseases (Parkison's, Huntington's, Alzheimer's). Excessive activity during development may remove too many synapses leading to issues like possibly autism??
@@ -58,14 +49,8 @@
       * Schwann cells help regenerate nerve damage
       * Oligodentrocytes actually block axon regrowth. Complex issue.
         * Oligodentrocytes block axon regrowth because it prevents mistakes that could be made during regrowth.
-    * Similarities between gilia and neurons:
-      * Electrical potentials across membranes exist in both
-      * Change in response to signals - electrical and neurotransmitters
-      * Glial cells are electrically connected to each other and can be connected ot neurons as well
-    * Differences between gilia and neuons:
-      * Glial cells electrical potential changes are much smaller
-      * Glial cells do not have AP
-      * Glial cells have smaller cell bodies and are smaller
+    * **Similarities between gilia and neurons** -  Electrical potentials across membranes exist in both, Change in response to signals - electrical and neurotransmitters, Glial cells are electrically connected to each other and can be connected to neurons as well
+    * **Differences between gilia and neuons** - Glial cells electrical potential changes are much smaller, Glial cells do not have AP, Glial cells have smaller cell bodies and are smaller
 
 ## Organization of Neural structure
   * Even single cell organisms have some type of nervous systems.
@@ -80,7 +65,6 @@
     * **Enteric Nervous System** - network of neurons and ganglia on the gut
   * Brains integrate information from a collection of sensors at the front end of the animal
 
-### 8-28, 8-30
 ## Major parts of the brain
   * **Dorsal** - Back or top of animal
   * **Ventral** - Belly or bottom of animal
@@ -100,10 +84,11 @@
     * **Transverse/Horizontal** - cut on plane parallel to ground while standing, split into top half and bottom half. Used in midbrain and spinal
   * Nervous system starts as a tube
     * As time progresses, portions of the tube develop in different ways
-    (INSERT IMG)
+
+    ![](Images/forebrain.jpg)
     * Starts with a tube with forrbrain, midbrain, hindbrain, and spinal cord
-      * **_Forebrain_** develops first. Telencephalon and Diencephalon.
-        * **Telencephalon** - Higher mental functions. Processes sensory info and motor control. Two cerebral hemispheres connected by corpus callosum. Contains 4 lobes of the brain determined by brain folds
+      * **_Forebrain_** - develops first. Telencephalon and Diencephalon.
+        * **Telencephalon** - Part of forebrain. Higher mental functions. Processes sensory info and motor control. Two cerebral hemispheres connected by corpus callosum. Contains 4 lobes of the brain determined by brain folds
           * **Gyrus** - mountain fold of brain
           * **Sulcus** - Valley fold of brain
           * **Corpus callosum** - big myelinated bundle of axons that connects hemispheres
@@ -118,7 +103,7 @@
             * **Nucleus accumbens** - reward/pleasure circuit. Plays role in addiction, other non destructive behavior.
           * HM - surgery at age of 27, removed hippocampus, could not form new memories
           * **Olfactory bulb** - Chemical sensors in nose project to bulb, underside of brain. Neurons project to olfactory cortex.
-        * **Diencephalon** - Thalamus, Lateral gerniculate, Medial geniculate, hypothalamus
+        * **Diencephalon** - Part of forebrain. Thalamus, Lateral gerniculate, Medial geniculate, hypothalamus
           * **Thalamus** - Sensory processes and distributes most sensory and motor information to and from the Telencephalon
           * **Lateral gerniculate** - Visual processing, receives information from the retina, conveyed by the optic nerve.
           * **Medial geniculate** - Processes auditory information
@@ -128,59 +113,58 @@
         * **Inferior colliculus** - auditory relay station in midbrain
         * **Red nucleous** - relay station between cerebellum and fuebrain
         * **Subdtantia nigra** - postural and motor control nuclei, where cells die in parkinson's disease
-        (IMAGE here)
       * **_Hindbrain_** -  2 devisions, Metencephalon and Myelencephalon
         * **Metencephalon** - Pons and cerebellum
           * **Pons** - Major fiber tract. Pathway to and from cerebellum and hindbrain. Has some nuclei which control respiration and sleep.
-          * **Cerebellum** - Maintain muscle tone and balance. Helps in planning out movement smoothly. Motor memory.
-            * Receives information from cerebral cortex indirectly about planned movements. Receives info from cerebral cortex about sensory feedback from movement as well. Cerebellum compares these pieces of information to make sure movement happened correctly, generated correction
+          * **Cerebellum** - Maintain muscle tone and balance. Helps in planning out movement smoothly. Motor memory. Receives information from cerebral cortex indirectly about planned movements. Receives info from cerebral cortex about sensory feedback from movement as well. Cerebellum compares these pieces of information to make sure movement happened correctly, generated correction
             * **Motor error** - signals indicate incorrect motion compared to intended motion in cerebellum, correction is then made
             * Output from _cerebellum_ is carried by the axons of the _Purkinje cells_, is inhibitory, goes to deep cerebellar nuclei. From here it goes to cerebral cortex where corrective movements are generated if needed.
-            (IMAGE here)
+
+            ![](Images/purk.jpg)
             * **Pontire nucleous** - receive info about _intended_ movement. Extend out into mossy fibers which synapse with granule cells. Granule cells send up its own axon that synapse the _Purkinje cells_ using parallel fibers.
             * **Inferior olive of Myelencephalon** - Gets input about _actual_ movements, synapse with _Purkinje cells_ using climbing fibers, wrap dendrites.
             * **Deep cerebellum nuclei** - gets info from _Purkinje cells_ about actual and intended movements; output corrected movement is sent to motor cortex if needed.
             * Damage to cerebellum - intended movement is jerky
         * **Myelencephalon** - _Medulla oblongata_, continuation of spinal cord. Blood rate, breathing, coughing, gagging. Controls basic functions, required for survival.
-### 9-1
+
 ## CNS
   * Coming off the brain on its ventral side are 12 cranial nerves, go between brain and periphery
     * **Optic nerve(II)** - lateral geniculate to eye
   * Spinal cord is CNS that is more directly innervating
   * x-section(transverse) - white matter(mylin axons) and grey matter(cell bodies)
-  (IMAGE)
+
   ![spine](Images/spinal_cord_cs_diagram.jpg)
   * Central canal, Dorsal horn and ganglia, ventral horn and ganglia
   * Spinal cord shows some basic features of the CNS
     * Tubular nature, continuous with ventricles in brain, central caral of spinal cord
       * filled with and surrounded by cerebrospinal fluid _CSF_
       Contains the correct ionic balance for neural functions and a few proteins
-        * Produced from blood in _chorid plexus_ in addition to ionic balance, its important as a shock absorber
+        * **Cerebrospinal fluid** - Produced from blood in _chorid plexus_ in addition to ionic balance, its important as a shock absorber
     * Grey and white matter
   * **Meninges** - Surrounding the CNS, set of 3 membranes
     * CSF bathes the CNS inside the meninges "sheath"
     * CSF reabsorbed at the meninges
-  * **Blood brain barrier** - also regulates what ions/proteins reach brain
-    * Capillary endothelial cells in CNS are joined by the tight junctions. Stuff cannot exit or enter these capillaries unless they pass through endothelial cells membranes.
+  * **Blood brain barrier** - also regulates what ions/proteins reach brain. Capillary endothelial cells in CNS are joined by the tight junctions. Stuff cannot exit or enter these capillaries unless they pass through endothelial cells membrane using small lipid soluable molecules or transporters.
       * small lipid soluble molecules, water
       * Transporters in the cell membrane can move molecules
         * Glucose transporter
-    * _Astrocytes_ play a role, structures (feet) extend and surround capillary. Secrete molecules/proteins to stimulate endothelial cells of capillaries to regulate tightness of  tight junction, regulate permeability of blood brain barrier.
+    * **Astrocytes** -  Secrete molecules/proteins to stimulate endothelial cells of capillaries to regulate tightness of tight junction, regulate permeability of blood brain barrier.
     * To get drugs to CNS, must deal with BBB
       * tiny and lipid soluble ok
       * or attach to nano-particles which get transported
-### PNS - Autonomic nervous system
+
+## PNS - Autonomic nervous system
   * also includes peripheral nerves
   * 3 major divisions
     * Sympathetic
     * Parasympathetic
     * Enteric
     * For S and PS, many of the cell bodies are in the CNS
-      * **Sympathetic** neurons in spinal cord send axons out of cord to sympathetic ganglion where a synapse is made
+      * **Sympathetic** - Fight or flight responses. ACh and norepinephrine as NT
         * Preganglionic fiber, neurotransmitter is *ACH*
         * Postsynaptic cell in the sympathetic ganglion extends axon to organs (postganglionic fiber), long. Neurotransmitter is *norepinephrine*
           * **norepinephrine** - fight or flight, causes effects like inc hr, inc blood flow to muscles, sweat, inhibit digestion, mobilizes glucose, activates adrenal glands, dialates pupils.
-      * **Parasympathetic**
+      * **Parasympathetic** - Rest and digest responses. ACh only as NT.
         * nerve bodies in CNS but in brainstem and in the sacral region of spinal cord
         * sends axons (preganglionic fibers) out to ganglia which are close to or on the organ innervated
           * long preganglion fiber, short postganglionic fiber
@@ -193,9 +177,9 @@
       * Neurons interact with each other for peristalsis
       * Many neurotransmitters
 
-### Anatonomy in neurons
+## Anatonomy in neurons
   * **Neuronal membrane** - Phospholipid bilayer. Phosphate head is hydrophilic
-  * Proteins ca move a bit, some cant move that much.
+  * Proteins can move a bit, some cant move that much.
   * Proteins in neurons
     * Transport proteins
     * Ion Channels
@@ -216,8 +200,7 @@
             * use 58 instead of 25 if use log base 10 (?)
             * 58 log([ion]out/[ion]in)
           * usual mammalian cells have out 106mM,in 4mM
-      * The **driving force** - tells you the strength of the forces acting on each ion, it is the difference between the membrane potential and the ion's equilibrium potential
-       * F_Driving = V_m - E_ion
+      * The **driving force** - tells you the strength of the forces acting on each ion, it is the difference between the membrane potential and the ion's equilibrium potential. df = V_m - E_ion (membrane potential - equilibrium potential)
        * The direction of the ion inside or out of the neuron depends on the sign of the driving force and the charge of the ion
        * When you calculate the driving force, assume this is the value of the ion
          * "Sees" inside of the neuron
@@ -227,7 +210,7 @@
     * resting potential is not the same as the equilibrium potential for K+
     * Driving force pushes K+ out
     * Na+ has strong driving force, can leak a little when channels are not open
-    * **Na+/K+** - pump to counteract leak. Removes 3 Na+, brings in 2K+, uses 1 ATP
+    * **Na+/K+** - pump to counteract leak. Removes 3 Na+ from cell, brings in 2K+, uses 1 ATP
   * Membrane potential is not = to equilibrium potential  
     * Na+, K+, Cl- are important for determining membrane potential, Vm, because they pass through specific ion channels in the membrane
     * Each ion has a specific permeability though the membrane
@@ -236,7 +219,7 @@
       * squid axon at rest - PK+:PNa+:PCl- ; 1:0.4:0.45
       * How to determine Vm at rest?
       * use [ions] and P_ions using *goldman equation (constant field equation)*
-      * **Membrane potential** = 58 log([ (Pk+)[K+]out * (PNa+)[Na+]out * (PCl-)[Cl-]in ]/[ (Pk+)[K+]in * (PNa+)[Na+]in * (PCl-)[Cl-]out ])
+      * **Membrane potential at rest** = 58 log([ (Pk+)[K+]out * (PNa+)[Na+]out * (PCl-)[Cl-]in ]/[ (Pk+)[K+]in * (PNa+)[Na+]in * (PCl-)[Cl-]out ])
       * Why is cl in/out? - because -log a/b = logb/a
       * Given K+:Na+:Cl- permeability ratio 1:0.4:0.45 and concentrations of 20mM,400mM:440mM,50mM:560mM,51mM
         * > Vm = 58 log([ 20mM * (0.4)440mM * (0.45)51mM ]/[ 400mM * (0.4)50mM * (0.45)560mM ])
@@ -253,7 +236,7 @@
         * > Vm = +42 mV
         * Large difference during AP from -60 to 42
 
-      * **Action potential** - come about as there is a transient increase in Pna+. Not for long, ~1msec
+      * **Action potential** - come about as there is a transient increase in PNa+. Not for long, ~1msec
         * Vm over time
         * **AP steps** - start at -60(Resting), spike up positive(depolarization), Peak(overshoot), Falling phase(repolarization), dip back below -60(undershoot/hypopolarization) for a split second, back to -60(Resting) all in 1msec
         * Called spikes
@@ -267,11 +250,25 @@
         * one more Na+ entering tips the balance of open Na+ channels that cause many more to enter a + feedback loop,
         * Vm becomes more positive -> opening Na+ channels -> Na+ exits neuron -> Vm becomes more positive
         * Vm will rapidly become more positive until Vm nears Ena+(equilibrium)
+        * **Peak of AP** -  Vm nears Ena+(equilibrium) around +42
+        * Vm rapidly declines after reaching this peak
+          * sodium channels close quickly after opening
+          * Voltage gated k+ channels opening, driving force is large (-75)
+          * 82 mV - (-75mV) = +117 mV Driving force
+          * k+ want to leave, which drops the VM back down
+          * As AP Vm goes down, Na+ channels are almost all closed
+          * V-gated k+ channels and k+ leak channels are opening
+            * Vm reaches Ek+, Vm reaches lowest point here at undershoot
+          * V-gated Na+ channels start to reopen and k+ v-gated channels start to close, reach equilibrium again
+          * During the refractory period, neuron will not fire without a large Vm.
+        * How do we know Na+ is responsible for the AP
+          * Change [Na] out or in to look at the effects on AP
+          * The amount of Na that actually passes through the membrane is small per AP, Need to fire 300K AP to double Na+ inside the cell
 
-        -- missed lecture --
+          -------------- Test 1 material done---------------
 
         * Na+ is 20 times more permeable than K+ at AP - how do we know?
-          * **Voltage clamp** - allows you to measure how permeable a membrane is and how ions are moving across it in real time. 2 electrodes needed inside cell
+          * **Voltage clamp** - allows you to measure how permeable a membrane is and how ions are moving across it in real time. 2 electrodes needed inside cell. One to measure Vm, one to pass current.
             * one electron to measure Vm - info sent to voltage clamp circuitry
             * **Command voltage** - you tell the circuitry what you want Vm to be
             * **voltage clamp circuitry** - look at Vm is, where you set it (command voltage), then pass current into cell to make them match using the second electrode
@@ -282,6 +279,7 @@
               * I over time, outward above 0, inward below 0
 
             * **Current during action potential measured by clamp:**
+
 ```
             |           / ------------- \
             |          /                 \
@@ -289,7 +287,9 @@
             |  \ ----/
             |
 ```
+
             * **Set Vm to -40 in squid (below threshold at -20)**
+
 ```
             |
         Vm  |   |---------|(-40)
@@ -303,7 +303,9 @@
             |   \--------/''''' (Overall inward current)
             |
 ```
+
             * Set above threshold
+
 ```
             |   |---------|(-20)
         Vm  |   |         |
@@ -317,6 +319,7 @@
             |   \____/ (initial inward of Na)
             |
 ```
+
             * **Set Vm to +26mV**
               * compared to previous, smaller inward current and larger outward current
                 * because driving force on Na+ when Vm is +26
@@ -328,6 +331,7 @@
                 * BUT for K+, at Vm = -20, df is -20 -(-75) = +55mV
                   * but when Vm = +20mV
                   * df is 26mV -(-75) = +101mV, Much bigger!!
+
 ```
             |   |---------|(+26)
         Vm  |   |         |
@@ -344,6 +348,7 @@
             |   \----/ (smaller initial inward of Na)
             |
 ```
+
             * **Set Vm to +55mV or Driving force of Na+(ENa+)**
               * df = 55-55 = 0 mV
               * No inward current at all but a large outward current because we are even further from eq potential for K+
@@ -364,9 +369,11 @@
             |   (Na+ neither comes in or leaves)
             |
 ```
+
             * **Set Vm to +65, 10 mB more positive that Ena+**
               * df = 65 - 55 = +10mV
               * Two outward currents
+
 ```
                              ________
             |               /        \
@@ -375,6 +382,7 @@
         I  0|-----------------------------------------------
             |        ( ^ Na+ leaves)
 ```
+
             * You can determine resistance of membrane V = IR - ohms law
             * Conductance is the inverse of resistance:  G = (1/R)
             * By calculating G over AP, you can see:
