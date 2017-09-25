@@ -267,18 +267,19 @@
 
           -------------- Test 1 material done---------------
 
-        * Na+ is 20 times more permeable than K+ at AP - how do we know?
-          * **Voltage clamp** - allows you to measure how permeable a membrane is and how ions are moving across it in real time. 2 electrodes needed inside cell. One to measure Vm, one to pass current.
-            * one electron to measure Vm - info sent to voltage clamp circuitry
-            * **Command voltage** - you tell the circuitry what you want Vm to be
-            * **voltage clamp circuitry** - look at Vm is, where you set it (command voltage), then pass current into cell to make them match using the second electrode
-            * What you read out of the _voltage clamp_ is the _current_ it must pass into the cell to hold Vm at a certain level
-            * Counteract current(I) from increased Vm from clamp. if AP threshold is not met, current only slightly changes to oppose current. Above threshold it activates an AP
-            * Current over time plot:
-            (IMAGE) instead of Vm over time of an AP, in a voltage clamp where we set Vm above threshold:
-              * I over time, outward above 0, inward below 0
+* Na+ is 20 times more permeable than K+ at AP - how do we know?
+  * **Voltage clamp** - allows you to measure how permeable a membrane is and how ions are moving across it in real time. 2 electrodes needed inside cell. One to measure Vm, one to pass current.
+    * one electron to measure Vm - info sent to voltage clamp circuitry
+    * **Command voltage** - you tell the circuitry what you want Vm to be
+    * **voltage clamp circuitry** - look at Vm is, where you set it (command voltage), then pass current into cell to make them match using the second electrode
+    * What you read out of the _voltage clamp_ is the _current_ it must pass into the cell to hold Vm at a certain level
+    * Counteract current(I) from increased Vm from clamp. if AP threshold is not met, current only slightly changes to oppose current. Above threshold it activates an AP
+    * Current over time plot:
+    (IMAGE) instead of Vm over time of an AP, in a voltage clamp where we set Vm above threshold:
+      * I over time, outward above 0, inward below 0
 
-            * **Current during action potential measured by clamp:**
+    * **Current during action potential measured by clamp:**
+
 
 ```
             |           / ------------- \
@@ -288,7 +289,7 @@
             |
 ```
 
-            * **Set Vm to -40 in squid (below threshold at -20)**
+* **Set Vm to -40 in squid (below threshold at -20)**
 
 ```
             |
@@ -304,7 +305,7 @@
             |
 ```
 
-            * Set above threshold
+* Set above threshold
 
 ```
             |   |---------|(-20)
@@ -320,17 +321,18 @@
             |
 ```
 
-            * **Set Vm to +26mV**
-              * compared to previous, smaller inward current and larger outward current
-                * because driving force on Na+ when Vm is +26
-                  * df = vm - E_ion
-                  * 26mV - 55 = -29mV
-                * while at -20mV for Vm
-                  * df = -20 - 55 = -75mV
-                * For Na+, driving force is less at +26mV so inward current it carries is less
-                * BUT for K+, at Vm = -20, df is -20 -(-75) = +55mV
-                  * but when Vm = +20mV
-                  * df is 26mV -(-75) = +101mV, Much bigger!!
+* **Set Vm to +26mV**
+  * compared to previous, smaller inward current and larger outward current
+    * because driving force on Na+ when Vm is +26
+      * df = vm - E_ion
+      * 26mV - 55 = -29mV
+    * while at -20mV for Vm
+      * df = -20 - 55 = -75mV
+    * For Na+, driving force is less at +26mV so inward current it carries is less
+    * BUT for K+, at Vm = -20, df is -20 -(-75) = +55mV
+      * but when Vm = +20mV
+      * df is 26mV -(-75) = +101mV, Much bigger!!
+
 
 ```
             |   |---------|(+26)
@@ -349,9 +351,10 @@
             |
 ```
 
-            * **Set Vm to +55mV or Driving force of Na+(ENa+)**
-              * df = 55-55 = 0 mV
-              * No inward current at all but a large outward current because we are even further from eq potential for K+
+* **Set Vm to +55mV or Driving force of Na+(ENa+)**
+  * df = 55-55 = 0 mV
+  * No inward current at all but a large outward current because we are even further from eq potential for K+
+
 
 ```
             |   |---------|(+55)
@@ -370,9 +373,9 @@
             |
 ```
 
-            * **Set Vm to +65, 10 mB more positive that Ena+**
-              * df = 65 - 55 = +10mV
-              * Two outward currents
+* **Set Vm to +65, 10 mB more positive that Ena+**
+  * df = 65 - 55 = +10mV
+  * Two outward currents
 
 ```
                              ________
@@ -383,8 +386,71 @@
             |        ( ^ Na+ leaves)
 ```
 
-            * You can determine resistance of membrane V = IR - ohms law
-            * Conductance is the inverse of resistance:  G = (1/R)
-            * By calculating G over AP, you can see:
-              * Conductance of Na+ high at beginning of AP, lower later during AP - V-gated channels and soon close
-              * K+ conductance high and peaks later than Na+ in AP - V-gated channesl open with a slight delay and stay open for a while
+
+* You can determine resistance of membrane V = IR - ohms law
+* Conductance is the inverse of resistance:  G = (1/R)
+* By calculating G over AP, you can see:
+  * Conductance of Na+ high at beginning of AP, lower later during AP - V-gated channels and soon close
+  * K+ conductance high and peaks later than Na+ in AP - V-gated channels open with a slight delay and stay open for a while
+
+-- missed lecture --
+
+* Patch clamp records 100's of brief recordings that show activities of a few channels in presence of TEA, to block K+
+  * See these at various times in different recordings, but if you sum up the activity over 100s of these recordings, it looks like a 'typical' TEA treated inward current
+
+```
+            |         
+        I  0|-----------------
+            |    |-|   (Brief inward current that turns on and off)
+            |          
+
+
+            |         
+        I  0|-----------------
+            |    \___/   (Typical TEA treatment inward current)
+            |
+```
+
+
+* Block channels with TTX - Patch clamp with voltage clamp conditions well above threshold
+  * Confirms that A.P. is due to an inward current carried by Na+ that shuts off, a slightly delayed outward current carried by K+ that is long lasting
+
+```
+                  ____________
+      out   |    /            (long lasting outward current)
+           0|-----------------
+      in    |    
+            |          
+
+            |    |-|      (individual channels are opening longer than Na+ channels a lot)
+           0|-----------------
+            |    
+            |     
+```
+
+* **4 types of v-gated channels have been identified** - Na+, K+, Ca++, Cl-
+* K+ are most varied in properties
+* Molecular features of ion channels  
+  * membrane spanning regions - with repeated spars
+  * a central pore for ions to pass through
+  * a loop of amino acids lining the pore, which aids selectivity of the channels
+  * also for selectivity, have a constricted region called the selectivity filter
+  * some kind of gate that can be opened and closed
+    * selectivity can be based on ion size
+      * for Na+ and K+ usually hold H20 tightly, Na+ carries 3+ water molecules, K+ carries 2.
+      * **We can restrict Na+ from a K+ channels using** - small size, even though Na+ is technically smaller than K+. Water molecule binding(Na+ carries 3+ water molecules, K+ carries 2)
+      * **We can restrict K+ from a Na+ channels using** - Magic. Still unknown
+      * Na+ channels:
+        * a single protein transcribed from one generate
+          * 6 membrane spanning regions, each organized 4 domains arranged in a ring with a pore down the center
+        * Voltage sensor may be the S4 helix found in each domain. It is covered in pos charged lysine.
+          * when interior of cell (Vm) becomes more positive, S4 helixes are repelled and move, opening the channels
+        * Have 2 gates
+          * Activation gate - opens as soon as Vm becomes more (+), Na+ passes through the channel
+          * But the activation gate's opening triggers the inactivation gate to move (closes), shutting off Na+ movement even though the activation gate may still be open.
+          * Activation gate eventually shuts off with Vm becoming more negative
+      * Ca++ channels:
+        * also have membane spanning helicies arranged in 4 domains
+        * several different Ca++ channel genes so several different varieties (like Na+)
+      * Cl- also from one protein
+      * K+ Channels are assembled from 4 seperately transcribed subunits. Can be combined to various ways to impart various features on the K+ channel's function much more variability in K+ Channels
