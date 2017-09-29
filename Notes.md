@@ -454,3 +454,88 @@
         * several different Ca++ channel genes so several different varieties (like Na+)
       * Cl- also from one protein
       * K+ Channels are assembled from 4 seperately transcribed subunits. Can be combined to various ways to impart various features on the K+ channel's function much more variability in K+ Channels
+      * **K+ Channel in squid axon** - Opens when Vm is becoming +, closes when vm is -
+        * **delayed rectifier channel** - K+ channel stays open as long as Vm is positive
+        * **The A Channel** - k+ Channel that closes shortly after it opens, Ball and chain idea. Enterance is blocked by ball quickly after it opens
+        * **M Channels** - Muscarine activates them, acts similar to delayed rectifier (not Vm)
+        * **S Channels** - Seratonin activates them, acts similar to delayed rectifier (not Vm)
+        * **Ca++ activated K Channel** - Opens in response to Ca++ inside cell reaches certain level
+
+        * **Bursty Cell** - Membrane depolarizes, crosses thresgold, AP fires until Vm drops below threshold again. Usually used for rhythmic activity
+          1. Leakage Ca++ channels - responsible for depolarization as leak into cell, causes crossing of threshold and keeps it there, opens Na+ channels
+          2. V-gated Na+ Channels - typical behavior, leads to firing as long as Vm > threshold
+          3. V-gated K+ Channels - typical behavior, leads to firing as long as Vm > threshold
+          4. Ca++ activated k+ channels - More K+ leaves cell, brings back toward rest
+          5. Ca++ pumps remove excess Ca++ inside cell so Ca++ activated k+ channels _close_.
+
+        '''
+        55  |      _|__|__
+        0   |     /   |  | \
+        -60 |----/          \ --
+        '''
+
+        * **Channelopathies** - genetic mutations of ion channels
+        * Ca++ Channels are sometimes mutated can be truncated and lead to abnormal limb movement, nausea, headache, vertigo, brought by stress and stops after a few hours
+        * Na+ chnnel mutation can lead to seizures, one tpye is only in children, stops in puberty
+        * In muscle - **Myotonia congenita** - mutation of Cl- channel, Cl- channels keep Vm below threshold. When animal wants to carry out muscle action, muscle depolarizates and contracts, without proper Cl- function it keeps depolarizing and, "seizes up" and animal freezes
+        * AP Propogation
+          * generated on one patch of membrane
+          * + charge moves away from spot since it is repelled and natural diffusion
+          * Ap is generated nearby because AP at first site is still in refractory period, AP at section 2 cannot go back to 1, propogates down the axon instead.
+          * How quickly the AP can move depends on how easily charges can move within it
+            * internal resistance of the cytoplasm is _Ri_
+            * Larger diamater, lower resistance
+            * Squids have large axons to conduct AP's rapidly
+            * Giant axons are fast as well
+          * speed also depends on leakage
+            * leaky membrane, charges are lost and dont move as fast
+            * leaky membrane is one with plenty of open ion channels got charges to exiy
+            * conductance g is hight _Rm_ = 1/g_m
+          * the distance a given charge in Vm can travel before declining to a certain level is the length constant lambda = sqrt(Rm/Ri)
+            * how far an AP spreads
+            * lambda is the distance the charge in Vm can travel before it declines to Ve of it original value.
+            * (graph) at 0, inject current and change Vm (exponential decline on either side)
+            * Rm- how easily charges cross membrane
+            * Ri - determines how easily charges move inside
+
+          '''
+            |          /\
+            |         /  \
+        Vm  |     __/      \__   <- (Vm = Ve)
+  (rest   _ |____/             \____
+            |
+            ------------------------
+                  Distance (microns)
+          '''
+
+          * a different set of factors determine how quickly the charges can change Vm ( to reach threshold if you want to  generate an AP). This is represented by _time constant_ Tau
+            * _Tau_ depends on membrane cpacitance Cm
+            * Charge outsize the membrane detect charges inside the membrane (because membrane is thin), they will line up inside to counteract them (because opposites charges attract). Nothing can cross the membrane until internal and external charges have balances each other across the membrane.
+
+            ''' Neuronal membrane:
+              (outside axon)
+              + + + + + +
+              ___________ <- chargable plate
+                          <- (non conductive)
+              ___________ <- chargable plate
+              - - - - - -
+              (inside axon)
+            '''
+
+            * Becasue of Cm, a sudden change in Vm due to you injecting current into an axon, you inject this current  
+            ''' I = ___|-----|___'''
+            * The axon membrane soes this:
+            ''' Vm = ___/----\___'''
+            * This is due to the capacitance
+            * Tau tells  you how long it takes foe Vm to reach 1 - 1/e of the  final Vm
+              * Tau = Cm*Rm
+            * To optimize speed of AP, you would want a long lambda and a short time constant
+              * but Tau = Cm*Rm and lambda = Rm/Ri
+                * Cotradiction!
+          * What is the role of myelin
+            * electric insulator
+            * Thick enough so charges inside axon cant detect charges outside axon
+            * At nodes with no myelin, axons have a high conc of v gated Na+ channels, therefore lower thesholds
+            * very few v-gated Na channels remain under myelin, K+ channels more evenly distributed. But myelin blocks channels
+            * the small Cm of myelin lowers the Tau ( time needed for charges to move) and raises the lambda as charges dont leak back out
+            * So a Vm Change  at one point  on a myelinated axon can move farther, faster than one on unmylenated axon.
