@@ -491,7 +491,7 @@
             * leaky membrane, charges are lost and dont move as fast
             * leaky membrane is one with plenty of open ion channels got charges to exiy
             * conductance g is hight _Rm_ = 1/g_m
-          * the distance a given charge in Vm can travel before declining to a certain level is the length constant lambda = sqrt(Rm/Ri)
+          * the distance a given charge in Vm can travel before declining to a certain level is the _length constant_ lambda = sqrt(Rm/Ri)
             * how far an AP spreads
             * lambda is the distance the charge in Vm can travel before it declines to Ve of it original value.
             * (graph) at 0, inject current and change Vm (exponential decline on either side)
@@ -509,7 +509,7 @@
           '''
 
           * a different set of factors determine how quickly the charges can change Vm ( to reach threshold if you want to  generate an AP). This is represented by _time constant_ Tau
-            * _Tau_ depends on membrane cpacitance Cm
+            * _Tau_ depends on membrane capcitance Cm
             * Charge outsize the membrane detect charges inside the membrane (because membrane is thin), they will line up inside to counteract them (because opposites charges attract). Nothing can cross the membrane until internal and external charges have balances each other across the membrane.
 
             ''' Neuronal membrane:
@@ -529,7 +529,7 @@
             * This is due to the capacitance
             * Tau tells  you how long it takes foe Vm to reach 1 - 1/e of the  final Vm
               * Tau = Cm*Rm
-            * To optimize speed of AP, you would want a long lambda and a short time constant
+            * To optimize speed of AP, you would want a long lambda and a short _time constant_
               * but Tau = Cm*Rm and lambda = Rm/Ri
                 * Cotradiction!
           * What is the role of myelin
@@ -539,3 +539,42 @@
             * very few v-gated Na channels remain under myelin, K+ channels more evenly distributed. But myelin blocks channels
             * the small Cm of myelin lowers the Tau ( time needed for charges to move) and raises the lambda as charges dont leak back out
             * So a Vm Change  at one point  on a myelinated axon can move farther, faster than one on unmylenated axon.
+          * Space constant -
+* Types of transmission
+  * **Electrical Synaptic Transmission** - ionic charge moves directly between neurons through channels (Connexons)
+    * **Connexons** - located on membranes of the pre and postsynaptic neurons, which meet at a gap junction. Pre synaptic cell line up with post synaptic cell connexons to make a channel. Made up of 6 subunits with a channel down the middle. This is often not a very specific channel, ions flow either direction.
+      * Current from neuron a can be recorded at neuron b and vice versa.
+      * The current you record or charge in Vm in the postsynaptic cell can be recorded with almost no delay
+      * You don't need an AP in the presynaptic cell to get detected in the post synaptic cell, a sub threshold signal will still pass
+      * Signal will be reproduced in postsynaptic cell. It can be depolarizing or hyperpolarizing
+    * Electrical synapses are fast, reliable, have some flexibility
+      * seen in escape circuts  - allows animals to make quick getaways
+      * where you want to coordinate groups of neurons
+  * **Chemical** - synapses offer flexibility
+    * synaptic cleft is a physical sace between neurons
+    * presyn neuron shows synaptic vesicles containing neurotransmitters
+    * signal passes only from pre to post
+    * post signal can be different from pre
+      * pre AP can turn into a hyperpolarization post
+      * pre AP can turn into  an amplified post AP
+    * synapse needs extracellular Ca++ to pass a signal. Substituting Mg++ for Ca++ in saline will block synaptic transmission
+    In a chemical synapse, the receptor on the post membrane is an important factor in what the post cells response will be to  wheter excitaroty or inhibitory strong or weak etc.
+    * Overview of what happens at an electric synapse
+      * pre cell depolarizes (hyperpolarization)
+      * ionic charges move from pre->post cell
+      * postsynaptic cell shows similar response to presynapctic with minimal delay
+    * CHemical synapse
+      * pre cell depolarizes
+      * ca++ enters the pre cell terminal
+      * pre releases neurotransmitter
+      * neurotransmitter diffuses across the synaptic cleft
+      * binds a receptor for it on the postsynaptic membrane
+      * neurotransmitter bound to that receptor opens an ion channel (or close it)
+      * neurotransmitter is wither taken back into presynaptic terminal or broken down or somehow dislodged from its receptor to end the signal
+    * Takes about half a millisecond, longer than electrical
+    * model syste for studying the chemical synaptic transmission is ACh at the neuromuscular junction
+      * Motor neuron fires a AP , muscle cell responds with a depolarizarion if large enough to cross threshold, the muscle cell will fire an action potential
+      * depolarization the muscle cell shows is called the endplate potential _epp_ or _psp_ 
+    * Excitatory
+    * Inhibitory  
+      * neuromodulation
