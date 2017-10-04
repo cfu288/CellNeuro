@@ -574,7 +574,97 @@
     * Takes about half a millisecond, longer than electrical
     * model syste for studying the chemical synaptic transmission is ACh at the neuromuscular junction
       * Motor neuron fires a AP , muscle cell responds with a depolarizarion if large enough to cross threshold, the muscle cell will fire an action potential
-      * depolarization the muscle cell shows is called the endplate potential _epp_ or _psp_ 
+      * depolarization the muscle cell shows is called the endplate potential _epp_ or _psp_ (postsynaptic potential)
+      * PSP - transient change in membrane potential,can spread a lot depending on space and tome constants is this is large enough to generate AP
+        * epsp -excitatory postsynaptic potential
+        * ipsp -inhibatory postsynaptic potential
+        * Ligand gated channels opened by neurotransmitters, not voltage
+        * What kind of ions pass through the channel when this ligand opens?
+          * for ACh oat neuromuscular hunction:
+            * voltage clamp postsynaptic cell causes currents to flow when you apply ACh
+          * suppose you set Vm to different level - each time,apply ACh to open channels and look at currents
+          * if the channel allows only Na+ to pass, you would predict no net current flowing at ENa+
+              '''
+              | ( v ACh added)
+              |
+              |-------------------------------
+              |   \___/ (inward current)
+              |
+
+              |
+              |   (depolarization)
+          Vm  |    ____
+       rest   |---/    \---------------
+      -60     |____________________________
+          '''
+          * No net K+ flowing out
+
+          '''
+              | ( v ACh when Vm= -75)
+              |
+          0   |-------------------------------
+              |   \   / (inward current)
+              |    \_/
+
+              |
+              |  (larger depolarization)
+          Vm  |    ____
+         -60  |---/    \---------------
+        -75   |____________________________
+          '''
+
+          '''
+              | ( v ACh when Vm= -10)
+              |
+          0   |-------------------------------
+              |   (no net current)
+              |    
+
+              |
+              |
+          Vm  |   
+          -10 |--------------------------
+          -60 |____________________________
+          '''
+          * flow in  = flow out of Na+ and K+
+
+
+          '''
+              | ( v ACh when Vm= +10)
+    out       |    ___
+          0   |---/   \------------------------
+              |   (no net current)
+              |    
+
+              |
+          10  |----\___/------------------
+          Vm  |   
+              |
+              |____________________________
+          '''
+          * This happens because Ach oppens a channel that allows passage of both Na+ and K, but k flows out
+        * Reversal potential is Vmwhere the Na+ entering is balanced by K+ exiting and therer is not net current. will see no change in Vm when apply ACh
+        * Vrev in this case when PNa+ = P +
+        Vrev = Ena + Ek /2 -> halfway between equilibrium potentials
+        * V = IR, V is voltage from battery (driving force on ion), I is current ion carries, R is 1/G conductance of membrane to ion
+          * for ion A, V = Vm - Ea) = Ia(1/gn)
+          * Ia = ga(Vm - Ea)
+          * At Vrev, Ia = -Ib for no net current
+          * for ACh gated channel at neuromuscular junction INa = -IK
+          * At Vrev, Vm = Vrev so we can say Ina = -Ik
+            * gna(vrev - Ena) -gk(Vrev-Ek)
+            * Vrev-Ena = (gk (Vrev -Ek) )/ gna
+            * if gNa =G k+
+              * Vrev - Ena =-Vrev + Ek+
+              * 2Vrev = Ek + Ena
+              * Vrev = (Ena + Ek) /2
+          * What if the channel is permiable to 2 ions but its more permiable to one ion than the other.
+          * If say gNA is n times greaterthan g k then (gk) n = gna
+            * and then in this case (gk+)n = gna+ so can substitute (gk+) for gna+
+              * (gk+)n(Vrev - Ena+) = - gk+(Vrev - Ek+)
+              * You end up with Vrev = n(Ena+) + (Ek+)/ n+1 [how many more times Na+ is permiable over K+, if K+ is more either use a frac or move n in front of ek+]
+          * for an epsp, Vrev is aor above threshold
+          * for an ipsp, Vrev is below threshold. "guess"timate threshold is around -20mV 
     * Excitatory
     * Inhibitory  
       * neuromodulation
