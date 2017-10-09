@@ -495,8 +495,8 @@
             * how far an AP spreads
             * lambda is the distance the charge in Vm can travel before it declines to Ve of it original value.
             * (graph) at 0, inject current and change Vm (exponential decline on either side)
-            * Rm- how easily charges cross membrane
-            * Ri - determines how easily charges move inside
+            * **Rm** - how easily charges cross membrane
+            * **Ri** - determines how easily charges move inside
 
           '''
             |          /\
@@ -509,7 +509,7 @@
           '''
 
           * a different set of factors determine how quickly the charges can change Vm ( to reach threshold if you want to  generate an AP). This is represented by _time constant_ Tau
-            * _Tau_ depends on membrane capcitance Cm
+            * _Tau_ depends on membrane capcitance **Cm**
             * Charge outsize the membrane detect charges inside the membrane (because membrane is thin), they will line up inside to counteract them (because opposites charges attract). Nothing can cross the membrane until internal and external charges have balances each other across the membrane.
 
             ''' Neuronal membrane:
@@ -527,7 +527,7 @@
             * The axon membrane soes this:
             ''' Vm = ___/----\___'''
             * This is due to the capacitance
-            * Tau tells  you how long it takes foe Vm to reach 1 - 1/e of the  final Vm
+            * **Tau** - tells  you how long it takes for Vm to reach 1 - 1/e of the  final Vm
               * Tau = Cm*Rm
             * To optimize speed of AP, you would want a long lambda and a short _time constant_
               * but Tau = Cm*Rm and lambda = Rm/Ri
@@ -538,7 +538,7 @@
             * At nodes with no myelin, axons have a high conc of v gated Na+ channels, therefore lower thesholds
             * very few v-gated Na channels remain under myelin, K+ channels more evenly distributed. But myelin blocks channels
             * the small Cm of myelin lowers the Tau ( time needed for charges to move) and raises the lambda as charges dont leak back out
-            * So a Vm Change  at one point  on a myelinated axon can move farther, faster than one on unmylenated axon.
+            * So a Vm Change  at one point  on a myelinated axon can move farther, faster than one on unmyelenated axon.
           * Space constant -
 * Types of transmission
   * **Electrical Synaptic Transmission** - ionic charge moves directly between neurons through channels (Connexons)
@@ -664,7 +664,11 @@
               * (gk+)n(Vrev - Ena+) = - gk+(Vrev - Ek+)
               * You end up with Vrev = n(Ena+) + (Ek+)/ n+1 [how many more times Na+ is permiable over K+, if K+ is more either use a frac or move n in front of ek+]
           * for an epsp, Vrev is aor above threshold
-          * for an ipsp, Vrev is below threshold. "guess"timate threshold is around -20mV 
+          * for an ipsp, Vrev is below threshold. "guess"timate threshold is around -20mV
     * Excitatory
     * Inhibitory  
       * neuromodulation
+      --- missed notes handwritten ---
+      ___ end of test 2 material ___
+
+    * 
