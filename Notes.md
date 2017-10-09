@@ -642,33 +642,57 @@
               |
               |____________________________
           '''
-          * This happens because Ach oppens a channel that allows passage of both Na+ and K, but k flows out
-        * Reversal potential is Vmwhere the Na+ entering is balanced by K+ exiting and therer is not net current. will see no change in Vm when apply ACh
-        * Vrev in this case when PNa+ = P +
-        Vrev = Ena + Ek /2 -> halfway between equilibrium potentials
-        * V = IR, V is voltage from battery (driving force on ion), I is current ion carries, R is 1/G conductance of membrane to ion
-          * for ion A, V = Vm - Ea) = Ia(1/gn)
-          * Ia = ga(Vm - Ea)
-          * At Vrev, Ia = -Ib for no net current
-          * for ACh gated channel at neuromuscular junction INa = -IK
-          * At Vrev, Vm = Vrev so we can say Ina = -Ik
-            * gna(vrev - Ena) -gk(Vrev-Ek)
-            * Vrev-Ena = (gk (Vrev -Ek) )/ gna
-            * if gNa =G k+
-              * Vrev - Ena =-Vrev + Ek+
-              * 2Vrev = Ek + Ena
-              * Vrev = (Ena + Ek) /2
-          * What if the channel is permiable to 2 ions but its more permiable to one ion than the other.
-          * If say gNA is n times greaterthan g k then (gk) n = gna
-            * and then in this case (gk+)n = gna+ so can substitute (gk+) for gna+
-              * (gk+)n(Vrev - Ena+) = - gk+(Vrev - Ek+)
-              * You end up with Vrev = n(Ena+) + (Ek+)/ n+1 [how many more times Na+ is permiable over K+, if K+ is more either use a frac or move n in front of ek+]
-          * for an epsp, Vrev is aor above threshold
-          * for an ipsp, Vrev is below threshold. "guess"timate threshold is around -20mV
-    * Excitatory
-    * Inhibitory  
-      * neuromodulation
+  * This happens because Ach oppens a channel that allows passage of both Na+ and K, but k flows out
+  * Reversal potential is Vmwhere the Na+ entering is balanced by K+ exiting and therer is not net current. will see no change in Vm when apply ACh
+  * Vrev in this case when PNa+ = P +
+  Vrev = Ena + Ek /2 -> halfway between equilibrium potentials
+  * V = IR, V is voltage from battery (driving force on ion), I is current ion carries, R is 1/G conductance of membrane to ion
+    * for ion A, V = Vm - Ea) = Ia(1/gn)
+    * Ia = ga(Vm - Ea)
+    * At Vrev, Ia = -Ib for no net current
+    * for ACh gated channel at neuromuscular junction INa = -IK
+    * At Vrev, Vm = Vrev so we can say Ina = -Ik
+      * gna(vrev - Ena) -gk(Vrev-Ek)
+      * Vrev-Ena = (gk (Vrev -Ek) )/ gna
+      * if gNa =G k+
+        * Vrev - Ena =-Vrev + Ek+
+        * 2Vrev = Ek + Ena
+        * Vrev = (Ena + Ek) /2
+    * What if the channel is permiable to 2 ions but its more permiable to one ion than the other.
+    * If say gNA is n times greaterthan g k then (gk) n = gna
+      * and then in this case (gk+)n = gna+ so can substitute (gk+) for gna+
+        * (gk+)n(Vrev - Ena+) = - gk+(Vrev - Ek+)
+        * You end up with Vrev = n(Ena+) + (Ek+)/ n+1 [how many more times Na+ is permiable over K+, if K+ is more either use a frac or move n in front of ek+]
+    * for an epsp, Vrev is aor above threshold
+    * for an ipsp, Vrev is below threshold. "guess"timate threshold is around -20mV
+* Excitatory
+* Inhibitory  
+* neuromodulation
       --- missed notes handwritten ---
-      ___ end of test 2 material ___
+      ___ end of test 2 material (no neuromodulation)___
 
-    * 
+    * Neuromodulation is slower to activate than neurotransmitter activity. It can also last longer.
+      * **Neuromodular** - indirect transmitter, lignad binds to metabotropic receptor, using g protein activates ion channel to open in
+      * Direct transmitter - ligand binds to channel to open it
+      * **G-proteins** - modulator binds to a receptor = metabotropic receptor. Bound receptor becomes activated and activates a G-Protein. Can lead to complex biochemical cascades
+      * **Metabotrophic receptors structurally** - have 7 transmembrane spanning regions. Have carboxy tail inside, amino terminus outside, binding site outside, bonding site for g-protein inside, phosphorylation sites which when phosphorylated, desensitize the membrane. Some are on carboxyl tail
+        1. transmitter/modulator binds at its receptor (specific)
+        2. on the inside, the receptor was bound to a G protein, when the neurotransmitter binds to the receptor, the f protein is activated.
+        3. G has 3 subinits, a,b,gamma, and bind GDP. sheds GDP, binds to GTP instead. At the same time, the g protein splits and the a subunit seperates from the b and gamma. Active.
+        4. Subunits, a and bg subunits go on to do things
+        5. a subunit is a GTPase, GTP -> GDP
+        6. a-GDP reassembles with bg and reforms the g protein. Also the receptor itself can desensitize and not bind anymore
+      * **Activated subunits can do many things**
+        * Muscarinic ACh receptor in the heart is metabotropic
+          * here the activated g proteins bg subunit binds directly to a K+ channel and conformationally opens channel, brings down membrane potential to slow down heartrate
+        * Experiment: apply ACh to the outside of a heart muscle membrane - in patch clamp lost of outward current. then find that using an inside out patch clamp apply activated bg subunit _only_ to inside of membrane
+        * see the same effect as applyinf ACH to outside
+        * Other metabotrophic systems are more complex
+        * the activated G protein subunits may activate second messenger biochemical cascades
+        * 2nd messengers include cAMP, cGMP, NO, Ca++, lipids like DAG, IP3
+        * may activate adenyl cyclase which makes cAMP and the cAMP can activate things
+        * for example: Activated Gprotein subunits may activate adente maylyl cyclase which then produces cAMP
+        * cAMP will activate a protein kinase, protein kinase puts a phosphate on to a protein (phosphorylates the protein) the phosphorylate dprotein could be an ion channel
+      * To terminate the activity:  
+        * the phosphate may be removed from the channel by a protein phosphatase
+        * cAMP can be broken down by phosphosterase
