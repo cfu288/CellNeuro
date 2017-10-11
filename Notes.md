@@ -403,7 +403,7 @@
 * neuromodulation
       --- missed notes handwritten ---
       ___ end of test 2 material (no neuromodulation)___
-
+## Neuromodulation
 * Neuromodulation is slower to activate than neurotransmitter activity. It can also last longer.
   * **Neuromodular** - indirect transmitter, lignad binds to metabotropic receptor, using g protein activates ion channel to open in
   * Direct transmitter - ligand binds to channel to open it
@@ -444,4 +444,26 @@
       * amplifies signal
       * effect can last a while (seconds or hours)
       * if active long enough, can make permanent changes through gene activation
-      * an activated receptor at one location can effect changes throughout the neuron
+      * an activated receptor at one location can effect changes throughout the neuron. Single neuromodulator can create an exponential amount of target proteins
+    * Final step is to get the modulator off the receptor to inactivate the cascade
+    * For neuro-transmitter or modulators, enzymes include:
+      * for ACh => acetylcholine esterase AchE
+      * for monoamines like Seratonin, Doplamine => monoamine oxidase MAO
+      * Diffusion away from the postsynaptic cell also negative effect
+      * Re-uptake mechanisms:
+        * presynaptic cell membrane take up transmitter or modulator and returns it to the presynaptic terminal for reuse
+
+## Neurotransmitter release from pre-synaptic terminal
+* Chemical synapses have a synaptic delay. (.5 msec)
+  * temperature sensitive, warmer is faster
+    * indicates delay involves more than time for diffusion (Diffusion estimated to take.5 msec)
+  * must take soe time to release the neurotransmitter
+  * Katz and Miledi 1960's - treat neuromuscular junction with small doses of TTX; find that postsynaptic potentials hae a minimum amplitude. PSPs are multiples of that minimum amplitude
+    * **minature endplate potential** - Minimum amplitude, aka mini quantal units. Equal to the release of one packet of neurotransmitters (1 vesicle).
+    * Continuing applying TTX to block all Na channels, then electrically(artificially using electrodes) stimulate presynaptic cell, still see PSPs in muscle.
+    * Can use TTX and TEA, still get transmitter release when electrically stimulate
+    * So : Na+ or K+ not needed, although depolarization is needed
+  * But: if Ca++ is removed from extracellular bath, no transmitter is released.
+  * Normally, a.p. in presynaptic cell reaches the terminal. The depolarization causes
+    * voltage gated Ca++ channels to open
+    * Ca++ enters to the point that [Ca++]in terminal can increase 200x
