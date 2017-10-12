@@ -4,7 +4,7 @@
   * **Voltage clamp** - allows you to measure how permeable a membrane is and how ions are moving across it in real time. 2 electrodes needed inside cell. One to measure Vm, one to pass current.
     * one electron to measure Vm - info sent to voltage clamp circuitry
     * **Command voltage** - you tell the circuitry what you want Vm to be
-    * **voltage clamp circuitry** - look at Vm is, where you set it (command voltage), then pass current into cell to make them match using the second electrode
+    * **Voltage clamp circuitry** - look at Vm is, where you set it (command voltage), then pass current into cell to make them match using the second electrode
     * What you read out of the _voltage clamp_ is the _current_ it must pass into the cell to hold Vm at a certain level
     * Counteract current(I) from increased Vm from clamp. if AP threshold is not met, current only slightly changes to oppose current. Above threshold it activates an AP
     * Current over time plot:
@@ -16,13 +16,13 @@
 
 ```
             |           / ------------- \
-            |          /                 \
+ Outside    |          /                 \
         I  0|-------------------------------------------------
-            |  \ ----/
+  Inside    |  \ ----/
             |
 ```
 
-* **Set Vm to -40 in squid (below threshold at -20)**
+* **Set Vm to -40 in squid (below threshold at -20)** - Small inward current, no outward current
 
 ```
             |
@@ -38,7 +38,7 @@
             |
 ```
 
-* Set above threshold
+* **Set Vm at threshold** - Initial normal inward and outward current.
 
 ```
             |   |---------|(-20)
@@ -54,8 +54,7 @@
             |
 ```
 
-* **Set Vm to +26mV**
-  * compared to previous, smaller inward current and larger outward current
+* **Set Vm to +26mV** - compared to setting at threshold, smaller inward current and larger outward current
     * because driving force on Na+ when Vm is +26
       * df = vm - E_ion
       * 26mV - 55 = -29mV
@@ -84,7 +83,7 @@
             |
 ```
 
-* **Set Vm to +55mV or Driving force of Na+(ENa+)**
+* **Set Vm to +55mV or Driving force of Na+(ENa+)** - No inward current, just outward
   * df = 55-55 = 0 mV
   * No inward current at all but a large outward current because we are even further from eq potential for K+
 
@@ -106,7 +105,7 @@
             |
 ```
 
-* **Set Vm to +65, 10 mB more positive that Ena+**
+* **Set Vm to +65, 10 mB more positive that Ena+** - Two outward currents, no inward
   * df = 65 - 55 = +10mV
   * Two outward currents
 
@@ -121,13 +120,23 @@
 
 
 * You can determine resistance of membrane V = IR - ohms law
-* Conductance is the inverse of resistance:  G = (1/R)
+* **Conductance** - the inverse of resistance:  G = (1/R)
 * By calculating G over AP, you can see:
-  * Conductance of Na+ high at beginning of AP, lower later during AP - V-gated channels and soon close
-  * K+ conductance high and peaks later than Na+ in AP - V-gated channels open with a slight delay and stay open for a while
-
--- missed lecture --
-
+  * **Conductance(G) of Na+** - high at beginning of AP, lower later during AP - V-gated channels and soon close
+  * **K+ conductance(G)** - high and peaks later than Na+ in AP - V-gated channels open with a slight delay and stay open for a while
+* How can you differentiate between which ions are responsible for which currents?
+  * Can v-clamp to Eion and should eiminate net current for ion. But problem for this. While it will work for Na+, if you v-clamp Ek+,this is so negative(-) that Na+ Channels wont open so you don't see any net current, need to set off v-gated channels
+* **TTX (Tetradotoxin)** - blocks Na+ channels. No inward Na+ flow, outward only. WE can now see how changing [K+] in and out can affect driving force.
+* **TEA (Tetraethyl Ammonium)** - blocks v-gated K+ channels, only inward current.  
+* **B toxin from scorpians** - causes Na+ channels to open at more (-) Vm than normal.Open sooner for lower Vm. V-clamp graph looks similar but the entire thing is shifted down toward inflow.
+* **B toxin and TEA** - stronger inflow, no outflow
+* **B toxin and TTX** - No inflow, normal outflow.
+* **Driving force** - tells you the strength of the forces acting on each ion, it is the difference between the membrane potential and the ion's equilibrium potential. df = V_m - E_ion (membrane potential - equilibrium potential)
+* **Dendrotoxin** - Causes massive firing of pain fibers, Vm is more depolarized than normal. Only influx, no outflux. Blocks K+ channels only, no affect on Na+ channels.
+* **Dendrotoxin with TTX** - no net current in or out.
+* **Dendrotoxin with TEA** - Normal in current only.
+![](Images/ttx.jpg)
+* **Patch clamp can be used as a voltage clamp** - Smooth pipette electrode is brought to cell membrane and sealed, allows you to record activity of all the channels inside the edges of the pipette.
 * Patch clamp records 100's of brief recordings that show activities of a few channels in presence of TEA, to block K+
   * See these at various times in different recordings, but if you sum up the activity over 100s of these recordings, it looks like a 'typical' TEA treated inward current
 
@@ -145,7 +154,7 @@
 ```
 
 
-* Block channels with TTX - Patch clamp with voltage clamp conditions well above threshold
+* **Block channels with TTX, patch clamp reading** - Patch clamp with voltage clamp conditions well above threshold
   * Confirms that A.P. is due to an inward current carried by Na+ that shuts off, a slightly delayed outward current carried by K+ that is long lasting
 
 ```
@@ -162,8 +171,8 @@
 ```
 
 * **4 types of v-gated channels have been identified** - Na+, K+, Ca++, Cl-
-* K+ are most varied in properties
-* Molecular features of ion channels  
+* **K+channels are most** - varied in properties
+* **Molecular features of ion channels** - membrane spanning regions, central pore, loop of amino acids, gate that can be opened or closed
   * membrane spanning regions - with repeated spars
   * a central pore for ions to pass through
   * a loop of amino acids lining the pore, which aids selectivity of the channels
@@ -173,20 +182,17 @@
       * for Na+ and K+ usually hold H20 tightly, Na+ carries 3+ water molecules, K+ carries 2.
       * **We can restrict Na+ from a K+ channels using** - small size, even though Na+ is technically smaller than K+. Water molecule binding(Na+ carries 3+ water molecules, K+ carries 2)
       * **We can restrict K+ from a Na+ channels using** - Magic. Still unknown
-      * Na+ channels:
-        * a single protein transcribed from one generate
+      * **Na+ channels** - single protein, 6 membrane spanning regions, each with 4 domains. Voltage sensor may be the S4 helix found in each domain. It is covered in pos charged lysine. Has Activation and Inactivation gate.
+        * a single protein transcribed from one gene
           * 6 membrane spanning regions, each organized 4 domains arranged in a ring with a pore down the center
         * Voltage sensor may be the S4 helix found in each domain. It is covered in pos charged lysine.
           * when interior of cell (Vm) becomes more positive, S4 helixes are repelled and move, opening the channels
         * Have 2 gates
-          * Activation gate - opens as soon as Vm becomes more (+), Na+ passes through the channel
-          * But the activation gate's opening triggers the inactivation gate to move (closes), shutting off Na+ movement even though the activation gate may still be open.
-          * Activation gate eventually shuts off with Vm becoming more negative
-      * Ca++ channels:
-        * also have membane spanning helicies arranged in 4 domains
-        * several different Ca++ channel genes so several different varieties (like Na+)
-      * Cl- also from one protein
-      * K+ Channels are assembled from 4 seperately transcribed subunits. Can be combined to various ways to impart various features on the K+ channel's function much more variability in K+ Channels
+          * **Activation gate** - opens as soon as Vm becomes more (+), Na+ passes through the channel. Activation gate eventually shuts off with Vm becoming more negative.
+          * **Inactivation gate** - activation gate's opening triggers it to close, shutting off Na+ movement even though the activation gate may still be open.
+      * **Ca++ channels** - membrane spanning regions, each with 4 domains, single protein. everal different Ca++ channel genes so several different varieties (like Na+)
+      * **Cl- channels** - also from one protein
+      * **K+ Channels** - assembled from 4 seperately transcribed subunits. Can be combined to various ways to impart various features on the K+ channel's function much more variability in K+ Channels
       * **K+ Channel in squid axon** - Opens when Vm is becoming +, closes when vm is -
         * **delayed rectifier channel** - K+ channel stays open as long as Vm is positive
         * **The A Channel** - k+ Channel that closes shortly after it opens, Ball and chain idea. Enterance is blocked by ball quickly after it opens
@@ -194,7 +200,7 @@
         * **S Channels** - Seratonin activates them, acts similar to delayed rectifier (not Vm)
         * **Ca++ activated K Channel** - Opens in response to Ca++ inside cell reaches certain level
 
-        * **Bursty Cell** - Membrane depolarizes, crosses thresgold, AP fires until Vm drops below threshold again. Usually used for rhythmic activity
+        * **Bursty Cell** - Membrane depolarizes, crosses threshold, AP fires until Vm drops below threshold again. Usually used for rhythmic activity.   1. Leakage Ca++ channels - responsible for depolarizatio; 2. V-gated Na+ Channels; 3. V-gated K+ Channels; 4. Ca++ activated k+ channels; 5. Ca++ pumps remove excess [Ca++]in
           1. Leakage Ca++ channels - responsible for depolarization as leak into cell, causes crossing of threshold and keeps it there, opens Na+ channels
           2. V-gated Na+ Channels - typical behavior, leads to firing as long as Vm > threshold
           3. V-gated K+ Channels - typical behavior, leads to firing as long as Vm > threshold
@@ -208,23 +214,23 @@
         '''
 
         * **Channelopathies** - genetic mutations of ion channels
-        * Ca++ Channels are sometimes mutated can be truncated and lead to abnormal limb movement, nausea, headache, vertigo, brought by stress and stops after a few hours
-        * Na+ chnnel mutation can lead to seizures, one tpye is only in children, stops in puberty
-        * In muscle - **Myotonia congenita** - mutation of Cl- channel, Cl- channels keep Vm below threshold. When animal wants to carry out muscle action, muscle depolarizates and contracts, without proper Cl- function it keeps depolarizing and, "seizes up" and animal freezes
-        * AP Propogation
+        * **Ca++ Channels are sometimes mutated** - can be truncated and lead to abnormal limb movement, nausea, headache, vertigo, brought by stress and stops after a few hours
+        * **Na+ channel mutation** - can lead to seizures, one tpye is only in children, stops in puberty
+        * In muscle - **Myotonia congenita** - mutation of Cl- channel, Cl- channels keep Vm below threshold. When animal wants to carry out muscle action, muscle depolarizes and contracts, without proper Cl- function it keeps depolarizing and, "seizes up" and animal freezes
+        * AP Propagation
           * generated on one patch of membrane
           * + charge moves away from spot since it is repelled and natural diffusion
-          * Ap is generated nearby because AP at first site is still in refractory period, AP at section 2 cannot go back to 1, propogates down the axon instead.
+          * AP is generated nearby because AP at first site is still in refractory period, AP at section 2 cannot go back to 1, propagates down the axon instead.
           * How quickly the AP can move depends on how easily charges can move within it
-            * internal resistance of the cytoplasm is _Ri_
-            * Larger diamater, lower resistance
+            * **internal resistance of the cytoplasm** - is _Ri_
+            * Larger diameter, lower resistance
             * Squids have large axons to conduct AP's rapidly
             * Giant axons are fast as well
           * speed also depends on leakage
             * leaky membrane, charges are lost and dont move as fast
-            * leaky membrane is one with plenty of open ion channels got charges to exiy
-            * conductance g is hight _Rm_ = 1/g_m
-          * the distance a given charge in Vm can travel before declining to a certain level is the _length constant_ lambda = sqrt(Rm/Ri)
+            * leaky membrane is one with plenty of open ion channels got charges to exit
+            * **conductance g is hight Rm** _Rm_ = 1/g_m
+          * **length constant (lambda)** - the distance a given charge in Vm can travel before declining to a certain level, lambda = sqrt(Rm/Ri)
             * how far an AP spreads
             * lambda is the distance the charge in Vm can travel before it declines to Ve of it original value.
             * (graph) at 0, inject current and change Vm (exponential decline on either side)
@@ -241,8 +247,7 @@
                   Distance (microns)
           '''
 
-          * a different set of factors determine how quickly the charges can change Vm ( to reach threshold if you want to  generate an AP). This is represented by _time constant_ Tau
-            * _Tau_ depends on membrane capcitance **Cm**
+          * **Time constant (Tau)** - a different set of factors determine how quickly the charges can change Vm (To reach threshold if you want to  generate an AP). Depends on membrane capacitance **Cm**
             * Charge outsize the membrane detect charges inside the membrane (because membrane is thin), they will line up inside to counteract them (because opposites charges attract). Nothing can cross the membrane until internal and external charges have balances each other across the membrane.
 
             ''' Neuronal membrane:
@@ -257,15 +262,12 @@
 
             * Becasue of Cm, a sudden change in Vm due to you injecting current into an axon, you inject this current  
             ''' I = ___|-----|___'''
-            * The axon membrane soes this:
+            * The axon membrane sees this:
             ''' Vm = ___/----\___'''
             * This is due to the capacitance
-            * **Tau** - tells  you how long it takes for Vm to reach 1 - 1/e of the  final Vm
-              * Tau = Cm*Rm
-            * To optimize speed of AP, you would want a long lambda and a short _time constant_
-              * but Tau = Cm*Rm and lambda = Rm/Ri
-                * Cotradiction!
-          * What is the role of myelin
+            * **Tau** - Tau = Cm*Rm, tells  you how long it takes for Vm to reach 1 - 1/e of the  final Vm
+            * **To optimize speed of AP** - you would want a long lambda and a short _time constant_, but Tau = Cm*Rm and lambda = Rm/Ri
+          * **What is the role of myelin** - small Cm of myelin lowers the Tau (time needed for charges to move) and raises the lambda (distance traveled) as charges don't leak back out
             * electric insulator
             * Thick enough so charges inside axon cant detect charges outside axon
             * At nodes with no myelin, axons have a high conc of v gated Na+ channels, therefore lower thesholds
@@ -281,22 +283,22 @@
       * You don't need an AP in the presynaptic cell to get detected in the post synaptic cell, a sub threshold signal will still pass
       * Signal will be reproduced in postsynaptic cell. It can be depolarizing or hyperpolarizing
     * Electrical synapses are fast, reliable, have some flexibility
-      * seen in escape circuts  - allows animals to make quick getaways
+      * seen in escape circuits  - allows animals to make quick getaways
       * where you want to coordinate groups of neurons
-  * **Chemical** - synapses offer flexibility
-    * synaptic cleft is a physical sace between neurons
+  * **Chemical** - synapses offer flexibility, synaptic cleft is a physical space between neurons, uses neurotransmitters
+    * synaptic cleft is a physical space between neurons
     * presyn neuron shows synaptic vesicles containing neurotransmitters
     * signal passes only from pre to post
     * post signal can be different from pre
       * pre AP can turn into a hyperpolarization post
       * pre AP can turn into  an amplified post AP
-    * synapse needs extracellular Ca++ to pass a signal. Substituting Mg++ for Ca++ in saline will block synaptic transmission
+    * **Synapse needs extracellular** - Ca++ to pass a chemical signal. Substituting Mg++ for Ca++ in saline will block synaptic transmission
     In a chemical synapse, the receptor on the post membrane is an important factor in what the post cells response will be to  wheter excitaroty or inhibitory strong or weak etc.
     * Overview of what happens at an electric synapse
       * pre cell depolarizes (hyperpolarization)
       * ionic charges move from pre->post cell
       * postsynaptic cell shows similar response to presynapctic with minimal delay
-    * CHemical synapse
+    * Chemical synapse
       * pre cell depolarizes
       * ca++ enters the pre cell terminal
       * pre releases neurotransmitter
@@ -376,9 +378,9 @@
               |____________________________
           '''
   * This happens because Ach oppens a channel that allows passage of both Na+ and K, but k flows out
-  * Reversal potential is Vmwhere the Na+ entering is balanced by K+ exiting and therer is not net current. will see no change in Vm when apply ACh
-  * Vrev in this case when PNa+ = P +
-  Vrev = Ena + Ek /2 -> halfway between equilibrium potentials
+  * Reversal potential is Vm where the Na+ entering is balanced by K+ exiting and there is not net current. will see no change in Vm when apply ACh
+  * Vrev in this case when PNa+ = PK+
+    Vrev = Ena + Ek /2 -> halfway between equilibrium potentials
   * V = IR, V is voltage from battery (driving force on ion), I is current ion carries, R is 1/G conductance of membrane to ion
     * for ion A, V = Vm - Ea) = Ia(1/gn)
     * Ia = ga(Vm - Ea)
@@ -401,7 +403,9 @@
 * Excitatory
 * Inhibitory  
 * neuromodulation
+
       --- missed notes handwritten ---
+
       ___ end of test 2 material (no neuromodulation)___
 ## Neuromodulation
 * Neuromodulation is slower to activate than neurotransmitter activity. It can also last longer.
