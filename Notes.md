@@ -400,8 +400,20 @@
         * You end up with Vrev = n(Ena+) + (Ek+)/ n+1 [how many more times Na+ is permiable over K+, if K+ is more either use a frac or move n in front of ek+]
     * for an epsp, Vrev is aor above threshold
     * for an ipsp, Vrev is below threshold. "guess"timate threshold is around -20mV
-* Excitatory
-* Inhibitory  
-* neuromodulation
-
-      --- missed notes handwritten ---
+* **Molecular Structure**
+    * **Molecular structure of ACh gated receptor** - can be isolated in neuromuscular junction. 5 Subunits: 2 a, 1 b, 1 d, 1g.
+    * **Nicotinic ACh receptor** - Binding sites on a subunit, needs 2 ACh molecules, one at each subunit. Provides EPSP.
+    * Change occurs when ACh bind variation in ACh receptor cannel - due to different combinations of subunits.
+    * Variations exist in ACh channels (fetal muscle has different subunit combinations compared to adults)
+    * **Metabolic ACh gated channels**- like the muscarinic receptor
+    * **alpha bungarotoxin** - Toxins target nicotinc ACh receptor, binds irreversibly
+    * **EPSP**- Above threshold
+    * **IPSP**- Below threshold, Cl- and K+ moving through a channel could create a IPSP.
+    * **When will a IPSPS occur?** - Happens when Vrev is below threshold, as Vm will move torward Vrev when channel opens.
+ * Other neurotransmitters:
+  * **GABA** - inhibitory neurotransmitter
+  * **GABA channel structure** - gated channel has 5 subununits, GABA binds to b subununit. Opens channel for Cl-
+  * **Drugs on GABA** - Some drugs bind to secondary sites that enhance opening. Barbituates and tranquilizers.
+* **Neuromodulation** - Molecules that act on nerves to enhance or inhibit nerves
+  * Related in presynaptic cell, cross clegt, bind to receptors on post syn cells but not linked to ion channels
+  * Activates 2nd messenger that leads to a change in ion channel like channel opening or closing, or easier or harder to open v-gated channel 
