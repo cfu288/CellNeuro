@@ -314,8 +314,8 @@
         * **epsp** - excitatory postsynaptic potential
         * **ipsp** - inhibatory postsynaptic potential
         * Ligand gated channels opened by neurotransmitters, not voltage
-        * What kind of ions pass through the channel when this ligand opens?
-          * for ACh oat neuromuscular junction:
+        * What kind of ions pass through the ligand gated channel?
+          * for ACh at neuromuscular junction:
             * voltage clamp postsynaptic cell causes currents to flow when you apply ACh
           * suppose you set Vm to different level - each time,apply ACh to open channels and look at currents
           * If the channel allows only Na+ to pass, you would predict no net current flowing at ENa+
@@ -377,8 +377,8 @@
               |
               |____________________________
           '''
-  * This happens because Ach oppens a channel that allows passage of both Na+ and K, but k flows out
-  * Reversal potential is Vm where the Na+ entering is balanced by K+ exiting and there is not net current. will see no change in Vm when apply ACh
+  * This happens because **Ach opens a channel that allows passage of** - both Na+ and K, but k flows out
+  * **Reversal potential** - is Vm where the Na+ entering is balanced by K+ exiting and there is not net current. Will see no change in Vm when apply ACh. Vrev = Ena + Ek /2, or Vrev = n(Ena+) + (Ek+)/ n+1 [how many more times Na+ is permiable over K+, if K+ is more either use a frac or move n in front of ek+]
   * Vrev in this case when PNa+ = PK+
     Vrev = Ena + Ek /2 -> halfway between equilibrium potentials
   * V = IR, V is voltage from battery (driving force on ion), I is current ion carries, R is 1/G conductance of membrane to ion
