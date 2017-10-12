@@ -1,0 +1,72 @@
+Voltage clamp|allows you to measure how permeable a membrane is and how ions are moving across it in real time. 2 electrodes needed inside cell. One to measure Vm, one to pass current.
+Command voltage|you tell the circuitry what you want Vm to be
+Voltage clamp circuitry|look at Vm is, where you set it (command voltage), then pass current into cell to make them match using the second electrode
+Set Vm to -40 in squid (below threshold at -20)|Small inward current, no outward current
+Set Vm at threshold|Initial normal inward and outward current.
+Set Vm to +26mV|compared to setting at threshold, smaller inward current and larger outward current
+Set Vm to +55mV or Driving force of Na+(ENa+)|No inward current, just outward
+Set Vm to +65, 10 mB more positive that Ena+|Two outward currents, no inward
+Conductance|the inverse of resistance:  G = (1/R)
+Conductance(G) of Na+|high at beginning of AP, lower later during AP - V-gated channels and soon close
+K+ conductance(G)|high and peaks later than Na+ in AP - V-gated channels open with a slight delay and stay open for a while
+TTX (Tetradotoxin)|blocks Na+ channels. No inward Na+ flow, outward only. WE can now see how changing [K+] in and out can affect driving force.
+TEA (Tetraethyl Ammonium)|blocks v-gated K+ channels, only inward current.  
+B toxin from scorpians|causes Na+ channels to open at more (-) Vm than normal.Open sooner for lower Vm. V-clamp graph looks similar but the entire thing is shifted down toward inflow.
+B toxin and TEA|stronger inflow, no outflow
+B toxin and TTX|No inflow, normal outflow.
+Driving force|tells you the strength of the forces acting on each ion, it is the difference between the membrane potential and the ion's equilibrium potential. df = V_m - E_ion (membrane potential - equilibrium potential)
+Dendrotoxin|Causes massive firing of pain fibers, Vm is more depolarized than normal. Only influx, no outflux. Blocks K+ channels only, no affect on Na+ channels.
+Dendrotoxin with TTX|no net current in or out.
+Dendrotoxin with TEA|Normal in current only.
+Patch clamp can be used as a voltage clamp|Smooth pipette electrode is brought to cell membrane and sealed, allows you to record activity of all the channels inside the edges of the pipette.
+Block channels with TTX, patch clamp reading|Patch clamp with voltage clamp conditions well above threshold
+4 types of v-gated channels have been identified|Na+, K+, Ca++, Cl-
+K+channels are most|varied in properties
+Molecular features of ion channels|membrane spanning regions, central pore, loop of amino acids, gate that can be opened or closed
+We can restrict Na+ from a K+ channels using|small size, even though Na+ is technically smaller than K+. Water molecule binding(Na+ carries 3+ water molecules, K+ carries 2)
+We can restrict K+ from a Na+ channels using|Magic. Still unknown
+Na+ channels|single protein, 6 membrane spanning regions, each with 4 domains. Voltage sensor may be the S4 helix found in each domain. It is covered in pos charged lysine. Has Activation and Inactivation gate.
+Activation gate|opens as soon as Vm becomes more (+), Na+ passes through the channel. Activation gate eventually shuts off with Vm becoming more negative.
+Inactivation gate|activation gate's opening triggers it to close, shutting off Na+ movement even though the activation gate may still be open.
+Ca++ channels|membrane spanning regions, each with 4 domains, single protein. everal different Ca++ channel genes so several different varieties (like Na+)
+Cl- channels|also from one protein
+K+ Channels|assembled from 4 seperately transcribed subunits. Can be combined to various ways to impart various features on the K+ channel's function much more variability in K+ Channels
+K+ Channel in squid axon|Opens when Vm is becoming +, closes when vm is -
+delayed rectifier channel|K+ channel stays open as long as Vm is positive
+The A Channel|k+ Channel that closes shortly after it opens, Ball and chain idea. Enterance is blocked by ball quickly after it opens
+M Channels|Muscarine activates them, acts similar to delayed rectifier (not Vm)
+S Channels|Seratonin activates them, acts similar to delayed rectifier (not Vm)
+Ca++ activated K Channel|Opens in response to Ca++ inside cell reaches certain level
+Bursty Cell|Membrane depolarizes, crosses threshold, AP fires until Vm drops below threshold again. Usually used for rhythmic activity.   1. Leakage Ca++ channels - responsible for depolarizatio; 2. V-gated Na+ Channels; 3. V-gated K+ Channels; 4. Ca++ activated k+ channels; 5. Ca++ pumps remove excess [Ca++]in
+Channelopathies|genetic mutations of ion channels
+Ca++ Channels are sometimes mutated|can be truncated and lead to abnormal limb movement, nausea, headache, vertigo, brought by stress and stops after a few hours
+Na+ channel mutation|can lead to seizures, one tpye is only in children, stops in puberty
+Myotonia congenita|mutation of Cl- channel, Cl- channels keep Vm below threshold. When animal wants to carry out muscle action, muscle depolarizes and contracts, without proper Cl- function it keeps depolarizing and, "seizes up" and animal freezes
+internal resistance of the cytoplasm|is _Ri_
+length constant (lambda)|the distance a given charge in Vm can travel before declining to a certain level, lambda = sqrt(Rm/Ri)
+Rm|how easily charges cross membrane
+Ri|determines how easily charges move inside
+Time constant (Tau)|a different set of factors determine how quickly the charges can change Vm (To reach threshold if you want to  generate an AP). Depends on membrane capacitance **Cm**
+Tau|Tau = Cm*Rm, tells  you how long it takes for Vm to reach 1 - 1/e of the  final Vm
+To optimize speed of AP|you would want a long lambda and a short _time constant_, but Tau = Cm*Rm and lambda = Rm/Ri
+What is the role of myelin|small Cm of myelin lowers the Tau (time needed for charges to move) and raises the lambda (distance traveled) as charges don't leak back out
+Electrical Synaptic Transmission|ionic charge moves directly between neurons through channels (Connexons)
+Connexons|located on membranes of the pre and postsynaptic neurons, which meet at a gap junction. Pre synaptic cell line up with post synaptic cell connexons to make a channel. Made up of 6 subunits with a channel down the middle. This is often not a very specific channel, ions flow either direction.
+Chemical|synapses offer flexibility, synaptic cleft is a physical space between neurons, uses neurotransmitters
+Synapse needs extracellular|Ca++ to pass a chemical signal. Substituting Mg++ for Ca++ in saline will block synaptic transmission
+PSP|transient change in membrane potential,can spread a lot depending on space and tome constants is this is large enough to generate AP
+epsp|excitatory postsynaptic potential
+ipsp|inhibatory postsynaptic potential
+Ach opens a channel that allows passage of|both Na+ and K, but k flows out
+Reversal potential|is Vm where the Na+ entering is balanced by K+ exiting and there is not net current. Will see no change in Vm when apply ACh. Vrev = Ena + Ek /2, or Vrev = n(Ena+) + (Ek+)/ n+1 [how many more times Na+ is permiable over K+, if K+ is more either use a frac or move n in front of ek+]
+Molecular structure of ACh gated receptor|can be isolated in neuromuscular junction. 5 Subunits: 2 a, 1 b, 1 d, 1g.
+Nicotinic ACh receptor|Binding sites on a subunit, needs 2 ACh molecules, one at each subunit. Provides EPSP.
+Metabolic ACh gated channels|like the muscarinic receptor
+alpha bungarotoxin|Toxins target nicotinc ACh receptor, binds irreversibly
+EPSP|Above threshold
+IPSP|Below threshold, Cl- and K+ moving through a channel could create a IPSP.
+When will a IPSPS occur?|Happens when Vrev is below threshold, as Vm will move torward Vrev when channel opens.
+GABA|inhibitory neurotransmitter
+GABA channel structure|gated channel has 5 subununits, GABA binds to b subununit. Opens channel for Cl-
+Drugs on GABA|Some drugs bind to secondary sites that enhance opening. Barbituates and tranquilizers.
+Neuromodulation|Molecules that act on nerves to enhance or inhibit nerves
