@@ -1,5 +1,7 @@
-___ end of test 2 material (no neuromodulation)___
 ## Neuromodulation
+* **Neuromodulation** - Molecules that act on nerves to enhance or inhibit nerves
+  * Related in presynaptic cell, cross cleft, bind to receptors on post syn cells but not linked to ion channels
+  * Activates 2nd messenger that leads to a change in ion channel like channel opening or closing, or easier or harder to open v-gated channel
 * Neuromodulation is slower to activate than neurotransmitter activity. It can also last longer.
 * **Neuromodular** - indirect transmitter, lignad binds to metabotropic receptor, using g protein activates ion channel to open in
 * Direct transmitter - ligand binds to channel to open it

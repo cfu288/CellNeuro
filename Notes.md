@@ -207,11 +207,11 @@
           4. Ca++ activated k+ channels - More K+ leaves cell, brings back toward rest
           5. Ca++ pumps remove excess Ca++ inside cell so Ca++ activated k+ channels _close_.
 
-        '''
+        ```
         55  |      _|__|__
         0   |     /   |  | \
         -60 |----/          \ --
-        '''
+        ```
 
         * **Channelopathies** - genetic mutations of ion channels
         * **Ca++ Channels are sometimes mutated** - can be truncated and lead to abnormal limb movement, nausea, headache, vertigo, brought by stress and stops after a few hours
@@ -237,20 +237,20 @@
             * **Rm** - how easily charges cross membrane
             * **Ri** - determines how easily charges move inside
 
-          '''
+          ```
             |          /\
             |         /  \
-        Vm  |     __/      \__   <- (Vm = Ve)
-  (rest   _ |____/             \____
+        Vm  |     __ /     \\ __   <- (Vm = Ve)
+  (rest   _ |____/              \ ____
             |
             ------------------------
                   Distance (microns)
-          '''
+          ```
 
           * **Time constant (Tau)** - a different set of factors determine how quickly the charges can change Vm (To reach threshold if you want to  generate an AP). Depends on membrane capacitance **Cm**
             * Charge outsize the membrane detect charges inside the membrane (because membrane is thin), they will line up inside to counteract them (because opposites charges attract). Nothing can cross the membrane until internal and external charges have balances each other across the membrane.
 
-            ''' Neuronal membrane:
+            ``` Neuronal membrane:
               (outside axon)
               + + + + + +
               ___________ <- chargable plate
@@ -258,7 +258,7 @@
               ___________ <- chargable plate
               - - - - - -
               (inside axon)
-            '''
+            ```
 
             * Becasue of Cm, a sudden change in Vm due to you injecting current into an axon, you inject this current  
             ''' I = ___|-----|___'''
@@ -300,7 +300,7 @@
       * postsynaptic cell shows similar response to presynapctic with minimal delay
     * Chemical synapse
       * pre cell depolarizes
-      * ca++ enters the pre cell terminal
+      * Ca++ enters the pre cell terminal
       * pre releases neurotransmitter
       * neurotransmitter diffuses across the synaptic cleft
       * binds a receptor for it on the postsynaptic membrane
@@ -319,7 +319,7 @@
             * voltage clamp postsynaptic cell causes currents to flow when you apply ACh
           * suppose you set Vm to different level - each time,apply ACh to open channels and look at currents
           * If the channel allows only Na+ to pass, you would predict no net current flowing at ENa+
-              '''
+              ```
               | ( v ACh added)
               |
               |-------------------------------
@@ -329,12 +329,12 @@
               |
               |   (depolarization)
           Vm  |    ____
-       rest   |---/    \---------------
-      -60     |____________________________
-          '''
+         rest |---/    \---------------
+         -60  |____________________________
+          ```
           * No net K+ flowing out
 
-          '''
+          ```
               | ( v ACh when Vm= -75)
               |
           0   |-------------------------------
@@ -346,9 +346,9 @@
           Vm  |    ____
          -60  |---/    \---------------
         -75   |____________________________
-          '''
+          ```
 
-          '''
+          ```
               | ( v ACh when Vm= -10)
               |
           0   |-------------------------------
@@ -360,11 +360,11 @@
           Vm  |   
           -10 |--------------------------
           -60 |____________________________
-          '''
+          ```
           * flow in  = flow out of Na+ and K+
 
 
-          '''
+          ```
               | ( v ACh when Vm= +10)
     out       |    ___
           0   |---/   \------------------------
@@ -376,7 +376,7 @@
           Vm  |   
               |
               |____________________________
-          '''
+          ```
   * This happens because **Ach opens a channel that allows passage of** - both Na+ and K, but k flows out
   * **Reversal potential** - is Vm where the Na+ entering is balanced by K+ exiting and there is not net current. Will see no change in Vm when apply ACh. Vrev = Ena + Ek /2, or Vrev = n(Ena+) + (Ek+)/ n+1 [how many more times Na+ is permiable over K+, if K+ is more either use a frac or move n in front of ek+]
   * Vrev in this case when PNa+ = PK+
@@ -416,4 +416,4 @@
   * **Drugs on GABA** - Some drugs bind to secondary sites that enhance opening. Barbituates and tranquilizers.
 * **Neuromodulation** - Molecules that act on nerves to enhance or inhibit nerves
   * Related in presynaptic cell, cross clegt, bind to receptors on post syn cells but not linked to ion channels
-  * Activates 2nd messenger that leads to a change in ion channel like channel opening or closing, or easier or harder to open v-gated channel 
+  * Activates 2nd messenger that leads to a change in ion channel like channel opening or closing, or easier or harder to open v-gated channel
