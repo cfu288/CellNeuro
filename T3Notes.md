@@ -5,7 +5,7 @@
 * Neuromodulation is slower to activate than neurotransmitter activity. It can also last longer.
 * **Neuromodular** - indirect transmitter, lignad binds to metabotropic receptor, using g protein activates ion channel to open in
 * Direct transmitter - ligand binds to channel to open it
-* **G-proteins** - modulator binds to a receptor = metabotropic receptor. Bound receptor becomes activated and activates a G-Protein. Can lead to complex biochemical cascades
+* **G-proteins** - modulator binds to a receptor = _metabotropic receptor_. Bound receptor becomes activated and activates a G-Protein. Can lead to complex biochemical cascades
 * **Metabotrophic receptors structurally** - have 7 transmembrane spanning regions. Have carboxy tail inside, amino terminus outside, binding site outside, bonding site for g-protein inside, phosphorylation sites which when phosphorylated, desensitize the membrane. Some are on carboxyl tail
 1. transmitter/modulator binds at its receptor (specific)
 2. on the inside, the receptor was bound to a G protein, when the neurotransmitter binds to the receptor, the f protein is activated.
