@@ -65,3 +65,45 @@ Inside the cell membrane is an enzyme, Phospholipase C. Both subunits of G-Prote
 * Normally, a.p. in presynaptic cell reaches the terminal. The depolarization causes
 * voltage gated Ca++ channels to open
 * Ca++ enters to the point that [Ca++]in terminal can increase 200x
+* Ca++ sensitive dyes in presynaptic terminals show this increase can be used to map stuff out active synapses
+* Nitrophen makes 'caged Ca+' it binds it in the terminal - it will release the Ca++ when exposed to UV light
+  * presynaptic cell injected w/ nitrophan
+  * record postsynaptic cell
+  * treat presynaptic cell q/ UV light no depolarization needed
+  * Postsynaptic cell shows an epp
+  * Therefore,  inc Ca++ can lead to nt release
+* Can get epp to minimum size by lowering [Ca++]out (one pack of nt released)
+* How much nt is in a single packet?
+  * Calculated 7000 in single quantum, need about 2600 to open 1300 channel which is what is seen in a mini
+  * rest of ACh must get broken down by AChE or diffuses away
+  * For a 'typical' epsp at frog nm junction, there are about 200 quanta released - so a typical epsp opens 2600 channels at one synapse for frog nm junction
+  1. presynaptic terminal depolarizes
+  2. v-Ca++ channels open
+  3. ... Stuff ... covered below
+  4. NT is released
+  * In presynaptic terminal, there are 2 populations of vesicles
+    * Releasable pool - ready to fuse to terminal membtane to release nt into cleft
+    * Storage pool - bound to cytoskeleton by _synapsin_
+    * When terminal depolarizes, Ca++influx activates a protein kinase which phosphorylates synapsin causing it to undergo conformation change releasing the vesicles it holds to the cytoskeleton
+  * to get vesicles to release contents, proteins on vesicle membrane v-SNARES bind to proteins on the terminal membrane T-SNARES and a fusion pore is created and contents are released (DOCKING)
+    * after release, vesicle must be recycled
+  * On the vesicle (proteins):
+    * **Synaptotagmin** - Ca++ dependent step. Binds 5 Ca++ ions, senses Ca++ levels and promotes vesicle docking. it inhibits some molecular clamp on the SNARE complex (t-snares + v-snares) allowing it to form - or allowing T-SNARES to interact with v-SNARES
+    * **Synaptobrerin(VAMP)**
+  * on the terminal:
+    * Syntaxin
+    * Snap-25
+    * Associated with syntaxin is Munc-18 -  an essential protein that catalyzes the binding of the SNARE complex, precise function is not known.
+  * Once the vesicle is bound to the terminal using the SNARE complex, Fusion pore forms- passage between inside of vesicle and outside of terminal so nt can be released
+  * don't know how it's made
+  * after dumping contents must get off the terminal membrane so another can bind
+  * 2 proteins used to dissassemble the SNARE compelex are
+    * NSF
+    * SNAP
+  * Tetanus toxin - cleaves synoptobrevin
+  * Botulnum toxins - one type cleaves syntaxin and SNAP-25
+  * Black widow spider venom -  active ingredient makes a pore in presynaptic terminal so there is a massive Ca++ influx and massive dumping of NT. Entire vesicles
+  * Final step is recycling the vesicle - there is a rapid endocytosis of membtane around empty vesicle making an endosome.
+  * new vesicles are made from the endosome, clatherin is a protein that coats new vesicles. Clatherin is then removed so vesicle can be refilled.
+  * Refilling - nt works with a specific transporter that is powered by a proton pump -> uses ATP to fill vesicle with H+, H+ gradient powers transporter that pulls NT in
+  * Finally, vesicles get placed in storage pod via synapsin holding them to cytoskeleton
