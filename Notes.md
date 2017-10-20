@@ -107,3 +107,33 @@ Inside the cell membrane is an enzyme, Phospholipase C. Both subunits of G-Prote
   * new vesicles are made from the endosome, clatherin is a protein that coats new vesicles. Clatherin is then removed so vesicle can be refilled.
   * Refilling - nt works with a specific transporter that is powered by a proton pump -> uses ATP to fill vesicle with H+, H+ gradient powers transporter that pulls NT in
   * Finally, vesicles get placed in storage pod via synapsin holding them to cytoskeleton
+* Some neurotransmitters
+  * Amino acids - glutamate, GABA, glycine
+  * Biogenic amines - histamine, Seratonin, catecholamines(Doplamine, epinepherine, norepinepherine, octopamine)
+  * Peptides - 100s of peptide nt such as substance P(used at pain and temp receptors), opioids - endorphins
+  * Other - ACH, gasses (NO,CO)
+  * ATP
+* Synthesis pathways
+  * ACh is made from choline + acetyl CoA, broken down into these by AChE
+  * Amino acid transmitters - glutamine->glutamate->GABA
+  * Biogenic Amines - tyrosine->doplamine->norepinepherine->epinepherine
+  * peptides - transcribed /translated into (usually) a large precursor which is cleaved to give the functional peptide.
+* **Axoplasmic transport** - move items through the neuron
+  * **anterograde** - movement from cell body to terminal, slow or fast
+    * **Slow axoplasmic transport(anterograde)** - uses cytoplasm and moves large cytoskeleton elements along microtubeles at a rate of .5mm/day
+    * **Fast axoplasmic transport(anterograde)** - 400mm per day, moves vesicles down microtubule tracts, uses _kinesin_
+  * **retrograde** - from terminal to cell body, one speed. Uses motor protein _dynein_
+    * **dynein** - hydrolyzes ATP for a conformational change to step along microtubule.
+  * microtubeles have a polarity that kinesin and dynein use for going their specific directions.
+  * vesicle membrane is tagged with a "shipping label" a olecule that will bind it to either kinesin or dynein
+  * somehow neuron can regulate this transport
+  * **synaptic integration** - a neuron receives inputs from several different neurons at a time, the interplay of all its inputs determines whether that neuron crosses threshold and fires an AP.
+  * **Spike initiation zone** - right at the beginning of axon next to cell body, generally where AP is started, where threshold is lowest since it has a high conc of Na+ v-gated  channel
+  * PSP out on a dendrite spreads passively through terminal.
+  * The neuron declines in amplitude dep on space constant (time constant) cable properties.
+  * The farther the synapse is from the SIZ, the smaller will be the psp when it reaches the SIZ - also depends on things like Rm, Ri, Cm in the neuron where the synapse is located to the SIZ
+  * for lambda (space constant), a high Rm and a low Ri would help spread PSP with less decline in amplitude to the SIZ.
+  * for tau, a long time constant means the AP would last longer, and would be more likely to sum/add to other PSP's from various distances
+  * At the same time all the epsps are coming to te SIZ, IPSPs are also. All of the PSPs at a given point in time at the SIZ will determine wheter the neuron crosses threshold and fires an AP
+  * **Spacial summation** -PSPs whos amplitudes are addected by how far they have traveled (space constant), how they all add up
+  * **temporal summation** - how large those PSPs are at a particular time that is determined by the time constant.
