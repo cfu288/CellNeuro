@@ -137,3 +137,30 @@ Inside the cell membrane is an enzyme, Phospholipase C. Both subunits of G-Prote
   * At the same time all the epsps are coming to te SIZ, IPSPs are also. All of the PSPs at a given point in time at the SIZ will determine wheter the neuron crosses threshold and fires an AP
   * **Spacial summation** -PSPs whos amplitudes are addected by how far they have traveled (space constant), how they all add up
   * **temporal summation** - how large those PSPs are at a particular time that is determined by the time constant.
+* Drugs with presynaptic effects
+  * **Cocaine** - presynaptic effects, Blocks dopamine transporter
+  * **Methanphetamine** - presynaptic effects, causes transporter to "run backward", dumping dopamine from terminal into synaptic cleft -even without it being in vesicles
+  * **Ritalin** - presynaptic effects, interferes(blocks) dopamine transporter, perhaps can be used to treat cocaine addiction
+  * KO mice missing doplamine transporter, hyperactive like on cocaine but insensitive to cocaine. 100x prolonged presence of doplamine in synapse.
+    * Doplamine is actually not a common transmitter in the brain. Found in 2 pathways:
+      1. **Nigrostantal pathway** - from substantia nigra , for motor control, cells in substantia nigra die in parkinsons
+      2. **Ventral tegmental**- area to nucleus accumbens - the pleasure circuit. Relevant for drug abuse
+  * **Seratonin transporter in presynaptic terminal** - antidepressents may interfere with transporter, leaving Seratonin in synapse longer. Zoloft, Paxtil, Prozac
+  * **Ecstasy** - presynaptic effects, MDMA Feels best first time around, next day pain threshold is lower. Causes seratonin transporter to work backwards, causes 80% of brain seratonin to be dumped
+    * runs backwards - instead of transporter picking up into cell and removing, dumps into synapse.
+* Drugs with postsynaptic effects
+  * **Nicotine** - postsynaptic effects, binds ACh receptors in ventral tegmented cells (which are dopaminergic), stimulating the to release more dopamine into the nucleus accumbens.
+    * ACh is released from a presynaptic cell to the ventral tegmented cell, Nicotine acts on the ACh receptor in the ventral tegmental cell to stimulate it (but its postsynaptic to the source of ACh)
+    * When ventral tegmenteal cell is stimulated it releases more dopamine into the synapse at the nucleus accumbens.
+  * **opiates** - postsynaptic effects, bind at pre existing endorphin receptors on certain cells. Pain relief in spinal cord where binds at receptors on cells receiving input from pain receptors. Tones down response. Its a G-Protein mediated system. Geroin crosses BBB more easily than morphine so its more effective.
+    * But for addiction/pleasure path, block receptors on the dopaminergic cells of ventral tegmental areathat are receptors for GABA and normally act to supress activity of the cells.
+    * Opiates inhibit this inhibition - So these cells are more active and release more dopamine in the nucleus accumbens.
+  * **Marajuana** - Active ingredient THC, binds a receptor already there. THC type receptors are in peripheral tissues - have been clones but in brain has not yet
+  * **Alcohol** - Nonspecific, passes through BBB easily. Seems to block GABA-ergic input  to doplamine cells in ventral tegmental area, but also goes everywhere else.
+      * inhibits v-gated Ca++ channels to inhibit n.t. release, reduces activation of cAMP
+      * GABA-enhancing drugs, are tranquiizers
+  * **Psychadelic drugs** - Postsynaptic effects, structurally similar to serotinin, especially som to doplamine. Bind to serotonin type 2A receptors to stimulate or interfere with them. Include LSD, psilocybin, mescaline, bufoterine.
+    * 1943 Hoffman - Synthesized and applied LSD to rats, saw no effect so took it himself and described effects. Got psilocybin from certain mushrooms, no effects from rats so he tried it himself.
+    * 1950's - tried to make truth serum
+    * 1960's - timothy leary gave LSD and other hallucionogenic drugs bad rep, research basically stopped.
+    * Shows promise for PTSD and depression - 
