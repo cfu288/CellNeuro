@@ -163,4 +163,23 @@ Inside the cell membrane is an enzyme, Phospholipase C. Both subunits of G-Prote
     * 1943 Hoffman - Synthesized and applied LSD to rats, saw no effect so took it himself and described effects. Got psilocybin from certain mushrooms, no effects from rats so he tried it himself.
     * 1950's - tried to make truth serum
     * 1960's - timothy leary gave LSD and other hallucionogenic drugs bad rep, research basically stopped.
-    * Shows promise for PTSD and depression - 
+    * Shows promise for PTSD and depression -
+  * **Ethnobotany** - Wade Davis (student) collected 'zombie powder', one sample had TTX.
+  * **Clavius Narcisse**
+  * **Facilitation** - synaptic strength increases when the synapse is stimulated several times in quick succession.
+    * Presyn cell - stimulus looks like ---|-----|-|-|-|------|---- (burst)
+    * Postsyn cell PSP's- response (increasing amplitude with each ap of the burst)
+    * **Homosynaptic facilitation** - one synapse, see affect on postsynaptic cell. presynaptic terminal has the effect of: the Ca++ that enters each time the presunaptic cell is stimulated lingers in the presynaptic terminal, so if another stimulus arrives before the Ca++ is cleared from the terminal, that Ca__vadds to the new influx of Ca++ from the next stimulus, there is more Ca++ in the terminal so more cesicles are released. This leads to a larger psp in the postsynaptic cell. Not all presynaptic terminals do this.
+    (IMG)
+      * heterosynaptic facilitation uses 3 neurons, 2 synapses. Synapse between test and recorded cell has some effect when test fires Test cell synapses with record cell, priming cell synapses with test's cell terminal. When priming is activated, releases neuromodulator that asserts effect on test cell. and when test cell is stimulated again, its release of nt is altered.
+        * neuromodulater could make channels easier or harder to open, NA+ or K+ or Ca++
+      * These all affect the strength of the synapse between the test cell and the recorded cell
+      * there can be heterosynapctic and homosynaptic facilitation and depression, depending on the effect
+        * stronger response - facilitation
+        * depression - weaker response in recorded neuron
+      * Posttetonic potentiation at single synapse.
+      (img)
+        * pre : -|------|||||---------|---
+          * First AP, then synapse burst of AP, then wait 10 min, then one AP
+        * post : -(small)----(increasing amplitute psp's) --------- (large PSP)
+        * How? Ca++ enters duting the AP in presynaptic terminal. When presynaptic cell shows a burst of activity, there is some buildup of Ca++ in the terminal, so some  inc in nt release and amplitude of postsynaptic cell Ca++ gets sequestered into mitochondria and ER. But then over the next 10 min or so the Ca++ leaks out of the organelles and so builds up in the terminal over several min so that if the presynaptic cell is stimulated after this, theres lots of Ca++ and lots of nt that is released. Not all synapses do this!
