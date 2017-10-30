@@ -165,13 +165,13 @@ Inside the cell membrane is an enzyme, Phospholipase C. Both subunits of G-Prote
     * 1960's - timothy leary gave LSD and other hallucionogenic drugs bad rep, research basically stopped.
     * Shows promise for PTSD and depression -
   * **Ethnobotany** - Wade Davis (student) collected 'zombie powder', one sample had TTX.
-  * **Clavius Narcisse**
+  * **Clavius Narcisse**x`
   * **Facilitation** - synaptic strength increases when the synapse is stimulated several times in quick succession.
     * Presyn cell - stimulus looks like ---|-----|-|-|-|------|---- (burst)
     * Postsyn cell PSP's- response (increasing amplitude with each ap of the burst)
     * **Homosynaptic facilitation** - one synapse, see affect on postsynaptic cell. presynaptic terminal has the effect of: the Ca++ that enters each time the presunaptic cell is stimulated lingers in the presynaptic terminal, so if another stimulus arrives before the Ca++ is cleared from the terminal, that Ca__vadds to the new influx of Ca++ from the next stimulus, there is more Ca++ in the terminal so more cesicles are released. This leads to a larger psp in the postsynaptic cell. Not all presynaptic terminals do this.
     (IMG)
-      * heterosynaptic facilitation uses 3 neurons, 2 synapses. Synapse between test and recorded cell has some effect when test fires Test cell synapses with record cell, priming cell synapses with test's cell terminal. When priming is activated, releases neuromodulator that asserts effect on test cell. and when test cell is stimulated again, its release of nt is altered.
+      * **heterosynaptic facilitation** - uses 3 neurons, 2 synapses. Synapse between test and recorded cell has some effect when test fires Test cell synapses with record cell, priming cell synapses with test's cell terminal. When priming is activated, releases neuromodulator that asserts effect on test cell. and when test cell is stimulated again, its release of nt is altered.
         * neuromodulater could make channels easier or harder to open, NA+ or K+ or Ca++
       * These all affect the strength of the synapse between the test cell and the recorded cell
       * there can be heterosynapctic and homosynaptic facilitation and depression, depending on the effect
@@ -197,10 +197,53 @@ Inside the cell membrane is an enzyme, Phospholipase C. Both subunits of G-Prote
   * Sensitization - sea slug has a head, siphon, gill, tail. Gentle touching siphon will not cause gill retraction, shocking will. Can pair touch of siphon with retraction using shocks to tail.
   * (Neural circuit simplified img) - siphon sens neuron and tail sens neuron both synapse w/ motor neuron to withdraw gill. Facilitating interneuron takes input from tail and synapses with motor neuron and sensory neuron.
   * Synapse that is strengthened is the siphon sensory neuron synapse with the gill motorneuron.
-  1. Touch siphon - the terminal depolarizes, Ca++ enters glutamate is released onto the motor neuron that withdraws the gill. But its not enough of an epsp in the motor neuron to cause it an AP.
+  1. Touch siphon - the terminal depolarizes, Ca++ enters glutamate is released onto the motor neuron that withdraws the gill. But its not enough of an epsp in the motor neuron to cause it an AP. Small inc in cAMP
     * but Ca++ also causes activation of calmodulin which activates adenylyl cyclase which stimulates production of cAMP.
-  2. Shock the tail - tail sensory neuron synapses with the siphon sensory neuron terminal by way of the facilitating interneurons. Causes facilitating neuron to release seratonin onto the siphon sens neuron.
+  2. Shock the tail - tail sensory neuron synapses with the siphon sensory neuron terminal by way of the facilitating interneurons. Causes facilitating neuron to release seratonin onto the siphon sens neuron. Small inc in cAMP
     * seratonin binds g-protein coupled receptor. Activated adenylyl cyclase which activates production of cAMP.
   3. Pair stimulation by touching siphon with stimulating siphon sens neuron by way of facilitating interneuron. Ger a bigger increase in cAMP by these 2 mechanisms -
     1. Ca++ entry due to sensory neuron depolarizing, calmodulin,,, adenylyl cyclase
     2. Seratonin from facilitating interneuron activates G-protein which activated sdenylyl cyclase.
+  4. This large increase in cAMP leads to protein kinase A, pkA
+    * pkA phosphorylates a K+ channel, causing it to close/keep from opening
+    * So the AP in the terminal lasts longer, more Ca++ comes in and more transmitter(glutamate) is released by the sipon sensory neuron onto the gill motorneuron.
+      * bigger epsp
+      * more likely to generate an AP.
+  5. The seratonin from facilitating internuron also binds to another g-protein associated receptor that activates -via DAG
+    * protein kinase C
+    * pkC phosphorylates synapsin 1 causing it to release vesicles attached to cytoskeleton into the storage pool.
+  6. If training continues and pkA leves stay high enough long enough
+    * pkA can migrate up and into the nucleous
+    * pkA phosphorylates CREB1
+    * CREB1 joins cAMP to bind DNA, Activate transcription factor(s)
+    * which promote transcription of genes
+      1. for enhancing transmitter release.
+      2.  prehaps making more synapses
+  7. pkA can phosphotylate MAPK in cell body  
+    * MAPK represses the activity of a transcription repressor called CREB2
+  8. There is LTP between the sensory neuron and gill motorneurons
+    * glutamate is released from siphon sensory neuron  
+      1. Bind to K and AMPA receptors
+      2. There are also NMDA receptors
+    * the gill motor neuron receivs glutamate from siphon sensory neuron
+      1. and a strong depolarization from the facilitating interneuron when tail is shocked along with siphon touched
+      2. this expells the Mg++ from the NMDA channel and LTP can occur as Ca++ enters
+        * activating protein kinases which
+          1. increase sensitivity of AMPA channels
+          2. produce NO gas by activating NO synthase
+      3. NO gas diffuses across synapse to siphon sensory neuron
+        * to cause it to enhance glutamate release
+        (IMG - draw it out)
+* Other animals
+  * Drosophila has been used because of the option to generate mutations at different key points along the learning pathway.
+  * associate odors with  
+    * sugar (bad!)
+    * sugar solution (good!)
+  * isolated mutants
+    * **dunce** - lacks phosphodiesterase (breaks down cAMP) always had elevated cAMP levels. too high cAMP prevents elevation in cAMP impossible, therefore learning was difficult.
+    * **rutabaga** - mutant is deficent in adenylyl cyclase, cannot inc cAMP. Not enough to strengthen synapses.
+  * Humans: Huntington's
+    * mutant protein interferes with CREB1 activation
+    * other known deficiencies in CREB in humans which also show learning problems
+
+*
