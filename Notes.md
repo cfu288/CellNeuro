@@ -246,4 +246,39 @@ Inside the cell membrane is an enzyme, Phospholipase C. Both subunits of G-Prote
     * mutant protein interferes with CREB1 activation
     * other known deficiencies in CREB in humans which also show learning problems
 
-### Eyesight
+### The Eye
+  * Goal 1: to forma sharp image onto the retina where the sensory cells detect it.
+    * Amount of light brought to the retina can be adjusted by adjusting pupil diameter
+    * Making a sharp image uses cornea but especially lens, lens changes shape to accomodate focus on close objects.
+      * ciliary muscle, relaxed is streched lens, focuses in distance due to flat lens. Up close, ciliary muscles clench, lens is rounder.
+    * To form a sharp image, the sensory neurons you have that receive the image, the sharper the image will be, higher the activity
+    * Eyes ae moved so that when you look at something, image is placed onto a part of retina with an especially high concentration of receptors - the fovea
+  * The retina has 5 kinds of cells
+    * **Receptor cells** - rod and cones
+    * **horizontal cells** - cross-connect retinal cells
+    * **bipolar cell** - receives input from receptor cells
+    * **ganglion cells** - have axons that go to the lateral geneulate, make up the optic nerve
+    * **amarine cells** - which modulate signals from bipolar cells and ganglion cells.
+  * Because the retina is set up as:
+    * rods and cones in back of retina, preceded by bipolar, then ganglion cells on top closest to light
+      * ganglion cell axons make up the optic nerve, this creates a _blind spot_.
+  * Detecting light - done by rods and cones
+    * Done by rods and cones which transduce a physical property light) into a neural signal. These are called photoreceptors
+    * On the outer segment which has Rod cells and cone cells:
+    ![](/Images/rc.jpg/)
+      * membrane disks (in rod) or folds of cell membrane(cone) inc surface area
+    * outer segment membrane contains photopigment(s)
+    * photopigment is different in rods and cones, it includes molecule of _11-cis-retinal_ surrounded by opsins
+    * in rods, opsin = rodopsin
+    * in cones, opsins absorb different wavelengths, ability to absorb different colors.
+    * cone opsins can discriminate different colors but are not very sensitive to low light levels
+    * red opsin is more sensitive to low light
+    * opsin traps light, and photons of light excite 11-cis-retinal. Photon causes a rapid conformational change which = "photoexcited", activates a G-protein.
+    * G-protein is called transducin
+    * transducin activated phosphodiestrase.
+    * phosphodiesterase breaks down cGMP and turns it into 5'GMP
+    * the breakdown of cGMP causes ion channels to close.
+      * why? cGMP when present is bound to ion channel to hold it open. when cGMP decreases, channels will close, leads to change in Vm for the photoreceptor.
+      * This channel is a Na+ channel
+      * Light closes Na+ channels - causing cell to hyperpolarize
+      * the membrane of the inner segment of the photoreceptor is packed with K+ channels so when there is no light in the dark, Na+ channels are open plenty of cGMP to hold them open. Na+ enters, and to maintain Vm, K+ exits the inner segment dark. Creates a curent from top Na+ in and bottom + out, known as the _dark current_. 
