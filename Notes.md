@@ -22,7 +22,7 @@
 * the activated G protein subunits may activate second messenger biochemical cascades
 * 2nd messengers include cAMP, cGMP, NO, Ca++, lipids like DAG, IP3
 * may activate adenyl cyclase which makes cAMP and the cAMP can activate things
-* for example: Activated Gprotein subunits may activate adente maylyl cyclase which then produces cAMP
+* for example: Activated G-protein subunits may activate adente maylyl cyclase which then produces cAMP
 * cAMP will activate a protein kinase, protein kinase puts a phosphate on to a protein (phosphorylates the protein) the phosphorylate dprotein could be an ion channel
 * To terminate the activity:  
 * the phosphate may be removed from the channel by a protein phosphatase
@@ -55,7 +55,7 @@ Inside the cell membrane is an enzyme, Phospholipase C. Both subunits of G-Prote
 * Chemical synapses have a synaptic delay. (.5 msec)
 * temperature sensitive, warmer is faster
 * indicates delay involves more than time for diffusion (Diffusion estimated to take.5 msec)
-* must take soe time to release the neurotransmitter
+* must take some time to release the neurotransmitter
 * Katz and Miledi 1960's - treat neuromuscular junction with small doses of TTX; find that postsynaptic potentials hae a minimum amplitude. PSPs are multiples of that minimum amplitude
 * **minature endplate potential** - Minimum amplitude, aka mini quantal units. Equal to the release of one packet of neurotransmitters (1 vesicle).
 * Continuing applying TTX to block all Na channels, then electrically(artificially using electrodes) stimulate presynaptic cell, still see PSPs in muscle.
@@ -76,33 +76,33 @@ Inside the cell membrane is an enzyme, Phospholipase C. Both subunits of G-Prote
 * How much nt is in a single packet?
   * Calculated 7000 in single quantum, need about 2600 to open 1300 channel which is what is seen in a mini
   * rest of ACh must get broken down by AChE or diffuses away
-  * For a 'typical' epsp at frog nm junction, there are about 200 quanta released - so a typical epsp opens 2600 channels at one synapse for frog nm junction
+  * For a 'typical' epsp at frog nm junction, there are about 200 quanta/vesicles released - so a typical epsp opens 2600 channels at one synapse for frog nm junction
   1. presynaptic terminal depolarizes
   2. v-Ca++ channels open
   3. ... Stuff ... covered below
   4. NT is released
   * In presynaptic terminal, there are 2 populations of vesicles
-    * Releasable pool - ready to fuse to terminal membtane to release nt into cleft
+    * Releasable pool - ready to fuse to terminal membrane to release nt into cleft
     * Storage pool - bound to cytoskeleton by _synapsin_
-    * When terminal depolarizes, Ca++influx activates a protein kinase which phosphorylates synapsin causing it to undergo conformation change releasing the vesicles it holds to the cytoskeleton
+    * When terminal depolarizes, Ca++ influx activates a protein kinase which phosphorylates synapsin causing it to undergo conformation change releasing the vesicles it holds to the cytoskeleton
   * to get vesicles to release contents, proteins on vesicle membrane v-SNARES bind to proteins on the terminal membrane T-SNARES and a fusion pore is created and contents are released (DOCKING)
     * after release, vesicle must be recycled
-  * On the vesicle (proteins):
-    * **Synaptotagmin** - Ca++ dependent step. Binds 5 Ca++ ions, senses Ca++ levels and promotes vesicle docking. it inhibits some molecular clamp on the SNARE complex (t-snares + v-snares) allowing it to form - or allowing T-SNARES to interact with v-SNARES
-    * **Synaptobrerin(VAMP)**
-  * on the terminal:
-    * Syntaxin
-    * Snap-25
-    * Associated with syntaxin is Munc-18 -  an essential protein that catalyzes the binding of the SNARE complex, precise function is not known.
+  * On the vesicle (_V-SNARE proteins_):
+    * **Synaptotagmin** - Ca++ dependent step, Ca++ sensor. Binds 5 Ca++ ions, senses Ca++ levels and promotes vesicle docking. it inhibits some molecular clamp on the SNARE complex (t-snares + v-snares) allowing it to form - or allowing T-SNARES to interact with v-SNARES. Starts vesicle cleaving.
+    * **Synaptobrevin(VAMP)**
+  * on the terminal (_T-SNARE_):
+    * **Syntaxin**
+    * **Snap-25**
+    * **Associated with syntaxin is Munc-18** -  an essential protein that catalyzes the binding of the SNARE complex, precise function is not known.
   * Once the vesicle is bound to the terminal using the SNARE complex, Fusion pore forms- passage between inside of vesicle and outside of terminal so nt can be released
   * don't know how it's made
   * after dumping contents must get off the terminal membrane so another can bind
   * 2 proteins used to dissassemble the SNARE compelex are
-    * NSF
-    * SNAP
-  * Tetanus toxin - cleaves synoptobrevin
-  * Botulnum toxins - one type cleaves syntaxin and SNAP-25
-  * Black widow spider venom -  active ingredient makes a pore in presynaptic terminal so there is a massive Ca++ influx and massive dumping of NT. Entire vesicles
+    * **NSF**
+    * **SNAP**
+  * **Tetanus toxin** - cleaves synoptobrevin
+  * **Botulnum toxins** - one type cleaves syntaxin and SNAP-25
+  * **Black widow spider venom** -  active ingredient makes a pore in presynaptic terminal so there is a massive Ca++ influx and massive dumping of NT. Entire vesicles
   * Final step is recycling the vesicle - there is a rapid endocytosis of membtane around empty vesicle making an endosome.
   * new vesicles are made from the endosome, clatherin is a protein that coats new vesicles. Clatherin is then removed so vesicle can be refilled.
   * Refilling - nt works with a specific transporter that is powered by a proton pump -> uses ATP to fill vesicle with H+, H+ gradient powers transporter that pulls NT in
@@ -138,7 +138,7 @@ Inside the cell membrane is an enzyme, Phospholipase C. Both subunits of G-Prote
   * **Spacial summation** -PSPs whos amplitudes are addected by how far they have traveled (space constant), how they all add up
   * **temporal summation** - how large those PSPs are at a particular time that is determined by the time constant.
 * Drugs with presynaptic effects
-  * **Cocaine** - presynaptic effects, Blocks dopamine transporter
+  * **Cocaine** - presynaptic effects, Blocks dopamine transporter for reuptake
   * **Methanphetamine** - presynaptic effects, causes transporter to "run backward", dumping dopamine from terminal into synaptic cleft -even without it being in vesicles
   * **Ritalin** - presynaptic effects, interferes(blocks) dopamine transporter, perhaps can be used to treat cocaine addiction
   * KO mice missing doplamine transporter, hyperactive like on cocaine but insensitive to cocaine. 100x prolonged presence of doplamine in synapse.
@@ -165,24 +165,24 @@ Inside the cell membrane is an enzyme, Phospholipase C. Both subunits of G-Prote
     * 1960's - timothy leary gave LSD and other hallucionogenic drugs bad rep, research basically stopped.
     * Shows promise for PTSD and depression -
   * **Ethnobotany** - Wade Davis (student) collected 'zombie powder', one sample had TTX.
-  * **Clavius Narcisse**x`
+  * **Clavius Narcisse** - (?)
   * **Facilitation** - synaptic strength increases when the synapse is stimulated several times in quick succession.
     * Presyn cell - stimulus looks like ---|-----|-|-|-|------|---- (burst)
     * Postsyn cell PSP's- response (increasing amplitude with each ap of the burst)
     * **Homosynaptic facilitation** - one synapse, see affect on postsynaptic cell. presynaptic terminal has the effect of: the Ca++ that enters each time the presunaptic cell is stimulated lingers in the presynaptic terminal, so if another stimulus arrives before the Ca++ is cleared from the terminal, that Ca__vadds to the new influx of Ca++ from the next stimulus, there is more Ca++ in the terminal so more cesicles are released. This leads to a larger psp in the postsynaptic cell. Not all presynaptic terminals do this.
     (IMG)
-      * **heterosynaptic facilitation** - uses 3 neurons, 2 synapses. Synapse between test and recorded cell has some effect when test fires Test cell synapses with record cell, priming cell synapses with test's cell terminal. When priming is activated, releases neuromodulator that asserts effect on test cell. and when test cell is stimulated again, its release of nt is altered.
-        * neuromodulater could make channels easier or harder to open, NA+ or K+ or Ca++
-      * These all affect the strength of the synapse between the test cell and the recorded cell
-      * there can be heterosynapctic and homosynaptic facilitation and depression, depending on the effect
-        * stronger response - facilitation
-        * depression - weaker response in recorded neuron
-      * Posttetonic potentiation at single synapse.
-      (img)
-        * pre : -|------|||||---------|---
-          * First AP, then synapse burst of AP, then wait 10 min, then one AP
-        * post : -(small)----(increasing amplitute psp's) --------- (large PSP)
-        * How? Ca++ enters duting the AP in presynaptic terminal. When presynaptic cell shows a burst of activity, there is some buildup of Ca++ in the terminal, so some  inc in nt release and amplitude of postsynaptic cell Ca++ gets sequestered into mitochondria and ER. But then over the next 10 min or so the Ca++ leaks out of the organelles and so builds up in the terminal over several min so that if the presynaptic cell is stimulated after this, theres lots of Ca++ and lots of nt that is released. Not all synapses do this!
+    * **heterosynaptic facilitation** - uses 3 neurons, 2 synapses. Synapse between test and recorded cell has some effect when test fires Test cell synapses with record cell, priming cell synapses with test's cell terminal. When priming is activated, releases neuromodulator that asserts effect on test cell. and when test cell is stimulated again, its release of nt is altered.
+      * neuromodulater could make channels easier or harder to open, NA+ or K+ or Ca++
+    * These all affect the strength of the synapse between the test cell and the recorded cell
+    * there can be heterosynapctic and homosynaptic facilitation and depression, depending on the effect
+      * stronger response - facilitation
+      * depression - weaker response in recorded neuron
+    * **Posttetonic potentiation** - at single synapse.
+    (img)
+      * pre : -|------|||||---------|---
+        * First AP, then synapse burst of AP, then wait 10 min, then one AP
+      * post : -(small)----(increasing amplitute psp's) --------- (large PSP)
+      * How? Ca++ enters duting the AP in presynaptic terminal. When presynaptic cell shows a burst of activity, there is some buildup of Ca++ in the terminal, so some  inc in nt release and amplitude of postsynaptic cell Ca++ gets sequestered into mitochondria and ER. But then over the next 10 min or so the Ca++ leaks out of the organelles and so builds up in the terminal over several min so that if the presynaptic cell is stimulated after this, theres lots of Ca++ and lots of nt that is released. Not all synapses do this!
 * **Long Term Potentiation** - Most studied in hippocampus, forming memories. Neurotransmiter is glutamate. # glutamate receptors
   * **glutamate receptors** - Kainate receptor K receptor, AMPA receptor binds AMPA, NMDA receptor binds NMDA. All bind glutamate.
     * All of these channels open to allow the passage of 2 ions K and Na to pass through.
