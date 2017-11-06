@@ -306,16 +306,39 @@ Inside the cell membrane is an enzyme, Phospholipase C. Both subunits of G-Prote
           * when light hits the photoreceptor, it releases less of the excitatory nt
           * and so the bipolar cell will hyperpolarize
         * ON: For others, glutamate is inhibitory. When photoreceptors hyperpolarize due to light, inhibition is shut off and bipolar cell depolarizes.
-        * Bipolar cells have receptive fields:
-          * Receptive field: the area of the world where an image affects the bipolar cell's output
+        * **Bipolar cells** have receptive fields:
+          * **Receptive field** - the area of the world where an image affects the bipolar cell's output
             * Receptive field in a touch receptor
             ![receptive field](/Images/rf.jpg)
             * In a neuron that receives inputs from several touches:
               * multiple touch receptors interface with single neuron, that neuron gets inputs from all of them.
             * the receptive field of a bipolar cell is a circle
-              * center and surrounding have 2 seperate receptive fields, opposite. Its response to photoreceptors that detect images in teh center of its receptive field will always be the opposite  to a stimulus that acts on a photoreceptor that is providing info on the surround.
+              * _center_ and _surrounding_ have 2 separate receptive fields, opposite. Its response to photoreceptors that detect images in the center of its receptive field will always be the opposite  to a stimulus that acts on a photoreceptor that is providing info on the surround.
               * if bipolar cell has an "on" response to stimuli in the center of its receptive field, it will have an off response to stimuli in the surround and vice-versa.
               * bipolar cells can be on center, off surround or off center, on surround.
               * **Sign conserving synapse** - if bipolar cell responds to its presynaptic photoreceptor cell with the same type of response as what the photoreceptor did ( photoreceptor and bipolar cell both hyperpolarize)
               * **Sign inverting synapse** - if the bipolar cells response is the opposite to that of the presynaptic.
-            * 
+            * **Center** - comes from photoreceptors that are directly presynaptic to it. When photoreceptor is stimulated with light, it gives info on the center. Center can have more stimulation(more area is stimulated) or less, this determines how strong the bipolar cells response will be.
+            Center leaks glutamate(inhibitory) always in the dark, when light hits it is inhibited, bipolar depolarizes because it isnt inhibited anymore.
+            * **Surround** - gets input from other photoreceptors that interact with the bipolar cell by way of a horizontal cell. Surround response is always the opposite of the center response. Inhibits the photoreceptor on center with GABA. When surronding photoreceptor is depolarizes from light, depolarizes horizontal cell which shuts it off. Sign inverting synapse between horz and center photoreceptor.
+              * Surround is opposite, input comes from photoreceptor and sends it to horizontal cell, HC synapses with Synapse of photoreceptor and bipolar cell in the center
+              * The horizontal cell releases GABA onto the synapse to the bipolar, which is inhibitory. When photoreceptor is stimulated, sign conserving signal shuts off horizontal cell which shuts off inhibition.
+              * In the dark(when the surround is not stimulated), horizontal cell is always releasing GABA onto center photoreceptor. Always a little bit of inhibition.
+              * When horizontal cell receives hyperolarization by stimulating the surround photoreceptor, it shuts of this inhibition
+                * This allows the photoreceptor to depolarize (usually hyperpolarized when light hits it).
+              * if light falls on center, hyperpolarizes
+              * if light falls on surround, depolarizes
+              (IMG from phone and ppt)
+              * All of this is _graded_ - if a little of the center of the bipolar cell's receptive field is stimulated
+              * **When both center and surround is stimulated** - Big deploarization and big hyperpolarization add -> no signal
+            * EXAMPLE.
+              * Suppose on center bipolar cell, stimulate center only. Center depolarizes because presynaptic photoreceptor, stimulated by light, hyperpolarizes and releases _less glutamate_ onto the bipolar cell.
+                * That bipolar cell has a receptor that uses glutamate as inhibitory. Is now more prone to fire
+              * The surround - stimulation will cause bipolar cell to hyperpolarizes
+                * here the presynaptic photoreceptor depolarizes and releases _more_ of the glutamate that is for this bipoar cell, inhibitory
+                * Horizontal cell shuts off its inhibition
+              * Why does the presynaptic photoreceptor depolarize when surround is stimulated by light?
+                * because the horizontal cell that synapses with it shuts off the release of inhibitory GABA.
+              * Why does a horizonal cell shut off its release of GABA?
+                * Because its input from its presynaptic surround photoreceptors hyperpolarize it.
+                * as photoreceptors hyperpolarize, horizontal cell does too
