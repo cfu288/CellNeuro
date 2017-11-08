@@ -247,7 +247,7 @@ Inside the cell membrane is an enzyme, Phospholipase C. Both subunits of G-Prote
     * other known deficiencies in CREB in humans which also show learning problems
 
 ### The Eye
-  * Goal 1: to forma sharp image onto the retina where the sensory cells detect it.
+  * Goal 1: to form a sharp image onto the retina where the sensory cells detect it.
     * Amount of light brought to the retina can be adjusted by adjusting pupil diameter
     * Making a sharp image uses cornea but especially lens, lens changes shape to accomodate focus on close objects.
       * ciliary muscle, relaxed is streched lens, focuses in distance due to flat lens. Up close, ciliary muscles clench, lens is rounder.
@@ -342,3 +342,25 @@ Inside the cell membrane is an enzyme, Phospholipase C. Both subunits of G-Prote
               * Why does a horizonal cell shut off its release of GABA?
                 * Because its input from its presynaptic surround photoreceptors hyperpolarize it.
                 * as photoreceptors hyperpolarize, horizontal cell does too
+          * So: bipolar cells show opposite responses to light falling on center vs surround of receptive field.
+        * **Ganglion cell** - Next cells in line, axons make the optic nerve which goes from retina -> Lateral Geniculate
+          * ganglion cells must send signal some distance - fire AP
+          * Have a center/surround receptive field, which matches in its 'on' or 'off' responses to the bipolar cells presynaptic to it
+          * Ganglion cells are always firing some AP an 'on' response is an inc in firing freq.
+          ```
+          recording from ganglion cell
+          "on" response
+                  ---------- (light on)
+          -|-|----||||||||||-----|------|------ (action potentials)
+          "off" response
+                  ---------- (light on)
+          -|-|--|----|-------|--|---|---|--|---- (dec in action potentials)
+          ```
+          (IMG from slides)
+          * 2 types of ganglion cells (in primates):
+            * **p Cells** - small receptive fields, high spacial resolution, color sensitive
+            * **m Cells** - Large receptive fields, sensitive to contrast, sensitive to movement not color
+            * P cells get info from fovea, m cells from other parts of the retina
+        * **Amacrine cells** - synapse with bipolar and ganglion cells, contain many different NT including GABA, glycine, ACh, doplamine, peptides. Shape responses of ganglion cells.
+        -------------------- TEST 3 MATERIAL DONE --------------------------------
+            
