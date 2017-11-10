@@ -342,6 +342,8 @@
           * ganglion cells must send signal some distance - fire AP
           * Have a center/surround receptive field, which matches in its 'on' or 'off' responses to the bipolar cells presynaptic to it
           * Ganglion cells are always firing some AP an 'on' response is an inc in firing freq.
+          * **Ganglion on response** - light causes more AP
+          * **Ganglion off response** - light causes less AP
           ```
           recording from ganglion cell
           "on" response
