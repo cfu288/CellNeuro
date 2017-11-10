@@ -238,8 +238,7 @@
   * isolated mutants
     * **dunce** - lacks phosphodiesterase (breaks down cAMP) always had elevated cAMP levels. too high cAMP prevents elevation in cAMP impossible, therefore learning was difficult.
     * **rutabaga** - mutant is deficent in adenylyl cyclase, cannot inc cAMP. Not enough to strengthen synapses.
-  * Humans: Huntington's
-    * mutant protein interferes with CREB1 activation
+  * Humans: **Huntington's** - mutant protein interferes with CREB1 activation
     * other known deficiencies in CREB in humans which also show learning problems
 
 ### The Eye
