@@ -271,38 +271,40 @@ Inside the cell membrane is an enzyme, Phospholipase C. Both subunits of G-Prote
     * photopigment is different in rods and cones, it includes molecule of _11-cis-retinal_ surrounded by opsins
     * in rods, opsin = rodopsin
     * in cones, opsins absorb different wavelengths, ability to absorb different colors.
-    * cone opsins can discriminate different colors but are not very sensitive to low light levels
-    * red opsin is more sensitive to low light
-    * opsin traps light, and photons of light excite 11-cis-retinal. Photon causes a rapid conformational change which = "photoexcited", activates a G-protein.
-    * G-protein is called transducin
-    * transducin activated phosphodiestrase.
-    * phosphodiesterase breaks down cGMP and turns it into 5'GMP
-    * the breakdown of cGMP causes ion channels to close.
-      * why? cGMP when present is bound to ion channel to hold it open. when cGMP decreases, channels will close, leads to change in Vm for the photoreceptor.
-      * This channel is a Na+ channel
-      * Light closes Na+ channels - causing cell to hyperpolarize
-      * the membrane of the inner segment of the photoreceptor is packed with K+ channels so when there is no light in the dark, Na+ channels are open plenty of cGMP to hold them open. Na+ enters, and to maintain Vm, K+ exits the inner segment dark. Creates a curent from top Na+ in and bottom + out, known as the _dark current_.
-    * When light reaches the outer segment
+    * **cone opsins** - can discriminate different colors but are not very sensitive to low light levels
+    * **red opsin** - is more sensitive to low light
+    * opsin traps light, and photons of light excite 11-cis-retinal. Photon causes a rapid conformational change which = "**photoexcited**", activates a G-protein.
+      * G-protein is called **transducin**
+      * **transducin** activates **phosphodiestrase**.
+      * **phosphodiesterase** breaks down **cGMP** and turns it into **5'GMP**
+      * the **breakdown of cGMP** - causes ion channels to close.cGMP when present is bound to ion channel to hold it open. when cGMP decreases, channels will close, leads to change in Vm for the photoreceptor.
+        * This channel is a Na+ channel
+        * Light closes Na+ channels - causing cell to hyperpolarize
+        * the membrane of the inner segment of the photoreceptor is packed with K+ channels so when there is no light in the dark, Na+ channels are open plenty of cGMP to hold them open. Na+ enters, and to maintain Vm, K+ exits the inner segment dark. Creates a curent from top Na+ in and bottom + out, known as the _dark current_.
+    * **When light reaches the outer segment**
       * Na+ channels close
       * but K+ channels remain open in the inner segment
       * so photoreceptor Vm dips torward Ek, it hyperpolarizes.
         * amount it hyperpolarizes depends on how many Na+ channels close in other words how bright is the light.
         * The response of the photoreceptor is graded with the intensity of the light.
         * bright light will close all Na+ receptors, brightest you can see
-        * test, do practice problem from disc
+        * test,***do practice problem from disc***
         * photoreceptors can adjust their operating range to different light levels. Adapation to different levels of light:
           * need some Na+ channel open and some closed in order for a photoreceptor to register a change in Vm
-        * Enter a dark room:
+        * **Enter a dark room**:
           * Na+ channels all open up - plenty of cGMP around now, you cant see
           * Now: Na+ channels are permiable to Na+ _and Ca++_.
           * Ca++ in photoreceptors interferes with cGMP synthesis.
           * When you are in a dark room, Ca++ that enters throuhg the Na+ channel decreases cGMP levels, so less cGMP is around to hold Na+ channels open.
           * And you are back to a situation where some Na+ channels are open, some closed, and you see again.
-        * Opposite happens when you enter a bright light.
+        * **Opposite happens when you enter a bright light.**
+          * Not enough Na+ channels close.
+          * when you enter bright room,reduced Ca++ from Na+ channel increases cGMP levels, so Na+ channels are opening more.
+          * And you are back to a situation where some Na+ channels are open, some closed, and you see again.
         * Bipolar cells receive synapses from photoreceptors. Photoreceptors release neurotransmitter onto bipolar cells. when they hyperpolarize, they turn down their n.t. release. This is graded, the more the hyperpolarie, the less n.t. they release. No AP needed in photoreceptor to release nt.
         * OFF: Bipolar cell's response to this decrease in n.t. depends on bipolar cell. some bp cells,the nt (glutamate) is an excitatory nt.
           * in the Unstimulated photoreceptor, there is always some glutamate being released.
-          * this bipolar cellis always a little depolarized because of the steady supply of excitatory nt
+          * this bipolar cell is always a little depolarized because of the steady supply of excitatory nt
           * when light hits the photoreceptor, it releases less of the excitatory nt
           * and so the bipolar cell will hyperpolarize
         * ON: For others, glutamate is inhibitory. When photoreceptors hyperpolarize due to light, inhibition is shut off and bipolar cell depolarizes.
@@ -347,7 +349,7 @@ Inside the cell membrane is an enzyme, Phospholipase C. Both subunits of G-Prote
           * ganglion cells must send signal some distance - fire AP
           * Have a center/surround receptive field, which matches in its 'on' or 'off' responses to the bipolar cells presynaptic to it
           * Ganglion cells are always firing some AP an 'on' response is an inc in firing freq.
-          ```
+          z```
           recording from ganglion cell
           "on" response
                   ---------- (light on)
@@ -363,4 +365,3 @@ Inside the cell membrane is an enzyme, Phospholipase C. Both subunits of G-Prote
             * P cells get info from fovea, m cells from other parts of the retina
         * **Amacrine cells** - synapse with bipolar and ganglion cells, contain many different NT including GABA, glycine, ACh, doplamine, peptides. Shape responses of ganglion cells.
         -------------------- TEST 3 MATERIAL DONE --------------------------------
-            
