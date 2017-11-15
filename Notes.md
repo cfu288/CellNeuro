@@ -59,4 +59,59 @@
       * **sound frequency** - number of cycles per second (Hz)
         * human hearing: 20 - 20khz
         * sound is propogated through air as compression of air molecules alternating with rarefaction t a particular distance to or wavelength
-        *
+      * The ear
+        * **Outer ear** - pinna - shape for localizing sound
+          * ripples for localizing sound in vertical plane, point forward  for front-back.
+          * shape + ripples help amplify specific sounds, 3-4k range, most human speech.
+        * **Middle ear** - Eardrum + ossicles
+          * ossicles = 3 bones, incus, malleus, stapes
+          * Sound hit eardrum which moves ossicles, stapes pushes inner ear
+        * **Inner ear** - cochlea - coiled tube 35mm long
+          * flexible partition down center dividing it into 2 chambers
+            * upper - **scala vestibuli**
+            * lower - **scala tympani**
+          * partition supports
+            * **basilar membrane**
+            * **tectorial membrane**
+          * **Cochlea end nearest the ossicles**
+            * basil end has 2 memrane covered holes.
+            * oval window - stapes attaches
+            * round window
+          * **apical end of cochlea**
+            * Partition does not go all the way to the end, called heliocotrema, so s.vestibuli and tympani are not sealed from each other.
+            * sitting on the **basilar membrane** - are the sensory neurons = hair cells
+              * **hair cells** - have cilia on the top of the cell, looked like someone snipped the hairs at an angle.
+                * longest hair is called a kinocillium and the others are called stereocillia. No axons.
+                * hair cells do not fire ap. Do not have axons. Synapse with auditory neurons signals are graded changes in Vm.
+                * 2 sets of hair cells
+                  * **inner hair cells** - what detect sound. 95% of sensory neurons for our ear are these.
+                  * **outer hair cells** - more of them. 75% of total hair population. receive input from brain.
+                * Hairs are either stuck into or rest on the tectorial membrane of them.
+                * Hair cells are stimulated when
+                  * sound waves push the eardrum, stapes pushes oval window of cochlea.
+                  * cochlea is filled with fluid, stapes pushes to make waves.
+                  * waves travel length of cochlea (s.vestibuli), go down helicotrema, through s.tymphani hit round window.
+                  * fluid waves move basilar membrane
+                  * moves hair cells cell bodies
+                  * hairs are in the tectorial membrane so hairs are bent.
+                  * bending of hairs leads to sensory transduction occurs.
+                * Structure of basilar membrane is such that **high freq motion in the cochlea** - causes the basilar membrane to move most at basal end.
+                  * **low freq** - move more at apical end
+                * Also: hairs are constructed to be shorter and stiffer at basal end of cochlea, longer more flexible at apical end
+                * **Mechanical tuning** - in cochlea, Short and stiff respond better to high freq, long flexible to low freq
+        * **sensory transduction**
+          * as basil membrane moves up and down, hair cells hairs are bend first one way then the other.
+          * At the tips of the hairs are thin filaments
+          * tiplinks run between hair tips.
+            * **tiplinks** - connected to ion channels which are on the tip of the hair. When stereocilia move torwatd kinocilium, they stretch the tip links and open ion channels, hair cell depolarizes. When stereocilia move opposite direction, (away from kino), tiplinks relax, ion channels close, hair cell hyperpolarizes.
+            * **When basilar membrane moves up** - during rarefaction phase of sound 'wave' the stereocilia move toward the kinocilium and the hair cell depolarizes.
+            * **when the basilar membrane moves down** - during compression of the sound 'wave', stereocilia move away from the kinocilium, ion channel closes, hair cell hyperpolarizes
+            * no sound - in between.
+            (IMG from phone)
+            * **What ions depolarize the hair cells?** + ion enters - K+. Hair cells are inside their own chamber, Scala media. Really high K+ conc outside cell, flows in
+            (IMG from phone)
+            * So as hair cells move up and down and k+ channels or hair tips open then close s.tympani which the base of hair cells is in, has a more typical ionic composition, so:
+              * as K+ enters hair top, hair depol, activates v-Ca++ channels which open. Ca++ enters, hair cell releases n.t.
+              * On basal end of hair cells, this inc [Ca++]in opens Ca++ activated K+ channels.
+            * here, K+ exits the cell. this brings Vm back to starting calue and then as motion of hair cell moves below starting position, more K+ cehannels on the hair tips are closed than at rest  
+          * so Vm hyperpolarizes duw to K+ exiting the basal portion of the cell 
