@@ -33,7 +33,7 @@
   2. Activated receptor activates a G-Protein
   3. Activated G-Protein binds to GTP, splits into alpha-GTP and bg subunits.
   Inside the cell membrane is an enzyme, Phospholipase C. Both subunits of G-Protein bind here.
-![](Images/path1.png)
+![pathway](/Images/path1.png)
 * Variations on this pathway
 * **PIP2** - can open/close channels
 * **intracellular Ca++** - can lead to channels opening/closing or other things
@@ -193,23 +193,19 @@
   * **Sensitization** - sea slug has a head, siphon, gill, tail. Gentle touching siphon will not cause gill retraction, shocking will. Can pair touch of siphon with retraction using shocks to tail.
   * (Neural circuit simplified img) - siphon sens neuron and tail sens neuron both synapse w/ motor neuron to withdraw gill. Facilitating interneuron takes input from tail and synapses with motor neuron and sensory neuron.
   * Synapse that is strengthened is the siphon sensory neuron synapse with the gill motorneuron.
-  1. Touch siphon - the terminal depolarizes, Ca++ enters glutamate is released onto the motor neuron that withdraws the gill. But its not enough of an epsp in the motor neuron to cause it an AP. Small inc in cAMP
+  1. **Touch siphon** - the terminal depolarizes, Ca++ enters glutamate is released onto the motor neuron that withdraws the gill. But its not enough of an epsp in the motor neuron to cause it an AP. Small inc in cAMP
     * but Ca++ also causes activation of calmodulin which activates adenylyl cyclase which stimulates production of cAMP.
-  2. Shock the tail - tail sensory neuron synapses with the siphon sensory neuron terminal by way of the facilitating interneurons. Causes facilitating neuron to release seratonin onto the siphon sens neuron. Small inc in cAMP
-    * seratonin binds g-protein coupled receptor. Activated adenylyl cyclase which activates production of cAMP.
-  3. Pair stimulation by touching siphon with stimulating siphon sens neuron by way of facilitating interneuron. Ger a bigger increase in cAMP by these 2 mechanisms -
-    1. Ca++ entry due to sensory neuron depolarizing, calmodulin,,, adenylyl cyclase
-    2. Seratonin from facilitating interneuron activates G-protein which activated sdenylyl cyclase.
-  4. This large increase in cAMP leads to protein kinase A, pkA
-    * pkA phosphorylates a K+ channel, causing it to close/keep from opening
-    * So the AP in the terminal lasts longer, more Ca++ comes in and more transmitter(glutamate) is released by the sipon sensory neuron onto the gill motorneuron.
-      * bigger epsp
-      * more likely to generate an AP.
-  5. The seratonin from facilitating internuron also binds to another g-protein associated receptor that activates -via DAG
-    * protein kinase C
-    * pkC phosphorylates synapsin 1 causing it to release vesicles attached to cytoskeleton into the storage pool.
-  6. If training continues and pkA leves stay high enough long enough
-    * pkA can migrate up and into the nucleous
+  2. **Shock the tail** - tail sensory neuron synapses with the siphon sensory neuron terminal by way of the facilitating interneurons. Causes facilitating interneuron to release seratonin onto the siphon sens neuron. Small inc in cAMP. Seratonin binds g-protein coupled receptor. Activated adenylyl cyclase which activates production of cAMP.
+  3. **Pair stimulation by touching siphon with stimulating siphon sens neuron by way of facilitating interneuron** - Get a bigger increase in cAMP by these 2 mechanisms
+    1. Ca++ entry due to siphon neuron -> calmodulin -> adenylyl cyclase -> small cAMP
+    2. Seratonin from facilitating interneuron activates G-protein -> adenylyl cyclase -> small cAMP
+  4. **This large increase in cAMP leads to** - protein kinase A, pkA
+    * **pkA** - phosphorylates a K+ channel, causing it to close so AP in the terminal lasts longer, more Ca++ comes in and more transmitter(glutamate) is released by the sipon sensory neuron onto the gill motorneuron.
+      * bigger epsp, more likely to generate an AP.
+  5. **The seratonin from facilitating internuron also binds to another g-protein associated receptor that activates** - DAG
+    * **Dag activates** - protein kinase C
+    * **pkC phosphorylates** - synapsin 1 causing it to release glutamate vesicles attached to cytoskeleton into the storage pool.
+  6. **If training continues and pkA levels stay high enough long enough** - pkA can migrate up and into the nucleous and phosphorylate CREB1, which activates transcription factors, and Activates MAPK which deactivates CREB2( a transcription repressor ).
     * pkA phosphorylates CREB1
     * CREB1 joins cAMP to bind DNA, Activate transcription factor(s)
     * which promote transcription of genes
