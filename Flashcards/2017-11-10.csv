@@ -1,0 +1,115 @@
+Neuromodulation|Molecules that act on nerves to enhance or inhibit nerves
+Neuromodular|indirect transmitter, ligand binds to metabotropic receptor, using g protein activates ion channel to open in
+Direct transmitter|ligand binds to channel to open it
+G-proteins|modulator binds to a receptor = _metabotropic receptor_. Bound receptor becomes activated and activates a G-Protein. Can lead to complex biochemical cascades
+Metabotrophic receptors structurally|have 7 transmembrane spanning regions. Have carboxy tail inside, amino terminus outside, binding site outside, bonding site for g-protein inside, phosphorylation sites which when phosphorylated, desensitize the membrane. Some are on carboxyl tail
+a subunit|is a GTPase, GTP -> GDP
+Muscarinic ACh receptor in the heart|is metabotropic, activated g proteins bg subunit binds directly to a K+ channel and conformationally opens channel, brings down membrane potential to slow down heartrate
+2nd messengers include|cAMP, cGMP, NO, Ca++, lipids like DAG, IP3
+adenyl cyclase|makes cAMP and the cAMP can activate things
+cAMP|will activate a protein kinase,
+protein kinase|(phosphorylates the protein) the phosphorylated protein could be an ion channel
+To terminate the activity|remove phosphate, break down cAMP  
+if cAMP is high enough and long enough|can get changes in gene expression (Make more ion channels? or receptors for that molecule)
+Ca++ 2nd messenger system|Ca++ channel is phosphorylated and closed. Modulator binds to a receptor -> activates a G-Protein -> G-Protein binds to GTP, splits into alpha-GTP and bg subunits which bind to Phospholipase C
+PIP2|can open/close channels
+intracellular Ca++|can lead to channels opening/closing or other things
+Why such an complex system?|amplifies signal, lasts longer, causes gene activation
+ACh inactivation|acetylcholine esterase AchE
+monoamines inactivation like Seratonin, Doplamine|monoamine oxidase MAO
+minature endplate potential|Minimum amplitude, aka mini quantal units. Equal to the release of one packet of neurotransmitters (1 vesicle).
+Nitrophen|makes 'caged Ca+' it binds it in the terminal - it will release the Ca++ when exposed to UV light. used to test Ca++ and nt release in presynaptic cell. Can use to release only one quantum of nt.
+How much nt is in a single packet?|Calculated 7000 in single quantum, need about 2600 to open 1300 channel which is what is seen in a mini
+Releasable pool|ready to fuse to terminal membrane to release nt into cleft
+Storage pool|bound to cytoskeleton by _synapsin_
+Synaptotagmin|V-SNARE protein.Ca++ dependent step, Ca++ sensor. Binds 5 Ca++ ions, senses Ca++ levels and promotes vesicle docking. it inhibits some molecular clamp on the SNARE complex (t-snares + v-snares) allowing it to form - or allowing T-SNARES to interact with v-SNARES. Starts vesicle cleaving.
+Synaptobrevin(VAMP)|V-SNARE protein
+Syntaxin|T-SNARE
+Snap-25|T-SNARE
+Associated with syntaxin is Munc-18|T-SNARE, an essential protein that catalyzes the binding of the SNARE complex, precise function is not known.
+NSF|dissassemble the SNARE compelex
+SNAP|dissassemble the SNARE compelex
+Tetanus toxin|cleaves synoptobrevin (V-SNARE protein)
+Botulnum toxins|one type cleaves syntaxin and SNAP-25 (T-Snare proteins)
+Black widow spider venom|active ingredient makes a pore in presynaptic terminal so there is a massive Ca++ influx and massive dumping of NT. Entire vesicles
+recycling the vesicle|there is a rapid endocytosis of membrane around empty vesicle making an endosome.
+new vesicles are made from the|endosome,
+clatherin|is a protein that coats new vesicles. Clatherin is then removed so vesicle can be refilled.
+Refilling|nt works with a specific transporter that is powered by a proton pump -> uses ATP to fill vesicle with H+, H+ gradient powers transporter that pulls NT in. After refillrf placed in storage pool
+Amino acids NT|glutamate, GABA, glycine
+Biogenic amines NT|histamine, Seratonin, catecholamines(Doplamine, epinepherine, norepinepherine, octopamine)
+Peptides NT|100s of peptide nt such as substance P(used at pain and temp receptors), opioids - endorphins
+Other NT|ACH, gasses (NO,CO)
+Axoplasmic transport|move items through the neuron
+anterograde|movement from cell body to terminal, slow or fast
+Slow axoplasmic transport(anterograde)|uses cytoplasm and moves large cytoskeleton elements along microtubeles at a rate of .5mm/day
+Fast axoplasmic transport(anterograde)|400mm per day, moves vesicles down microtubule tracts, uses _kinesin_
+retrograde|from terminal to cell body, one speed. Uses motor protein _dynein_
+dynein|hydrolyzes ATP for a conformational change to step along microtubule.
+synaptic integration|a neuron receives inputs from several different neurons at a time, the interplay of all its inputs determines whether that neuron crosses threshold and fires an AP.
+Spike initiation zone|right at the beginning of axon next to cell body, generally where AP is started, where threshold is lowest since it has a high conc of Na+ v-gated  channel
+Spacial summation|PSPs whos amplitudes are addected by how far they have traveled (space constant), how they all add up
+temporal summation|how large those PSPs are at a particular time that is determined by the time constant.
+Cocaine|presynaptic effects, Blocks dopamine transporter for reuptake
+Methanphetamine|presynaptic effects, causes transporter to "run backward", dumping dopamine from terminal into synaptic cleft -even without it being in vesicles
+Ritalin|presynaptic effects, interferes(blocks) dopamine transporter, perhaps can be used to treat cocaine addiction
+Doplamine|is actually not a common transmitter in the brain. Found in 2 pathways: Nigrostantal pathway and Ventral tegmental
+Nigrostantal pathway|from substantia nigra , for motor control, cells in substantia nigra die in parkinsons
+Ventral tegmental|area to nucleus accumbens - the pleasure circuit. Relevant for drug abuse
+Seratonin transporter in presynaptic terminal|antidepressents may interfere with transporter, leaving Seratonin in synapse longer. Zoloft, Paxtil, Prozac
+Ecstasy|presynaptic effects, MDMA Feels best first time around, next day pain threshold is lower. Causes seratonin transporter to work backwards, causes 80% of brain seratonin to be dumped
+Nicotine|postsynaptic effects, binds ACh receptors in ventral tegmented cells (which are dopaminergic), stimulating the to release more dopamine into the nucleus accumbens.
+Opiates|postsynaptic effects, bind at pre existing endorphin receptors on certain cells. Pain relief in spinal cord where binds at receptors on cells receiving input from pain receptors. Tones down response. Its a G-Protein mediated system. Geroin crosses BBB more easily than morphine so its more effective.
+Marajuana|Active ingredient THC, binds a receptor already there. THC type receptors are in peripheral tissues - have been clones but in brain has not yet
+Alcohol|Nonspecific, passes through BBB easily. Seems to block GABA-ergic input  to doplamine cells in ventral tegmental area, but also goes everywhere else.
+Psychadelic drugs|Postsynaptic effects, structurally similar to serotinin, especially som to doplamine. Bind to serotonin type 2A receptors to stimulate or interfere with them. Include LSD, psilocybin, mescaline, bufoterine.
+Ethnobotany|Wade Davis (student) collected 'zombie powder', one sample had TTX.
+Facilitation|synaptic strength increases when the synapse is stimulated several times in quick succession.
+Homosynaptic facilitation|one synapse, see affect on postsynaptic cell. presynaptic terminal has the effect of: the Ca++ that enters each time the presunaptic cell is stimulated lingers in the presynaptic terminal, so if another stimulus arrives before the Ca++ is cleared from the terminal, that Ca++ adds to the new influx of Ca++ from the next stimulus, there is more Ca++ in the terminal so more vesicles are released. This leads to a larger psp in the postsynaptic cell. Not all presynaptic terminals do this.
+Heterosynaptic facilitation|uses 3 neurons, 2 synapses. Synapse between test and recorded cell has some effect when test fires Test cell synapses with record cell, priming cell synapses with test's cell terminal. When priming is activated, releases neuromodulator that asserts effect on test cell. and when test cell is stimulated again, its release of nt is altered.
+Posttetonic potentiation|at single synapse. Ca++ enters during the AP in presynaptic terminal. When presynaptic cell shows a burst of activity, there is some buildup of Ca++ in the terminal, so some  inc in nt release and amplitude of postsynaptic cell Ca++ gets sequestered into mitochondria and ER. But then over the next 10 min or so the Ca++ leaks out of the organelles and so builds up in the terminal over several min so that if the presynaptic cell is stimulated after this, theres lots of Ca++ and lots of nt that is released. Not all synapses do this!
+Long Term Potentiation|Most studied in hippocampus, forming memories. NT is glutamate. # glutamate receptors
+glutamate receptors|Kainate receptor K receptor, AMPA receptor binds AMPA, NMDA receptor binds NMDA. All bind glutamate.
+NMDA receptor|Type of glutamate receptor, requires glutamate in presynaptic and depolarization in postsynaptic to open. When it is open, allows passage of Na+,K+,Ca++. Post channel is normally plugged with Mg++ inside of it, blocks Na,K,Ca even with glutamate, depol releases Mg. Used in LTP.
+In the postsynaptic cell of NMDA|the inc [Ca++]in can activate biochemical cascades leading to increased sensitivity to glutamate by K and AMPA receptors by making more K and AMPA receptors and adding them to the postsynaptic membrane. Also, [Ca++]inside increases and activates NO synthase which makes NO gas. NO gas diffuses out of postsynaptic cell where it can activate a biochemical cascade leading to enhanced release of glutamate.
+Sensitization|sea slug has a head, siphon, gill, tail. Gentle touching siphon will not cause gill retraction, shocking will. Can pair touch of siphon with retraction using shocks to tail.
+dunce|lacks phosphodiesterase (breaks down cAMP) always had elevated cAMP levels. too high cAMP prevents elevation in cAMP impossible, therefore learning was difficult.
+rutabaga|mutant is deficent in adenylyl cyclase, cannot inc cAMP. Not enough to strengthen synapses.
+Huntington's|mutant protein interferes with CREB1 activation
+ciliary muscle|relaxed is streched lens, focuses in distance due to flat lens. Up close, ciliary muscles clench, lens is rounder.
+Receptor cells|rod and cones
+horizontal cells|cross-connect retinal cells
+bipolar cell|receives input from receptor cells
+ganglion cells|have axons that go to the lateral geneulate, make up the optic nerve
+amarine cells|which modulate signals from bipolar cells and ganglion cells.
+retina is set up as|rods and cones in back of retina, preceded by bipolar, then ganglion cells on top closest to light
+rods photopigment|opsin = rodopsin. more sensitive to low light
+cones photopigment|opsins absorb different wavelengths, ability to absorb different colors. not very sensitive to low light levels.
+11-cis-retinal|excited by photons from opsin that traps light . Photon causes a rapid conformational change which = "photoexcited", activates a G-protein transducin.
+transducin|G-protein  in eye activated by 11-cis-retinal. Activates phosphodiestrase.
+phosphodiesterase|breaks down cGMP and turns it into 5'GMP, which causes ion channels to close.
+cGMP|Bound to ion(Na+) channel to hold it open. when cGMP decreases, channels will close, cell will hyperpolarize.
+Light will do what to cGMP?|break down cGMP, closing Na+ channels.
+Dark will do what to cGMP?|Lots of cGMP, opening Na+ channels.
+Dark current|in the dark,  Na+ channels are open (plenty of cGMP). To maintain Vm, K+ exits the inner segment dark. Creates a current from top to bottom.
+When light reaches the outer segment of eye|Na+ channels close but K+ channels remain open in the inner segment so photoreceptor Vm dips torward Ek, it hyperpolarizes.
+Adapation to different levels of light|need some Na+ channel open and some closed in order for a photoreceptor to register a change in Vm
+Enter a dark room|Na+ channels open, plenty of cGMP around now, Ca++ flows through Na+ channels, Ca++ interferes with cGMP synthesis, Ca++ decreases cGMP levels, come channels close.
+Photoreceptors|release neurotransmitter onto bipolar cells. when they hyperpolarize(hit by light), they turn down their n.t. release. This is graded. No AP needed in photoreceptor to release nt.
+OFF: Bipolar cell|glutamate is an excitatory. bp cell is always, depolarized because of the steady supply of excitatory nt. Light hits the photoreceptor, it releases less of the excitatory nt, bipolar cell will hyperpolarize
+ON:BP cell|Glutamate is inhibitory. When photoreceptors hyperpolarize due to light, inhibition is shut off and bipolar cell depolarizes.
+Receptive field|the area of the world where an image affects the bipolar cell's output
+Sign conserving synapse|if bipolar cell responds to its presynaptic photoreceptor cell with the same type of response as what the photoreceptor did ( photoreceptor and bipolar cell both hyperpolarize)
+Sign inverting synapse|if the bipolar cells response is the opposite to that of the presynaptic.
+Center|comes from photoreceptors that are directly presynaptic to it. When photoreceptor is stimulated with light, it gives info on the center. Center can have more stimulation(more area is stimulated) or less, this determines how strong the bipolar cells response will be.
+Surround|gets input from other photoreceptors that interact with the bipolar cell by way of a horizontal cell. Surround response is always the opposite of the center response. Inhibits the photoreceptor on center with GABA. When surronding photoreceptor is depolarizes from light, depolarizes horizontal cell which shuts it off. Sign inverting synapse between horz and center photoreceptor.
+horizontal cell|releases GABA onto the synapse to the bipolar, which is inhibitory. When photoreceptor is stimulated, sign conserving signal shuts off horizontal cell which shuts off inhibition.
+light falls on center|hyperpolarizes
+light falls on surround|depolarizes
+When both center and surround is stimulated|Big deploarization and big hyperpolarization add -> no signal
+Ganglion cell|Next cells in line, axons make the optic nerve which goes from retina -> Lateral Geniculate
+Ganglion on response|light causes more AP
+Ganglion off response|light causes less AP
+p Cells|small receptive fields, high spacial resolution, color sensitive. info from fovea
+m Cells|Large receptive fields, sensitive to contrast, sensitive to movement not color. Not fovea
+Amacrine cells|synapse with bipolar and ganglion cells, contain many different NT including GABA, glycine, ACh, doplamine, peptides. Shape responses of ganglion cells.
