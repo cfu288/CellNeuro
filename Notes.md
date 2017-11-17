@@ -1,3 +1,7 @@
+* 2 types of ganglion cells (in primates):
+  * **p Cells** - small receptive fields, high spacial resolution, color sensitive. info from fovea
+  * **m Cells** - Large receptive fields, sensitive to contrast, sensitive to movement not color. Not fovea
+  * P cells get info from fovea, m cells from other parts of the retina
 * **Brain and the Lateral Geniculate**
   * projections from retina cross the midline at the optic chiasm
     * (most of) right eye axons to left side of brain in primates, all axons in others
@@ -20,20 +24,20 @@
     * LGN axons travel to visual cortex in occipital lobe.
     * terminate in a specific stop
       * primary visual cortex.
-        * Vi
+        * V1
         * area 17
         * striate cortex
       * about 2mm thick, organized into 6 layers
       * LGN axons project to layer 4. Depending on which layer from LGN go to diferent sublayers
         * different sublayers for magnocellular parvocellular
       * Each layer of visual cortex has topographic map, large portion dedicated to fovea
-    * Cells of visual cortex
+    * **Cells of visual cortex**
       * **simple cell** - recives LGN inputs, found in layer 4. Have receptive fields with on center or off center, surround responses are opposite to center. Receptive field is in shape of bar. Var has specific orientation that is preferred.
       * input comes from several LGN cells which all have receptive fields that are next to each other so centers line up in a bar - all of the centers ave same on or off response.
       * Simple cell responds with up or down in firing frequency;
       * outputs of simple cells in layer 4 go to layers 2+3 where the **complex cells** - are sensitive to edges w/ particular orientation. Can be anywhere in receptive field.
       * Can be anywhere in receptive field so inputs come from several simple cells that all have the same preferred orientation fir the bar of light
-        * some complex cells like edges that move.
+          * some complex cells like edges that move.
       * Organization of primary visual cortex layers.
         * topographic map in each
         * orientation colums - cells in all layers in a vertical column have the same preferred orientation for light bars (or edges)
@@ -61,7 +65,7 @@
         * sound is propogated through air as compression of air molecules alternating with rarefaction t a particular distance to or wavelength
       * The ear
         * **Outer ear** - pinna - shape for localizing sound
-          * ripples for localizing sound in vertical plane, point forward  for front-back.
+            * ripples for localizing sound in vertical plane, point forward  for front-back.
           * shape + ripples help amplify specific sounds, 3-4k range, most human speech.
         * **Middle ear** - Eardrum + ossicles
           * ossicles = 3 bones, incus, malleus, stapes
@@ -114,4 +118,35 @@
               * as K+ enters hair top, hair depol, activates v-Ca++ channels which open. Ca++ enters, hair cell releases n.t.
               * On basal end of hair cells, this inc [Ca++]in opens Ca++ activated K+ channels.
             * here, K+ exits the cell. this brings Vm back to starting calue and then as motion of hair cell moves below starting position, more K+ cehannels on the hair tips are closed than at rest  
-          * so Vm hyperpolarizes duw to K+ exiting the basal portion of the cell 
+          * so Vm hyperpolarizes due to K+ exiting the basal portion of the cell
+        * Vmrest 0> K+ enters hair tip, starts to depolarize, vgated Ca++ open, NT released, at peak Ca++ activated open on cell base(starts to hyper pol), More channels on hair tip are closed than at rest(when hyperpolarized), K+ exiting ca++ actin K+ channels.
+        (IMG)
+        * Vm follows the freq that sound is moving basilar membrane.
+        * **Electrical tuning**:
+          * anotger form of electrical tuning,
+            * The ca++ activated K+ channels are also called big K channels or bK
+            * when may open, K+ exits, Vm drops
+            * bK channels are different in gK(conductance to K) depending on which hair cell they are on
+              * for high freq hair cells, gK+ for bK channel is high so K+ exits quickly and Vm can change quicly.
+              * For low freq hairs, gK+ for bK channels is much lower and Vm changes more slowly
+        * **Active tuning**:
+          * Outer hair cell:
+            * hairs of these cells have motor protein called **prestin** - charged protein that reacts to changes in membrane potential. When Vm becomes (+), prestin shortens. When Vm, becomes +, it lengthenes, when it becomes -, it relaxes.
+            * When Vm becomes (+), as basilar membrane moves up, prestin shortens, outer hair cells pull basilar membrane up just a little more.
+            * Sharpen tuning
+          * **Damage to outer hair cells** - leads to trouble discriminating sounds. Can still hear you, but its hard to make out what you're saying.
+          * Outer hair cells receive inputs from superior olive of brain
+            * these are Ach inputs. Are inhibitory
+          * Ach receptors are ionotrophic, open a channel for Na+ and Ca++. The Ca++ that enters activates the Ca++ activated K+ channels which open, prolong the hyperpolarization of the outer hair cell and keep it from shortening.
+          * So basilar membrane motion can be turned down at a particular frequency. This happens if there is a sound that is particularly loud at that frequency.
+            * avoids over stimulation of basilar membrane and inner hair cells at a particular frequency.
+      * Hair cells synapse with auditory neurons cell bodies in spinal ganglion near the cochlea, send long proccess to hair cells to receive n.t.
+      * auditory neurons are tuned to frequency by which hair cells they receive input from
+      * auditory neurons fire a.p. Fire when stimulated a big stimulus means lots of spikes, a lesser or one of freqencies from other hair cells that they do not receive input from, dont fire.
+      * **Tuning curve** - describes auditory neuron's response on graph. Plot threshold on X, freq on y. Minimum response to generate a response as function of frequency of sound.
+      (IMG)
+        * Peak shows the best frequency. This is the frequency where the cell has the lowest threshold.
+        * Sharp curve - narrowly tuned
+        * Broad curve - Broadly tuned
+      * tuning depends on which hair cells they receive inputs from.
+      * 
