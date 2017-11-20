@@ -138,7 +138,7 @@
           * Outer hair cells receive inputs from superior olive of brain
             * these are Ach inputs. Are inhibitory
           * Ach receptors are ionotrophic, open a channel for Na+ and Ca++. The Ca++ that enters activates the Ca++ activated K+ channels which open, prolong the hyperpolarization of the outer hair cell and keep it from shortening.
-          * So basilar membrane motion can be turned down at a particular frequency. This happens if there is a sound that is particularly loud at that frequency.
+          * So basilar membrane motion can be turned down at a particular frequency. This happens if there is a sound that is particularly loud at that frequency.d
             * avoids over stimulation of basilar membrane and inner hair cells at a particular frequency.
       * Hair cells synapse with auditory neurons cell bodies in spinal ganglion near the cochlea, send long proccess to hair cells to receive n.t.
       * auditory neurons are tuned to frequency by which hair cells they receive input from
@@ -146,7 +146,34 @@
       * **Tuning curve** - describes auditory neuron's response on graph. Plot threshold on X, freq on y. Minimum response to generate a response as function of frequency of sound.
       (IMG)
         * Peak shows the best frequency. This is the frequency where the cell has the lowest threshold.
-        * Sharp curve - narrowly tuned
-        * Broad curve - Broadly tuned
+        * **Sharp curve** - narrowly tuned
+        * **Broad curve** - Broadly tuned
       * tuning depends on which hair cells they receive inputs from.
-      * 
+    * **Frequency coding** - by auditory neurons - low freq (100hz or less) auditory neurons will fire AP at same freq as the hair cells release nt. But as freq inc, AP cannot fire fast enough. Instead, fire at the same phase as sound stimulus - can encode frequency higher than AP rate.
+      * fires only at peak, even if neuron doesn't hit every peak you can still encode info because of population of neurons will hit every.
+      * Auditory neurons are said to be **phase-locked** - Always fire at the same phase of a cycle (fire in the same point in the cycle, generally at the peak). We can use this mechanism up to 4khz
+      * Above this frequency is encoded bt the identity of the auditory neuron - which hair cell it gets inputs from
+    * auditory neurons ->
+      * Dorsal cochlear nuclei
+      * ventral cochlear nuclei
+    * in medulla - tonotopic map is maintained here
+  * Direction of the sound stimulus
+    * **higher freq w/o phase lock (>4khz)** - attenuate going from one side of head to other, freq stays the same.
+      * In the superior olive, here is what neurons do:
+        * neurons have an identity that is based on "sound from the right" or "from the left." from a neuron that identifies as "from the right":
+        (IMG from phone)
+        * epsp from right ear will be larger if sound is louder in right ear
+        * ipsp in left ear will be smaller if sound is quieter in left ear
+        * so for sound from right: epsp overpowers the ipsp and neurons fire.
+        * works because **Sound Shadowing** - sound amplitude declines as it passes through your head.
+    * **For low frequency sounds** - where auditory neurons can phase lock, you can use time of arrival of the 2 ears to determine direction. Ears must be far apart for this.
+      * Circutry in the supurior olive (of medulla) determines functionality
+      * **Delay line** - Again neurons have identities - "sound from right", "left", or "center",etc. When neuron fires, we know sound came from particular direction.
+      * **Delays being important are** - 1. how long sound takes to travel from one side to the other. 2. how long AP take to travel from one side to the other.
+      * For a neuron that has the identity of "sound from the left"
+      (IMG from phone)
+      * Neuron E fires for sound from left - why? Will only fire on  AP whenit gets epsps from L and R at the same time. Utilizes temporal summation, needs combinations of epsps. Timing of sound arrives at left ear -> ABCDE. Right ear arrives with a bit of delay -> EDCBA. With delay, EPSP from right and left hit neuron E about the same time.
+    * **Hearing loss** - losing hair cells - can they be induced to regenerate? research going on - birds can do it.
+    * **Cochelar implants** - bypass hair cells entirely, use tonotopic organization of auditory neurons. Wires end at particular frequencies - shorter wire does higher freq.
+    (IMG from phone)
+    * Sounds are picked up by an external microphone, sorted by frequency and electrodes stimulate auditory neurons for specific frequencies.
