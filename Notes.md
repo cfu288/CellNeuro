@@ -175,5 +175,5 @@
       * Neuron E fires for sound from left - why? Will only fire on  AP whenit gets epsps from L and R at the same time. Utilizes temporal summation, needs combinations of epsps. Timing of sound arrives at left ear -> ABCDE. Right ear arrives with a bit of delay -> EDCBA. With delay, EPSP from right and left hit neuron E about the same time.
     * **Hearing loss** - losing hair cells - can they be induced to regenerate? research going on - birds can do it.
     * **Cochelar implants** - bypass hair cells entirely, use tonotopic organization of auditory neurons. Wires end at particular frequencies - shorter wire does higher freq.
-    (IMG from phone)
+    (IMG from phone, mistake in image reverse high low labels)
     * Sounds are picked up by an external microphone, sorted by frequency and electrodes stimulate auditory neurons for specific frequencies.
