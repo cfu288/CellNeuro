@@ -252,4 +252,3 @@ co* 2 types of ganglion cells (in primates):
       5. Inhibits A fatigues
       6. B stops firing. A rebounds and fires, etc etc
       7. shut off by brain inhibition which slowly declines to avoid activating postinhibit rebound
-      
