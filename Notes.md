@@ -252,3 +252,24 @@ co* 2 types of ganglion cells (in primates):
       5. Inhibits A fatigues
       6. B stops firing. A rebounds and fires, etc etc
       7. shut off by brain inhibition which slowly declines to avoid activating postinhibit rebound
+
+### Development of the nervous system
+  * **Carnorhabditis elegans** - C. elegans - entire lineafe of all its neurons has been tracked, know exactly what neuron developed from which original cell. But in most cases, cells develop based oncombination of lineag, signals the cells were exposed to during development.
+  * **Fertilized egg** - zygote cells divide rapidly eventually forming a hollow ball of cells = blastula
+  * here cells can be exposed to different signals based on where they are located
+    * inside blastula exposed to cavity
+    * outside the blastula expoded to external
+    * in middle somewhere - exposed to neighboring cells
+  * Next step - gastrulation - cells from outside spread around the outside surface, trigger divide
+    * some find a crease tht forms in the surface and they roll into the inside
+  ![gastrulation]()
+  * crease they move into is theblastopore
+  * the first crease this started as = dorsal lip of the blastopore
+  * Blastopore expands outside view:
+  ![]()
+  * end result: blastocaele is gone - inside cavity is the archenteron - blastopore opens to outside
+  * 3 layered embryo:
+    * outside cells that have always been outside - ectoderm
+    * inside cells that line archenteron - endoderm
+    * outside cells that moved into inside - mesoderm
+  * Mesodermal cells that entered via dorsal lip of balstophore because notochord
