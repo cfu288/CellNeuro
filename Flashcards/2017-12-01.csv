@@ -1,0 +1,42 @@
+p Cells|small receptive fields, high spacial resolution, color sensitive. info from fovea
+m Cells|Large receptive fields, sensitive to contrast, sensitive to movement not color. Not fovea
+magnocellular cells|They receive synapses from M ganglion cells.
+parvocellular cells|receive input from P cells of retina
+layers 1,4,6|from the contralateral eye
+Layers 2,3,5|from ipsilateral eye
+simple cell|recives LGN inputs, found in layer 4. Have receptive fields with on center or off center, surround responses are opposite to center. Receptive field is in shape of bar. Var has specific orientation that is preferred.
+complex cells|are sensitive to edges w/ particular orientation. Can be anywhere in receptive field.
+Sound intensity|measured in decibels, measured in logs
+sound frequency|number of cycles per second (Hz)
+Outer ear|pinna - shape for localizing sound
+Middle ear|Eardrum + ossicles
+Inner ear|cochlea - coiled tube 35mm long
+basilar membrane|are the sensory neurons = hair cells
+hair cells|have cilia on the top of the cell, looked like someone snipped the hairs at an angle.
+inner hair cells|what detect sound. 95% of sensory neurons for our ear are these.
+outer hair cells|more of them. 75% of total hair population. receive input from brain.
+high freq motion in the cochlea|causes the basilar membrane to move most at basal end.
+low freq|move more at apical end
+Mechanical tuning|in cochlea, Short and stiff respond better to high freq, long flexible to low freq
+tiplinks|connected to ion channels which are on the tip of the hair. When stereocilia move torwatd kinocilium, they stretch the tip links and open ion channels, hair cell depolarizes. When stereocilia move opposite direction, (away from kino), tiplinks relax, ion channels close, hair cell hyperpolarizes.
+When basilar membrane moves up|during rarefaction phase of sound 'wave' the stereocilia move toward the kinocilium and the hair cell depolarizes.
+when the basilar membrane moves down|during compression of the sound 'wave', stereocilia move away from the kinocilium, ion channel closes, hair cell hyperpolarizes
+prestin|charged protein that reacts to changes in membrane potential. When Vm becomes (+), prestin shortens. When Vm, becomes +, it lengthenes, when it becomes -, it relaxes.
+Damage to outer hair cells|leads to trouble discriminating sounds. Can still hear you, but its hard to make out what you're saying.
+Tuning curve|describes auditory neuron's response on graph. Plot threshold on X, freq on y. Minimum response to generate a response as function of frequency of sound.
+Sharp curve|narrowly tuned
+Broad curve|Broadly tuned
+Frequency coding|by auditory neurons - low freq (100hz or less) auditory neurons will fire AP at same freq as the hair cells release nt. But as freq inc, AP cannot fire fast enough. Instead, fire at the same phase as sound stimulus - can encode frequency higher than AP rate.
+phase-locked|Always fire at the same phase of a cycle (fire in the same point in the cycle, generally at the peak). We can use this mechanism up to 4khz
+higher freq w/o phase lock (>4khz)|attenuate going from one side of head to other, freq stays the same.
+Sound Shadowing|sound amplitude declines as it passes through your head.
+For low frequency sounds|where auditory neurons can phase lock, you can use time of arrival of the 2 ears to determine direction. Ears must be far apart for this.
+Delay line|Again neurons have identities - "sound from right", "left", or "center",etc. When neuron fires, we know sound came from particular direction.
+Delays being important are|1. how long sound takes to travel from one side to the other. 2. how long AP take to travel from one side to the other.
+Hearing loss|losing hair cells - can they be induced to regenerate? research going on - birds can do it.
+Cochelar implants|bypass hair cells entirely, use tonotopic organization of auditory neurons. Wires end at particular frequencies - shorter wire does higher freq.
+Motor unit|motor neuron + all fibers it innervates. Activating more motor units will increase the stength of a contraction.
+Alpha motor neurons|muscles mostly innervated by these in the legs.
+Motor patterns|Activity pattern of motor neuron (flight in insects)
+central pattern generator|pattern can occur without any sensory information. Neural circuitry that produces alternating activity among motorneurons without sensory feedback. Brain synapses with 2 interneurons, each which synapse with motor neuron(one which elevates, one depresses). Interneurons inhibit each other
+postinhibitory rebound|neuron is hyperpolarized for a while and hyperpolarization is flipped off suddenly, it will fire a burst of action potentials because hyperpolarization allowed more Na+ channels to close and get past the refractory period so more are ready to opem when Vm becomes more positive. Effectively, decreases threshold.
