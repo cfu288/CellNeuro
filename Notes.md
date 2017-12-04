@@ -262,14 +262,83 @@ co* 2 types of ganglion cells (in primates):
     * in middle somewhere - exposed to neighboring cells
   * Next step - gastrulation - cells from outside spread around the outside surface, trigger divide
     * some find a crease tht forms in the surface and they roll into the inside
-  ![gastrulation]()
+  * ![gastrulationi mg]()
   * crease they move into is theblastopore
   * the first crease this started as = dorsal lip of the blastopore
   * Blastopore expands outside view:
-  ![]()
+  * ![Blast img]()
   * end result: blastocaele is gone - inside cavity is the archenteron - blastopore opens to outside
   * 3 layered embryo:
     * outside cells that have always been outside - ectoderm
     * inside cells that line archenteron - endoderm
     * outside cells that moved into inside - mesoderm
   * Mesodermal cells that entered via dorsal lip of balstophore because notochord
+  * **notocord** - a rod like structure
+   that froms in all chordates
+    * it is on the dosal side of animal settingup the D-V axis
+    * it is elongated so it elongated embryo, creating an A-P axis.
+  * notochord induces ectodermal cells above it to form nervous system
+  * notochord first causes ectoderal cells to change shape to flatten makes neural plate
+  ![neural notochord]()
+  * Then the cells change shape constricting neck, forming a groove to form
+  * groove expands to make neural folds
+  * folds get taller and taller until the meet at top and form neural tube.
+  * is covered with other ectodermal cells for skin
+  * Neural crest cells appear along side the neural tube.
+  * How does notochord induce ectoderm to become neural tube?
+  * ectoder can become epidirmis or neural tube
+  * ectoderm exposed to notochord -> neural tube.
+  * epidermis is triggered to form when ectodermal cells are exposed to VMP4
+  * BMP4 is present throughout embryo, but more concentralef ventrally and laterally
+  * in this dorsal area, there is BMP4 in ectoderm
+  ![]()
+  * Notochord - secreated proteins that block the BMP4 receptor cells exposed to these, cannot -> epidermis instead they turn in to neural tube.
+  * For ectoderm, neural tube is default path undless BMP4 is present
+  ![]()
+  * These blockers, secreted by notochord are: chordin, noggin, follistatin, nodal
+  * **Anterior-posterior differentiation**  - neural tube must differentiate a->p as (A)telencepelon, Diencephalon, Mesencephalon, Metencephalon, Mylencephalon(P), spinal chord
+  * Many signalling molecules involved, story is still not clear
+  * **Retnoic Acid** - triggers posterior neural tube development. Activates homeobox genes for posterior cell identity.
+
+### Dorsal Ventral neural tube differentation
+  * sensory more dorsal, interneurons inthe middle, motor neurons more ventral.
+  ![]()
+  * Notochord secretes sonic hedgehog (shh)
+  * notochord is below neural tube
+  * this interacts with cells on ventral neural tube
+  * induces them to become floor plate cells
+  * floor plate cells secrete shh
+  * this all leads to high concentration of shh in ventral neural tube
+  * Dorsal neural tube cells, in contrast, is exposed to BMP4. High concentration dorsal side of BMP4
+  * So neural tube ends  up with different proportions of BMP4 and SHH dorsally to ventrally - the 2 molecules interact and relative levels of the 2 induce cells exposed to them to become different types of cells
+  ![bmp vs shh]()
+    * High BMP4 (v)
+      * sensory neurons
+      * interneurons
+      * motor neurons
+    * High SHH (^) (floor plate cells)
+    * Meanwhile, cells are diciding at a high rate up to 250,000 cells every minute!
+    ![cell division]()
+    * newly formed neuron in the neural tube migrate
+    ![radial gilia]()
+    * cells divide in center, newly formed neurons climb out onto outer layer of neural tube.
+      * so tube gets thicker by adding layers to the outside
+    * Neurons climb radial glial cells which make a scaffold the neuron attaches to.
+  * other cells that migrate:
+    * neural crest cells are born alongside neural tube (dorsally) and migrate to far-flung regions of the embryo
+    * follow chemicals cues in the extracellular matrix. some attract, some repel
+      * some cause cells that pass over them to follow a particular developmental path to become a particular cell type
+  * **neural crest cells can differentiate into** - sensory neurons if exposed to leukocyte inducing factor, adrenergic neurons if exposed to FGF2 *then* NGF, cholinergic neurons if exposed to first FGF2 *then* ciliary neurotrophic factor, melanocytes out in skin if exposed to stem cell factor, chromaffin cells if exposd to gluocontioids, other things including dentin in teeth.
+  * How do neurons "know" what neurons they need to synapse with?
+    * sperry 1960s - rotated eye - V is D and D is V
+      ![Frog eye, rotated dorsal and ventral part of the eye]()
+      * Frog does not compensate for rotated visual field, misses fly
+      * so next expirement was to cut optic nerve and rotate eye so neurons have to regrow. Now retinal ganglion cells
+      * new synaptic parters in the brain (tectum) (equivilant to the LGN)
+      * frog recovers, stillmisses, does not compensate. How do these neurons find old targets?
+    * Basically retinal neurons (ganglion cells) found their old synaptic parters and reconnected with them.
+      * turns out, not as precise as that, Tectum has a gradient of the molecule **ephrin**
+      ![ephrin]()
+      * some neurons sensitive to epherin, will grow until conc of epherin is too high
+      * Neurons frow into tectum until they reach limits of their tolerance to ephrin. Then they stop growing, make a synapse.
+      * So not exactly the synapse remade but a synapse with the same type of tectum neuron as before
