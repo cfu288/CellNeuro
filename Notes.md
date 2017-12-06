@@ -342,3 +342,65 @@ co* 2 types of ganglion cells (in primates):
       * some neurons sensitive to epherin, will grow until conc of epherin is too high
       * Neurons frow into tectum until they reach limits of their tolerance to ephrin. Then they stop growing, make a synapse.
       * So not exactly the synapse remade but a synapse with the same type of tectum neuron as before
+  * Neuronal Outgrowth: Pathfinding
+    * extension of axon = growth cone
+      * growth cones extend highly active, mobile filopodia
+      * filopodia are filled with actin - use myosin and Ca++ to move.
+      * filopodia probe the enviorment looking for chemical cues
+    * Molecules for guidance cues:
+      * Intergrins - on growth cone and on extracell matrix. If they share an intergrin these bing and "tack" axon down in that place
+      ![]()
+        * laminin
+        * fibronectin
+        * tenascin
+      * molecules found on nearby cells include
+        * cadherins - calcium dependent, activates a biochemical cascade leading to attachment and further growth on crowth cone and on other cell surfaces
+          * if math, will bind.
+        * CAMs - Cell adhesion molecules, not ca++ dependant. On growth cone and on glia Ng-CAMs or neurons N-CAM
+          * so neurons will bind together, travel in groups
+          * binding leads to biochem cascade that promotes adhesion and more growth
+      * Cadherins, cams, and intergrins are short range guidance cues.
+      * long range attractants/repellants include
+        * **Netrins** - can attract or repel from a distance
+        * **Semaphorins** -when encounter a growth cone - interact with the placement of actin in the filopodia
+        * **collapsin** - dismantles actin so causes growth cone to turn away from its source.
+      * growing axons will follow other growing axons - bind by N-cams ( or maybe other molecules)
+      * **1st axon to find its way** - Pioneer Axon, later developing axons follow the pioneer  
+      * poineer axons navigate a path using chemical cues as above
+      * can use other cells as long-range cues
+        * guide post cells
+          * if destroyed, axons get "lost" forming tangles and random paths
+        * growing axons may make transient (temporary synapses with guide post cells)
+        * mammalian examples
+          * cajal - Retzius cells in developing hippocampus
+            * ingrowing axons find them and make synapses
+            * once the true target cells are born in hippocampus, thse axon switch to synapsing with them
+            * and cajal - rezius cells - job is done - they die
+          * Developing Visual cortex
+            * LGN neuron axons must sunapse with "correct" simple cells in visual cortex
+            * LGN axons arrive in cortex before simple cells are born.
+            * LGN axons make temporary synapses w/ subplate cells that are present.
+          * if subplate cells are ablated, LGN axons will grow past this and gel lost. In cortex - make tangles, random directions.
+        * some molecules promote both direction for axon and survival of the neuron.
+        * **Nerve growth factor NGF**
+        * **Sympathetic neuron** - born in sympathetic ganglia, have to grow out and find their targets. antibodies to NGF in developing mice
+          * very few symp neurons in ganglia
+        * **Adding NGF during development** - leads to excessiv enumbers of symp neurons in ganglia  
+        * Target tissue has mRNA for NGF, it doesnt translate it until it it is contacted by growth cone of symp axon.
+          ![NGF made, secreted]()
+          * NGF made secreted by target tissue
+          * NGF binds receptors growth cone on growth cone contact
+        * TrkA receptors - when they bind NGF, NGF+TkA detach from membrane -> cytoplasm
+          * can remain in growth cone to stimulate further extension
+          * or be transported by retrograde axoplasmic transport -> cell body
+          * to nucleus to promote transcription of genes for further growth + survival
+        * NGF and TrkA is just one example, other GFs and receptors are used by other types of neurons
+    * During development, more neurons are born than survive to adulthood - neurons must make synapses to survive.
+    * Next set of mechanisms are activity dependent - used in development and in behaioral plasticity
+    * Example LGN -
+      * alternating layers of cells for each eye LRLR
+      ![neuron L/R]()
+      * Early in developent, left eye axons from ganglion cells make synapses in both layers (l and r)
+      * Later:
+      ![only left to left synapse]()
+      * synapses to the "wrong" layer are pruned away.
