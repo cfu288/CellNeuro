@@ -1,4 +1,4 @@
-co* 2 types of ganglion cells (in primates):
+* 2 types of ganglion cells (in primates):
   * **p Cells** - small receptive fields, high spacial resolution, color sensitive. info from fovea
   * **m Cells** - Large receptive fields, sensitive to contrast, sensitive to movement not color. Not fovea
   * P cells get info from fovea, m cells from other parts of the retina
