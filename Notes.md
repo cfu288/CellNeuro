@@ -385,8 +385,8 @@
         * **Nerve growth factor NGF**
         * **Sympathetic neuron** - born in sympathetic ganglia, have to grow out and find their targets. antibodies to NGF in developing mice
           * very few symp neurons in ganglia
-        * **Adding NGF during development** - leads to excessiv enumbers of symp neurons in ganglia  
-        * Target tissue has mRNA for NGF, it doesnt translate it until it it is contacted by growth cone of symp axon.
+        * **Adding NGF during development** - leads to excessive numbers of symp neurons in ganglia  
+        * Target tissue has mRNA for NGF, it doesn't translate it until it it is contacted by growth cone of symp axon.
           ![NGF made, secreted]()
           * NGF made secreted by target tissue
           * NGF binds receptors growth cone on growth cone contact
@@ -396,11 +396,30 @@
           * to nucleus to promote transcription of genes for further growth + survival
         * NGF and TrkA is just one example, other GFs and receptors are used by other types of neurons
     * During development, more neurons are born than survive to adulthood - neurons must make synapses to survive.
-    * Next set of mechanisms are activity dependent - used in development and in behaioral plasticity
+    * Next set of mechanisms are activity dependent - used in development and in behavioral plasticity
     * Example LGN -
       * alternating layers of cells for each eye LRLR
       ![neuron L/R]()
-      * Early in developent, left eye axons from ganglion cells make synapses in both layers (l and r)
+      * Early in development, left eye axons from ganglion cells make synapses in both layers (l and r)
       * Later:
       ![only left to left synapse]()
       * synapses to the "wrong" layer are pruned away.
+        * How?
+        * Lets talk about input from left eye
+        * waves of electrical activity sweep across ht retinas of both eyes
+        * coordinated in each eye so that neighboring cells are active together (then inactive)
+        * Cells project to LGN in topographic way - have inputs to LGN neurons
+        * Form left eye, most synapes to LGN are to the left layer but a few end up on the right layer.
+        * On the left layer, inputs are many and they are synchronized
+        * on the right layer, fewer inputs, and they are out of sync w/ the waves of activity from the right eye.
+        * on right layer, inputs that are in the minority(inputs from right) and out of sync get removed
+        ![LGN layers]()
+      * Ocular domninance - if R eye has ocular dominance, then R eye has majority of inputs. Columns in VI ferret experiment, block all electrical activity in retina.
+        * put electrodes on the 2 optic nerves (L eye, R eye)
+        * applies electrical stimulation to the 2 optic nerves:
+          * do this for many days while ocular dominance columns are being formed
+          A. in 1 set of animals: stimuli to 2 eyes are synchronous
+          B. in 1 set of animals: stimuli to 2 eyes aren't in sync
+        * Many days later, record in visual cortex for ocular dominance
+        * in group A, many cells driven by both eyes
+        * in group B, hardly any cells driven by both eyes.
