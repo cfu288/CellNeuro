@@ -208,8 +208,7 @@
     * inputs from the la afferents: what is the sensor, anyway
       * sensory neuron - gets stretched and stimulated. Surrounded by non-contractile capsule. Has muscle fibers on each end of it(intrafusal fibers).
       * Muscle fibers outside this are extrafusal fibers
-      (IMG stretch sensors)
-      ![]()
+      ![stretch sensors](/Images/MuscleStretch.jpeg)
       * sensory neuron is able to detect stretch on the muscle, even when it is at different lengths. how? by using the intrafusal fiber.
     * So muscle stretches, sensory neuron activated la afferents generate epsps on motorneurons
     * motorneurons cross threshold, fire, shorten muscle until sensory neuron stops firing. Alleviates stretch on sensor
@@ -217,7 +216,7 @@
     * the la afferents synapse with both the alpha motorneurons and the gamma motorneurons
     * so as the extrafusal fibers contract, intrafusal do to, restoring tension on the sensor so it  can be active if another stretch comes along  at the new shorter muscle length.
     (IMG spinal cross section from phone)
-    ![]()
+    ![spinal cross section](/Images/SpineCS.jpeg)
     * suppose you suddenly and rapidly withdeaw your right leg
     * synergistic muscles have the same action
     * antagonisitic muscles have opposite action.
@@ -226,7 +225,7 @@
     * These produce behaviors when repeated, you can get a rhythmic motor pattern.
     * Wilson - locus fly wingbeat pattern can occur without any sensory information
     * **central pattern generator** - pattern can occur without any sensory information. Neural circuitry that produces alternating activity among motorneurons without sensory feedback. Brain synapses with 2 interneurons, each which synapse with motor neuron(one which elevates, one depresses). Interneurons inhibit each other
-    (IMG) ![Wing circuitry]()
+    (IMG) ![Wing circuitry](/Images/wingc.jpeg)
       1. Brain neuron fires, "its time to fly"
       2. Neuron B has a lower theshold than A
       3. Neuron B fires
@@ -239,11 +238,12 @@
       10. Wing goes up
       * Neurons that fire a burst of AP eventually fatigue and stop firing (run out of available NT)
       * Neuro phys recording of all cells
-      ![Neuro phys recording of all cells]()
+      ![Neuro phys recording of all cells](/Images/nphys.jpeg)
         * in image, neuron with lower threshold fires first. in above image, a fires first, has lower threshold
     * Alternative model to alternate activity : **postinhibitory rebound** - neuron is hyperpolarized for a while and hyperpolarization is flipped off suddenly, it will fire a burst of action potentials because hyperpolarization allowed more Na+ channels to close and get past the refractory period so more are ready to opem when Vm becomes more positive. Effectively, decreases threshold.
       * input from brain does not need to be continuous for this to work
-      ![model]()
+      ![model](/Images/model.jpeg)
+      ![model1](/Images/model1.jpeg)
       * brain has input to neuron A, inhibitory
       1. brain inhibits A, shuts off,
       2. A fires due to postingibit rebound
@@ -262,7 +262,7 @@
     * in middle somewhere - exposed to neighboring cells
   * Next step - gastrulation - cells from outside spread around the outside surface, trigger divide
     * some find a crease tht forms in the surface and they roll into the inside
-  * ![gastrulationi mg]()
+  * ![gastrulationi mg](/Images/gas.jpeg)
   * crease they move into is theblastopore
   * the first crease this started as = dorsal lip of the blastopore
   * Blastopore expands outside view:
@@ -279,7 +279,8 @@
     * it is elongated so it elongated embryo, creating an A-P axis.
   * notochord induces ectodermal cells above it to form nervous system
   * notochord first causes ectoderal cells to change shape to flatten makes neural plate
-  ![neural notochord]()
+  ![neural notochord](/Images/noto.jpeg)
+  ![neural notochord](/Images/noto1.jpeg)
   * Then the cells change shape constricting neck, forming a groove to form
   * groove expands to make neural folds
   * folds get taller and taller until the meet at top and form neural tube.
@@ -291,7 +292,7 @@
   * epidermis is triggered to form when ectodermal cells are exposed to VMP4
   * BMP4 is present throughout embryo, but more concentralef ventrally and laterally
   * in this dorsal area, there is BMP4 in ectoderm
-  ![]()
+  ![](/Images/bmp1.jpeg)
   * Notochord - secreated proteins that block the BMP4 receptor cells exposed to these, cannot -> epidermis instead they turn in to neural tube.
   * For ectoderm, neural tube is default path undless BMP4 is present
   ![]()
@@ -302,7 +303,7 @@
 
 ### Dorsal Ventral neural tube differentation
   * sensory more dorsal, interneurons inthe middle, motor neurons more ventral.
-  ![]()
+  ![](/Images/DVdiff.jpeg)
   * Notochord secretes sonic hedgehog (shh)
   * notochord is below neural tube
   * this interacts with cells on ventral neural tube
@@ -311,7 +312,7 @@
   * this all leads to high concentration of shh in ventral neural tube
   * Dorsal neural tube cells, in contrast, is exposed to BMP4. High concentration dorsal side of BMP4
   * So neural tube ends  up with different proportions of BMP4 and SHH dorsally to ventrally - the 2 molecules interact and relative levels of the 2 induce cells exposed to them to become different types of cells
-  ![bmp vs shh]()
+  ![bmp vs shh](/Images/bmpshh.jpeg)
     * High BMP4 (v)
       * sensory neurons
       * interneurons
