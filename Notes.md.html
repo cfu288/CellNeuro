@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8" />
+      <title>Notes</title>
+      <style>.markdown-preview:not([data-use-github-style]) { padding: 2em; font-size: 1.2em; color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); overflow: auto; }
+.markdown-preview:not([data-use-github-style]) > :first-child { margin-top: 0px; }
+.markdown-preview:not([data-use-github-style]) h1, .markdown-preview:not([data-use-github-style]) h2, .markdown-preview:not([data-use-github-style]) h3, .markdown-preview:not([data-use-github-style]) h4, .markdown-preview:not([data-use-github-style]) h5, .markdown-preview:not([data-use-github-style]) h6 { line-height: 1.2; margin-top: 1.5em; margin-bottom: 0.5em; color: rgb(255, 255, 255); }
+.markdown-preview:not([data-use-github-style]) h1 { font-size: 2.4em; font-weight: 300; }
+.markdown-preview:not([data-use-github-style]) h2 { font-size: 1.8em; font-weight: 400; }
+.markdown-preview:not([data-use-github-style]) h3 { font-size: 1.5em; font-weight: 500; }
+.markdown-preview:not([data-use-github-style]) h4 { font-size: 1.2em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) h5 { font-size: 1.1em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) h6 { font-size: 1em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) strong { color: rgb(255, 255, 255); }
+.markdown-preview:not([data-use-github-style]) del { color: rgb(124, 135, 156); }
+.markdown-preview:not([data-use-github-style]) a, .markdown-preview:not([data-use-github-style]) a code { color: rgb(82, 139, 255); }
+.markdown-preview:not([data-use-github-style]) img { max-width: 100%; }
+.markdown-preview:not([data-use-github-style]) > p { margin-top: 0px; margin-bottom: 1.5em; }
+.markdown-preview:not([data-use-github-style]) > ul, .markdown-preview:not([data-use-github-style]) > ol { margin-bottom: 1.5em; }
+.markdown-preview:not([data-use-github-style]) blockquote { margin: 1.5em 0px; font-size: inherit; color: rgb(124, 135, 156); border-color: rgb(75, 83, 98); border-width: 4px; }
+.markdown-preview:not([data-use-github-style]) hr { margin: 3em 0px; border-top: 2px dashed rgb(75, 83, 98); background: none; }
+.markdown-preview:not([data-use-github-style]) table { margin: 1.5em 0px; }
+.markdown-preview:not([data-use-github-style]) th { color: rgb(255, 255, 255); }
+.markdown-preview:not([data-use-github-style]) th, .markdown-preview:not([data-use-github-style]) td { padding: 0.66em 1em; border: 1px solid rgb(75, 83, 98); }
+.markdown-preview:not([data-use-github-style]) code { color: rgb(255, 255, 255); background-color: rgb(58, 63, 75); }
+.markdown-preview:not([data-use-github-style]) pre.editor-colors { margin: 1.5em 0px; padding: 1em; font-size: 0.92em; border-radius: 3px; background-color: rgb(49, 54, 63); }
+.markdown-preview:not([data-use-github-style]) kbd { color: rgb(255, 255, 255); border-width: 1px 1px 2px; border-style: solid; border-color: rgb(75, 83, 98) rgb(75, 83, 98) rgb(62, 68, 81); border-image: initial; background-color: rgb(58, 63, 75); }
+.markdown-preview[data-use-github-style] { font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif; line-height: 1.6; word-wrap: break-word; padding: 30px; font-size: 16px; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); overflow: scroll; }
+.markdown-preview[data-use-github-style] > :first-child { margin-top: 0px !important; }
+.markdown-preview[data-use-github-style] > :last-child { margin-bottom: 0px !important; }
+.markdown-preview[data-use-github-style] a:not([href]) { color: inherit; text-decoration: none; }
+.markdown-preview[data-use-github-style] .absent { color: rgb(204, 0, 0); }
+.markdown-preview[data-use-github-style] .anchor { position: absolute; top: 0px; left: 0px; display: block; padding-right: 6px; padding-left: 30px; margin-left: -30px; }
+.markdown-preview[data-use-github-style] .anchor:focus { outline: none; }
+.markdown-preview[data-use-github-style] h1, .markdown-preview[data-use-github-style] h2, .markdown-preview[data-use-github-style] h3, .markdown-preview[data-use-github-style] h4, .markdown-preview[data-use-github-style] h5, .markdown-preview[data-use-github-style] h6 { position: relative; margin-top: 1em; margin-bottom: 16px; font-weight: bold; line-height: 1.4; }
+.markdown-preview[data-use-github-style] h1 .octicon-link, .markdown-preview[data-use-github-style] h2 .octicon-link, .markdown-preview[data-use-github-style] h3 .octicon-link, .markdown-preview[data-use-github-style] h4 .octicon-link, .markdown-preview[data-use-github-style] h5 .octicon-link, .markdown-preview[data-use-github-style] h6 .octicon-link { display: none; color: rgb(0, 0, 0); vertical-align: middle; }
+.markdown-preview[data-use-github-style] h1:hover .anchor, .markdown-preview[data-use-github-style] h2:hover .anchor, .markdown-preview[data-use-github-style] h3:hover .anchor, .markdown-preview[data-use-github-style] h4:hover .anchor, .markdown-preview[data-use-github-style] h5:hover .anchor, .markdown-preview[data-use-github-style] h6:hover .anchor { padding-left: 8px; margin-left: -30px; text-decoration: none; }
+.markdown-preview[data-use-github-style] h1:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h2:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h3:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h4:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h5:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h6:hover .anchor .octicon-link { display: inline-block; }
+.markdown-preview[data-use-github-style] h1 tt, .markdown-preview[data-use-github-style] h2 tt, .markdown-preview[data-use-github-style] h3 tt, .markdown-preview[data-use-github-style] h4 tt, .markdown-preview[data-use-github-style] h5 tt, .markdown-preview[data-use-github-style] h6 tt, .markdown-preview[data-use-github-style] h1 code, .markdown-preview[data-use-github-style] h2 code, .markdown-preview[data-use-github-style] h3 code, .markdown-preview[data-use-github-style] h4 code, .markdown-preview[data-use-github-style] h5 code, .markdown-preview[data-use-github-style] h6 code { font-size: inherit; }
+.markdown-preview[data-use-github-style] h1 { padding-bottom: 0.3em; font-size: 2.25em; line-height: 1.2; border-bottom: 1px solid rgb(238, 238, 238); }
+.markdown-preview[data-use-github-style] h1 .anchor { line-height: 1; }
+.markdown-preview[data-use-github-style] h2 { padding-bottom: 0.3em; font-size: 1.75em; line-height: 1.225; border-bottom: 1px solid rgb(238, 238, 238); }
+.markdown-preview[data-use-github-style] h2 .anchor { line-height: 1; }
+.markdown-preview[data-use-github-style] h3 { font-size: 1.5em; line-height: 1.43; }
+.markdown-preview[data-use-github-style] h3 .anchor { line-height: 1.2; }
+.markdown-preview[data-use-github-style] h4 { font-size: 1.25em; }
+.markdown-preview[data-use-github-style] h4 .anchor { line-height: 1.2; }
+.markdown-preview[data-use-github-style] h5 { font-size: 1em; }
+.markdown-preview[data-use-github-style] h5 .anchor { line-height: 1.1; }
+.markdown-preview[data-use-github-style] h6 { font-size: 1em; color: rgb(119, 119, 119); }
+.markdown-preview[data-use-github-style] h6 .anchor { line-height: 1.1; }
+.markdown-preview[data-use-github-style] p, .markdown-preview[data-use-github-style] blockquote, .markdown-preview[data-use-github-style] ul, .markdown-preview[data-use-github-style] ol, .markdown-preview[data-use-github-style] dl, .markdown-preview[data-use-github-style] table, .markdown-preview[data-use-github-style] pre { margin-top: 0px; margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] hr { height: 4px; padding: 0px; margin: 16px 0px; background-color: rgb(231, 231, 231); border: 0px none; }
+.markdown-preview[data-use-github-style] ul, .markdown-preview[data-use-github-style] ol { padding-left: 2em; }
+.markdown-preview[data-use-github-style] ul.no-list, .markdown-preview[data-use-github-style] ol.no-list { padding: 0px; list-style-type: none; }
+.markdown-preview[data-use-github-style] ul ul, .markdown-preview[data-use-github-style] ul ol, .markdown-preview[data-use-github-style] ol ol, .markdown-preview[data-use-github-style] ol ul { margin-top: 0px; margin-bottom: 0px; }
+.markdown-preview[data-use-github-style] li > p { margin-top: 16px; }
+.markdown-preview[data-use-github-style] dl { padding: 0px; }
+.markdown-preview[data-use-github-style] dl dt { padding: 0px; margin-top: 16px; font-size: 1em; font-style: italic; font-weight: bold; }
+.markdown-preview[data-use-github-style] dl dd { padding: 0px 16px; margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] blockquote { padding: 0px 15px; color: rgb(119, 119, 119); border-left: 4px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] blockquote > :first-child { margin-top: 0px; }
+.markdown-preview[data-use-github-style] blockquote > :last-child { margin-bottom: 0px; }
+.markdown-preview[data-use-github-style] table { display: block; width: 100%; overflow: auto; word-break: keep-all; }
+.markdown-preview[data-use-github-style] table th { font-weight: bold; }
+.markdown-preview[data-use-github-style] table th, .markdown-preview[data-use-github-style] table td { padding: 6px 13px; border: 1px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] table tr { background-color: rgb(255, 255, 255); border-top: 1px solid rgb(204, 204, 204); }
+.markdown-preview[data-use-github-style] table tr:nth-child(2n) { background-color: rgb(248, 248, 248); }
+.markdown-preview[data-use-github-style] img { max-width: 100%; box-sizing: border-box; }
+.markdown-preview[data-use-github-style] .emoji { max-width: none; }
+.markdown-preview[data-use-github-style] span.frame { display: block; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.frame > span { display: block; float: left; width: auto; padding: 7px; margin: 13px 0px 0px; overflow: hidden; border: 1px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] span.frame span img { display: block; float: left; }
+.markdown-preview[data-use-github-style] span.frame span span { display: block; padding: 5px 0px 0px; clear: both; color: rgb(51, 51, 51); }
+.markdown-preview[data-use-github-style] span.align-center { display: block; overflow: hidden; clear: both; }
+.markdown-preview[data-use-github-style] span.align-center > span { display: block; margin: 13px auto 0px; overflow: hidden; text-align: center; }
+.markdown-preview[data-use-github-style] span.align-center span img { margin: 0px auto; text-align: center; }
+.markdown-preview[data-use-github-style] span.align-right { display: block; overflow: hidden; clear: both; }
+.markdown-preview[data-use-github-style] span.align-right > span { display: block; margin: 13px 0px 0px; overflow: hidden; text-align: right; }
+.markdown-preview[data-use-github-style] span.align-right span img { margin: 0px; text-align: right; }
+.markdown-preview[data-use-github-style] span.float-left { display: block; float: left; margin-right: 13px; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.float-left span { margin: 13px 0px 0px; }
+.markdown-preview[data-use-github-style] span.float-right { display: block; float: right; margin-left: 13px; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.float-right > span { display: block; margin: 13px auto 0px; overflow: hidden; text-align: right; }
+.markdown-preview[data-use-github-style] code, .markdown-preview[data-use-github-style] tt { padding: 0.2em 0px; margin: 0px; font-size: 85%; background-color: rgba(0, 0, 0, 0.0392157); border-radius: 3px; }
+.markdown-preview[data-use-github-style] code::before, .markdown-preview[data-use-github-style] tt::before, .markdown-preview[data-use-github-style] code::after, .markdown-preview[data-use-github-style] tt::after { letter-spacing: -0.2em; content: " "; }
+.markdown-preview[data-use-github-style] code br, .markdown-preview[data-use-github-style] tt br { display: none; }
+.markdown-preview[data-use-github-style] del code { text-decoration: inherit; }
+.markdown-preview[data-use-github-style] pre > code { padding: 0px; margin: 0px; font-size: 100%; word-break: normal; white-space: pre; background: transparent; border: 0px; }
+.markdown-preview[data-use-github-style] .highlight { margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] .highlight pre, .markdown-preview[data-use-github-style] pre { padding: 16px; overflow: auto; font-size: 85%; line-height: 1.45; background-color: rgb(247, 247, 247); border-radius: 3px; }
+.markdown-preview[data-use-github-style] .highlight pre { margin-bottom: 0px; word-break: normal; }
+.markdown-preview[data-use-github-style] pre { word-wrap: normal; }
+.markdown-preview[data-use-github-style] pre code, .markdown-preview[data-use-github-style] pre tt { display: inline; max-width: initial; padding: 0px; margin: 0px; overflow: initial; line-height: inherit; word-wrap: normal; background-color: transparent; border: 0px; }
+.markdown-preview[data-use-github-style] pre code::before, .markdown-preview[data-use-github-style] pre tt::before, .markdown-preview[data-use-github-style] pre code::after, .markdown-preview[data-use-github-style] pre tt::after { content: normal; }
+.markdown-preview[data-use-github-style] kbd { display: inline-block; padding: 3px 5px; font-size: 11px; line-height: 10px; color: rgb(85, 85, 85); vertical-align: middle; background-color: rgb(252, 252, 252); border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(204, 204, 204) rgb(187, 187, 187); border-image: initial; border-radius: 3px; box-shadow: rgb(187, 187, 187) 0px -1px 0px inset; }
+.markdown-preview[data-use-github-style] a { color: rgb(51, 122, 183); }
+.markdown-preview[data-use-github-style] code { color: inherit; }
+.markdown-preview[data-use-github-style] pre.editor-colors { padding: 0.8em 1em; margin-bottom: 1em; font-size: 0.85em; border-radius: 4px; overflow: auto; }
+.scrollbars-visible-always .markdown-preview pre.editor-colors .vertical-scrollbar, .scrollbars-visible-always .markdown-preview pre.editor-colors .horizontal-scrollbar { visibility: hidden; }
+.scrollbars-visible-always .markdown-preview pre.editor-colors:hover .vertical-scrollbar, .scrollbars-visible-always .markdown-preview pre.editor-colors:hover .horizontal-scrollbar { visibility: visible; }
+.markdown-preview .task-list-item-checkbox { position: absolute; margin: 0.25em 0px 0px -1.4em; }
+.bracket-matcher .region {
+  border-bottom: 1px dotted lime;
+  position: absolute;
+}
+
+.spell-check-misspelling .region {
+  border-bottom: 2px dotted rgba(255, 51, 51, 0.75);
+}
+.spell-check-corrections {
+  width: 25em !important;
+}
+
+pre.editor-colors {
+  background-color: #282c34;
+  color: #abb2bf;
+}
+pre.editor-colors .line.cursor-line {
+  background-color: rgba(153, 187, 255, 0.04);
+}
+pre.editor-colors .invisible {
+  color: #abb2bf;
+}
+pre.editor-colors .cursor {
+  border-left: 2px solid #528bff;
+}
+pre.editor-colors .selection .region {
+  background-color: #3e4451;
+}
+pre.editor-colors .bracket-matcher .region {
+  border-bottom: 1px solid #528bff;
+  box-sizing: border-box;
+}
+pre.editor-colors .invisible-character {
+  color: rgba(171, 178, 191, 0.15);
+}
+pre.editor-colors .indent-guide {
+  color: rgba(171, 178, 191, 0.15);
+}
+pre.editor-colors .wrap-guide {
+  background-color: rgba(171, 178, 191, 0.15);
+}
+pre.editor-colors .find-result .region.region.region,
+pre.editor-colors .current-result .region.region.region {
+  border-radius: 2px;
+  background-color: rgba(82, 139, 255, 0.24);
+  transition: border-color 0.4s;
+}
+pre.editor-colors .find-result .region.region.region {
+  border: 2px solid transparent;
+}
+pre.editor-colors .current-result .region.region.region {
+  border: 2px solid #528bff;
+  transition-duration: .1s;
+}
+pre.editor-colors .gutter .line-number {
+  color: #636d83;
+  -webkit-font-smoothing: antialiased;
+}
+pre.editor-colors .gutter .line-number.cursor-line {
+  color: #abb2bf;
+  background-color: #2c313a;
+}
+pre.editor-colors .gutter .line-number.cursor-line-no-selection {
+  background-color: transparent;
+}
+pre.editor-colors .gutter .line-number .icon-right {
+  color: #abb2bf;
+}
+pre.editor-colors .gutter:not(.git-diff-icon) .line-number.git-line-removed.git-line-removed::before {
+  bottom: -3px;
+}
+pre.editor-colors .gutter:not(.git-diff-icon) .line-number.git-line-removed::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 25px;
+  border-bottom: 1px dotted rgba(224, 82, 82, 0.5);
+  pointer-events: none;
+}
+pre.editor-colors .gutter .line-number.folded,
+pre.editor-colors .gutter .line-number:after,
+pre.editor-colors .fold-marker:after {
+  color: #abb2bf;
+}
+.syntax--comment {
+  color: #5c6370;
+  font-style: italic;
+}
+.syntax--comment .syntax--markup.syntax--link {
+  color: #5c6370;
+}
+.syntax--entity.syntax--name.syntax--type {
+  color: #e5c07b;
+}
+.syntax--entity.syntax--other.syntax--inherited-class {
+  color: #98c379;
+}
+.syntax--keyword {
+  color: #c678dd;
+}
+.syntax--keyword.syntax--control {
+  color: #c678dd;
+}
+.syntax--keyword.syntax--operator {
+  color: #abb2bf;
+}
+.syntax--keyword.syntax--other.syntax--special-method {
+  color: #61afef;
+}
+.syntax--keyword.syntax--other.syntax--unit {
+  color: #d19a66;
+}
+.syntax--storage {
+  color: #c678dd;
+}
+.syntax--storage.syntax--type.syntax--annotation,
+.syntax--storage.syntax--type.syntax--primitive {
+  color: #c678dd;
+}
+.syntax--storage.syntax--modifier.syntax--package,
+.syntax--storage.syntax--modifier.syntax--import {
+  color: #abb2bf;
+}
+.syntax--constant {
+  color: #d19a66;
+}
+.syntax--constant.syntax--variable {
+  color: #d19a66;
+}
+.syntax--constant.syntax--character.syntax--escape {
+  color: #56b6c2;
+}
+.syntax--constant.syntax--numeric {
+  color: #d19a66;
+}
+.syntax--constant.syntax--other.syntax--color {
+  color: #56b6c2;
+}
+.syntax--constant.syntax--other.syntax--symbol {
+  color: #56b6c2;
+}
+.syntax--variable {
+  color: #e06c75;
+}
+.syntax--variable.syntax--interpolation {
+  color: #be5046;
+}
+.syntax--variable.syntax--parameter {
+  color: #abb2bf;
+}
+.syntax--string {
+  color: #98c379;
+}
+.syntax--string.syntax--regexp {
+  color: #56b6c2;
+}
+.syntax--string.syntax--regexp .syntax--source.syntax--ruby.syntax--embedded {
+  color: #e5c07b;
+}
+.syntax--string.syntax--other.syntax--link {
+  color: #e06c75;
+}
+.syntax--punctuation.syntax--definition.syntax--comment {
+  color: #5c6370;
+}
+.syntax--punctuation.syntax--definition.syntax--method-parameters,
+.syntax--punctuation.syntax--definition.syntax--function-parameters,
+.syntax--punctuation.syntax--definition.syntax--parameters,
+.syntax--punctuation.syntax--definition.syntax--separator,
+.syntax--punctuation.syntax--definition.syntax--seperator,
+.syntax--punctuation.syntax--definition.syntax--array {
+  color: #abb2bf;
+}
+.syntax--punctuation.syntax--definition.syntax--heading,
+.syntax--punctuation.syntax--definition.syntax--identity {
+  color: #61afef;
+}
+.syntax--punctuation.syntax--definition.syntax--bold {
+  color: #e5c07b;
+  font-weight: bold;
+}
+.syntax--punctuation.syntax--definition.syntax--italic {
+  color: #c678dd;
+  font-style: italic;
+}
+.syntax--punctuation.syntax--section.syntax--embedded {
+  color: #be5046;
+}
+.syntax--punctuation.syntax--section.syntax--method,
+.syntax--punctuation.syntax--section.syntax--class,
+.syntax--punctuation.syntax--section.syntax--inner-class {
+  color: #abb2bf;
+}
+.syntax--support.syntax--class {
+  color: #e5c07b;
+}
+.syntax--support.syntax--type {
+  color: #56b6c2;
+}
+.syntax--support.syntax--function {
+  color: #56b6c2;
+}
+.syntax--support.syntax--function.syntax--any-method {
+  color: #61afef;
+}
+.syntax--entity.syntax--name.syntax--function {
+  color: #61afef;
+}
+.syntax--entity.syntax--name.syntax--class,
+.syntax--entity.syntax--name.syntax--type.syntax--class {
+  color: #e5c07b;
+}
+.syntax--entity.syntax--name.syntax--section {
+  color: #61afef;
+}
+.syntax--entity.syntax--name.syntax--tag {
+  color: #e06c75;
+}
+.syntax--entity.syntax--other.syntax--attribute-name {
+  color: #d19a66;
+}
+.syntax--entity.syntax--other.syntax--attribute-name.syntax--id {
+  color: #61afef;
+}
+.syntax--meta.syntax--class {
+  color: #e5c07b;
+}
+.syntax--meta.syntax--class.syntax--body {
+  color: #abb2bf;
+}
+.syntax--meta.syntax--method-call,
+.syntax--meta.syntax--method {
+  color: #abb2bf;
+}
+.syntax--meta.syntax--definition.syntax--variable {
+  color: #e06c75;
+}
+.syntax--meta.syntax--link {
+  color: #d19a66;
+}
+.syntax--meta.syntax--require {
+  color: #61afef;
+}
+.syntax--meta.syntax--selector {
+  color: #c678dd;
+}
+.syntax--meta.syntax--separator {
+  background-color: #373b41;
+  color: #abb2bf;
+}
+.syntax--meta.syntax--tag {
+  color: #abb2bf;
+}
+.syntax--underline {
+  text-decoration: underline;
+}
+.syntax--none {
+  color: #abb2bf;
+}
+.syntax--invalid.syntax--deprecated {
+  color: #523d14 !important;
+  background-color: #e0c285 !important;
+}
+.syntax--invalid.syntax--illegal {
+  color: white !important;
+  background-color: #e05252 !important;
+}
+.syntax--markup.syntax--bold {
+  color: #d19a66;
+  font-weight: bold;
+}
+.syntax--markup.syntax--changed {
+  color: #c678dd;
+}
+.syntax--markup.syntax--deleted {
+  color: #e06c75;
+}
+.syntax--markup.syntax--italic {
+  color: #c678dd;
+  font-style: italic;
+}
+.syntax--markup.syntax--heading {
+  color: #e06c75;
+}
+.syntax--markup.syntax--heading .syntax--punctuation.syntax--definition.syntax--heading {
+  color: #61afef;
+}
+.syntax--markup.syntax--link {
+  color: #56b6c2;
+}
+.syntax--markup.syntax--inserted {
+  color: #98c379;
+}
+.syntax--markup.syntax--quote {
+  color: #d19a66;
+}
+.syntax--markup.syntax--raw {
+  color: #98c379;
+}
+.syntax--source.syntax--c .syntax--keyword.syntax--operator {
+  color: #c678dd;
+}
+.syntax--source.syntax--cpp .syntax--keyword.syntax--operator {
+  color: #c678dd;
+}
+.syntax--source.syntax--cs .syntax--keyword.syntax--operator {
+  color: #c678dd;
+}
+.syntax--source.syntax--css .syntax--property-name,
+.syntax--source.syntax--css .syntax--property-value {
+  color: #828997;
+}
+.syntax--source.syntax--css .syntax--property-name.syntax--support,
+.syntax--source.syntax--css .syntax--property-value.syntax--support {
+  color: #abb2bf;
+}
+.syntax--source.syntax--gfm .syntax--markup {
+  -webkit-font-smoothing: auto;
+}
+.syntax--source.syntax--gfm .syntax--link .syntax--entity {
+  color: #61afef;
+}
+.syntax--source.syntax--go .syntax--storage.syntax--type.syntax--string {
+  color: #c678dd;
+}
+.syntax--source.syntax--ini .syntax--keyword.syntax--other.syntax--definition.syntax--ini {
+  color: #e06c75;
+}
+.syntax--source.syntax--java .syntax--storage.syntax--modifier.syntax--import {
+  color: #e5c07b;
+}
+.syntax--source.syntax--java .syntax--storage.syntax--type {
+  color: #e5c07b;
+}
+.syntax--source.syntax--java .syntax--keyword.syntax--operator.syntax--instanceof {
+  color: #c678dd;
+}
+.syntax--source.syntax--java-properties .syntax--meta.syntax--key-pair {
+  color: #e06c75;
+}
+.syntax--source.syntax--java-properties .syntax--meta.syntax--key-pair > .syntax--punctuation {
+  color: #abb2bf;
+}
+.syntax--source.syntax--js .syntax--keyword.syntax--operator {
+  color: #56b6c2;
+}
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--delete,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--in,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--of,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--instanceof,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--new,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--typeof,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--void {
+  color: #c678dd;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--string.syntax--quoted.syntax--json {
+  color: #e06c75;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation.syntax--string {
+  color: #e06c75;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--array.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--array.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation {
+  color: #98c379;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--constant.syntax--language.syntax--json,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--array.syntax--json > .syntax--constant.syntax--language.syntax--json {
+  color: #56b6c2;
+}
+.syntax--source.syntax--ruby .syntax--constant.syntax--other.syntax--symbol > .syntax--punctuation {
+  color: inherit;
+}
+.syntax--source.syntax--python .syntax--keyword.syntax--operator.syntax--logical.syntax--python {
+  color: #c678dd;
+}
+.syntax--source.syntax--python .syntax--variable.syntax--parameter {
+  color: #d19a66;
+}
+</style>
+  </head>
+  <body class='markdown-preview' data-use-github-style><ul>
+<li><p>2 types of ganglion cells (in primates):</p>
+<ul>
+<li><strong>p Cells</strong> - small receptive fields, high spacial resolution, color sensitive. info from fovea</li>
+<li><strong>m Cells</strong> - Large receptive fields, sensitive to contrast, sensitive to movement not color. Not fovea</li>
+<li>P cells get info from fovea, m cells from other parts of the retina</li>
+</ul>
+</li>
+<li><p><strong>Brain and the Lateral Geniculate</strong></p>
+<ul>
+<li>projections from retina cross the midline at the optic chiasm<ul>
+<li>(most of) right eye axons to left side of brain in primates, all axons in others<ul>
+<li>important in depth perception</li>
+</ul>
+</li>
+<li><strong>Axons that receive inputs from the left half of the visual field from each eye</strong> - will join up together in the right lateral geniculate.
+(IMG)</li>
+<li><strong>Images from the right half of the vision field will fall on</strong> - the Lateral side of the left retina and nasal side of right retina and the inputs from the left eye do not cross at the chiasm axons from the right eye do creoss at the chiasm and both meet up in the left lateral geniculate (LGN)</li>
+</ul>
+</li>
+<li><strong>Organization of the LGN</strong> - 6 layers in the LGN, each layer has the topographic map, each map are stacked in perfect register.<ul>
+<li>retina is mapped out in a topographic map of the world</li>
+<li>6 layers in the LGN, each layer has the topographic map, each map are stacked in perfect register.<ul>
+<li>in other words, if experimentally you stick an electrode through the LGN, go straight through all 6 layers, all the cells you records will respond to the stimuli in the same place of the receptive field. Extra representation of the fovea.</li>
+</ul>
+</li>
+<li><strong>magnocellular cells</strong> - Large cells, they receive synapses from M ganglion cells. Found in Layers 1/2</li>
+<li><strong>parvocellular cells</strong> - Small cells, receive input from P cells of retina. Found in layers 3-6.<ul>
+<li><strong>layers 1,4,6</strong> - from the contralateral eye, opposite to that on which a particular structure or condition occurs.</li>
+<li><strong>Layers 2,3,5</strong> - from ipsilateral eye, belonging to or occurring on the same side of the body.</li>
+</ul>
+</li>
+<li><strong>M layer cells of layer 1/2</strong> - are not color sensitive, are sensitive to contrasts and motion</li>
+<li><strong>P cells of layers 3-6</strong> - are color sensitive, high resolution.  Layers may see same part of the world but sensitive to different colors, 3 and 5 will have different color sensitivities for example.</li>
+<li>Each cell in LGN has a particular piece of information that it can pass on to the next level of processing.</li>
+<li>But: <strong>only 25% of input to LGN</strong> - is from retina, 75% comes from visual cortex and brainstem. What is it doing?</li>
+<li>LGN axons travel to visual cortex in occipital lobe.</li>
+<li>terminate in a specific stop<ul>
+<li><strong>primary visual cortex</strong> - V1, area 17, striate cortex. about 2mm thick, organized into 6 layers. Each layer of visual cortex has topographic map, large portion dedicated to fovea</li>
+<li>LGN axons project to layer 4. Depending on which layer from LGN go to diferent sublayers<ul>
+<li>different sublayers for magnocellular parvocellular</li>
+</ul>
+</li>
+<li>Each layer of visual cortex has topographic map, large portion dedicated to fovea</li>
+</ul>
+</li>
+<li><strong>Cells of visual cortex</strong><ul>
+<li><strong>simple cell</strong> - recives LGN inputs, found in layer 4. Have receptive fields with on center or off center, surround responses are opposite to center. Receptive field is in shape of bar. Var has specific orientation that is preferred.</li>
+<li>input comes from several LGN cells which all have receptive fields that are next to each other so centers line up in a bar - all of the centers ave same on or off response.</li>
+<li>Simple cell responds with up or down in firing frequency;</li>
+<li>outputs of simple cells in layer 4 go to layers 2+3 where the <strong>complex cells</strong> - are sensitive to edges w/ particular orientation. Can be anywhere in receptive field.</li>
+<li>Can be anywhere in receptive field so inputs come from several simple cells that all have the same preferred orientation fir the bar of light<ul>
+<li>some complex cells like edges that move.</li>
+</ul>
+</li>
+<li>Organization of primary visual cortex layers.<ul>
+<li>topographic map in each</li>
+<li>orientation colums - cells in all layers in a vertical column have the same preferred orientation for light bars (or edges)</li>
+<li>over a min or so, all possible orientations are represented.</li>
+</ul>
+</li>
+<li><strong>Ocular dominance columns</strong> - each eye is represented in alternating bands of cells.</li>
+<li>Color sensitivity in set of cells, call this collection of color sensitive cells a blob.</li>
+<li>info from primary visual cortex gets sent to other layers of the cortex for &quot;further processing&quot;</li>
+</ul>
+</li>
+<li><strong>Depth perception</strong> - Need two eyes that have some overlap in receptive fields. Look at a point on 3D object points that are part of this object that are in front and behind <strong>fixation point</strong>. This disparity is sensed by specific cells in the brain binocular disparity cells which interpret the images as part of one structure but in 3d<ul>
+<li>points that are part of this object that are in front and behind fixation point will fall on slightly different places on the 2 retinas</li>
+<li>if disparities are too far apart, you will see 2 images</li>
+</ul>
+</li>
+<li><strong>Auditory system</strong><ul>
+<li><strong>Sound intensity</strong> - measured in decibels, measured in logs</li>
+<li>0db - below what you can hear</li>
+<li>20 db - whisper</li>
+<li>30 db - 10x louder than 20</li>
+<li>40 db - 100x louder than 20</li>
+<li>Jet engine - 160db</li>
+<li>rock concert - 119-140</li>
+<li><strong>sound frequency</strong> - number of cycles per second (Hz)<ul>
+<li>human hearing: 20 - 20khz</li>
+<li>sound is propogated through air as compression of air molecules alternating with rarefaction t a particular distance to or wavelength</li>
+</ul>
+</li>
+<li>The ear<ul>
+<li><strong>Outer ear</strong> - pinna - shape for localizing sound<ul>
+<li>ripples for localizing sound in vertical plane, point forward  for front-back.<ul>
+<li>shape + ripples help amplify specific sounds, 3-4k range, most human speech.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Middle ear</strong> - Eardrum + ossicles. ossicles = 3 bones, incus, malleus, stapes. Sound hit eardrum which moves ossicles, stapes pushes inner ear</li>
+<li><strong>Inner ear</strong> - cochlea - coiled tube 35mm long<ul>
+<li>flexible partition down center dividing it into 2 chambers<ul>
+<li><strong>scala vestibuli</strong> - upper part in cochlea</li>
+<li><strong>scala tympani</strong> - lower part in cochlea</li>
+</ul>
+</li>
+<li><strong>partition in cochlear membrane supports</strong> -  <strong>basilar membrane</strong>  under hair cells and <strong>tectorial membrane</strong> above</li>
+<li><strong>Cochlea end nearest the ossicles</strong><ul>
+<li><strong>basil end has 2 membrane covered holes</strong> - oval window - stapes attaches, and round window</li>
+</ul>
+</li>
+<li><strong>Cochlea near the apical end</strong> - Partition does not go all the way to the end, called <strong>heliocotrema</strong>, so s.vestibuli and tympani are not sealed from each other.<ul>
+<li><strong>basilar membrane</strong> - sitting here are the sensory neurons = hair cells<ul>
+<li><strong>hair cells</strong> - have cilia on the top of the cell, looked like someone snipped the hairs at an angle. hair cells do not fire ap. Do not have axons. Synapse with auditory neurons signals are graded changes in Vm.<ul>
+<li><strong>kinocillium</strong> - longest hair cell and the others are called stereocillia. No axons.</li>
+<li>2 sets of hair cells<ul>
+<li><strong>inner hair cells</strong> - what detect sound. 95% of sensory neurons for our ear are these.</li>
+<li><strong>outer hair cells</strong> - more of them. 75% of total hair population. receive input from brain.</li>
+</ul>
+</li>
+<li>Hairs are either stuck into or rest on the <strong>tectorial membrane</strong> of them.</li>
+<li>Hair cells are stimulated when<ul>
+<li>sound waves push the eardrum, stapes pushes oval window of cochlea.</li>
+<li>cochlea is filled with fluid, stapes pushes to make waves.</li>
+<li>waves travel length of cochlea (s.vestibuli), go down heliocotrema, through s.tymphani hit round window.</li>
+<li>fluid waves move basilar membrane</li>
+<li>moves hair cells cell bodies</li>
+<li>hairs are in the tectorial membrane so hairs are bent.</li>
+<li>bending of hairs leads to sensory transduction occurs.</li>
+</ul>
+</li>
+<li>Structure of basilar membrane is such that <strong>high freq motion in the cochlea</strong> - causes the basilar membrane to move most at basal end.<ul>
+<li><strong>Low freq</strong> - move more at apical end</li>
+</ul>
+</li>
+<li><strong>Mechanical tuning</strong> - in cochlea, short and stiff respond better to high freq, long flexible to low freq. Also: hairs are constructed to be shorter and stiffer at basal end of cochlea, longer more flexible at apical end</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>sensory transduction</strong><ul>
+<li>as basil membrane moves up and down, hair cells hairs are bend first one way then the other.</li>
+<li>At the tips of the hairs are thin filaments</li>
+<li>tiplinks run between hair tips.<ul>
+<li><strong>tiplinks</strong> - connected to ion channels which are on the tip of the hair. When stereocilia move toward kinocilium, they stretch the tip links and open ion channels, hair cell depolarizes. When stereocilia move opposite direction, (away from kino), tiplinks relax, ion channels close, hair cell hyperpolarizes.</li>
+<li><strong>When basilar membrane moves up</strong> - during rarefaction phase of sound &#39;wave&#39; the stereocilia move toward the kinocilium and the hair cell depolarizes.</li>
+<li><strong>when the basilar membrane moves down</strong> - during compression of the sound &#39;wave&#39;, stereocilia move away from the kinocilium, ion channel closes, hair cell hyperpolarizes</li>
+<li>no sound - in between.
+<img src="/home/cfu288/Documents/CellNeuro/Images/hyperpol.jpeg" alt=""></li>
+<li><strong>What ions depolarize the hair cells?</strong> + ion enters - K+. Hair cells are inside their own chamber, Scala media. Really high K+ conc outside cell, flows in
+<img src="/home/cfu288/Documents/CellNeuro/Images/whationsdepol.jpeg" alt=""></li>
+<li>So as hair cells move up and down and k+ channels or hair tips open then close s.tympani which the base of hair cells is in, has a more typical ionic composition, so:<ul>
+<li><strong>as K+ enters hair top</strong> - hair depol, activates v-Ca++ channels which open. Ca++ enters, hair cell releases n.t.</li>
+<li><strong>After K+ enters hair top, on basal end of hair cells</strong> - this inc [Ca++]in opens Ca++ activated K+ channels. here, K+ exits the cell. This brings Vm back to starting value and then as motion of hair cell moves below starting position, more K+ channels on the hair tips are closed than at rest so Vm hyperpolarizes due to K+ exiting the basal portion of the cell.
+<img src="/home/cfu288/Documents/CellNeuro/Images/vmfoll.jpeg" alt=""><ul>
+<li>Vmrest 0 &gt; K+ enters hair tip, starts to depolarize, vgated Ca++ open, NT released, at peak Ca++ activated open on cell base(starts to hyper pol), More channels on hair tip are closed than at rest(when hyperpolarized), K+ exiting ca++ actin K+ channels.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Vm follows the freq that sound is moving basilar membrane.</li>
+<li><strong>Electrical tuning</strong> - The Ca++ activated K+ channels (also called big K channels or bK) when they open, K+ exits, Vm drops<ul>
+<li>bK channels are different in gK(conductance to K) depending on which hair cell they are on<ul>
+<li><strong>for high freq hair cells (electrial tuning)</strong> - gK+ for bK channel is high so K+ exits quickly and Vm can change quiclky.</li>
+<li><strong>For low freq hairs (electrical tuning)</strong> - gK+ for bK channels is much lower and Vm changes more slowly</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Active tuning</strong> - basilar membrane motion can be tuned down at a particular frequency. This happens if there is a sound that is particularly loud at that frequency. Outer hair cells use prestin motor protein that shortens when Vm+. pulls basilar membrane further up<ul>
+<li>Outer hair cell:<ul>
+<li>hairs of these cells have motor protein called <strong>prestin</strong> - charged protein that reacts to changes in membrane potential. When Vm becomes (+), prestin shortens. When Vm, becomes -, it lengthens, when it becomes -, it relaxes.</li>
+<li>When Vm becomes (+), as basilar membrane moves up, prestin shortens, outer hair cells pull basilar membrane up just a little more to sharpen tuning</li>
+</ul>
+</li>
+<li><strong>Damage to outer hair cells</strong> - leads to trouble discriminating sounds. Can still hear you, but its hard to make out what you&#39;re saying.</li>
+<li><strong>Outer hair cells receive inputs</strong> - from superior olive of brain. inhibitory Ach inhibitory</li>
+<li><strong>Ach receptors</strong> are ionotrophic, open a channel for Na+ and Ca++. The new Ca++ activates the Ca++ activated K+ channels which prolong the hyperpolarization of the outer hair cell and keep it from shortening.<ul>
+<li>avoids over stimulation of basilar membrane and inner hair cells at a particular frequency.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Hair cells synapse with auditory neurons cell bodies in spinal ganglion near the cochlea, send long process to hair cells to receive n.t.</li>
+<li><strong>auditory neurons</strong> - are tuned to frequency by which hair cells they receive input from, fire a.p. when big stimulus, means lots of spikes. A lesser stimulus or one of freqencies from other hair cells that they do not receive input from, dont fire.</li>
+<li><strong>Tuning curve</strong> - describes auditory neuron&#39;s response on graph. Plot threshold on X, freq on y. Minimum response to generate a response as function of frequency of sound.
+<img src="/home/cfu288/Documents/CellNeuro/Images/tuning.jpeg" alt=""><ul>
+<li>Peak shows the best frequency. This is the frequency where the cell has the lowest threshold.</li>
+<li><strong>Sharp curve</strong> - narrowly tuned</li>
+<li><strong>Broad curve</strong> - Broadly tuned</li>
+</ul>
+</li>
+<li>tuning depends on which hair cells they receive inputs from.</li>
+</ul>
+</li>
+<li><strong>Frequency coding</strong> - by auditory neurons - low freq (100hz or less) auditory neurons will fire AP at same freq as the hair cells release nt. But as freq inc, AP cannot fire fast enough. Instead, fire at the same phase as sound stimulus - can encode frequency higher than AP rate.<ul>
+<li>fires only at peak, even if neuron doesn&#39;t hit every peak you can still encode info because of population of neurons will hit every.</li>
+<li><strong>phase-locked</strong> - Auditory neurons always fire at the same phase of a cycle (fire in the same point in the cycle, generally at the peak). We can use this mechanism up to 4khz</li>
+<li><strong>Above 4khz</strong> - is encoded by the identity of the auditory neuron - which hair cell it gets inputs from auditory neurons -&gt;  Dorsal cochlear nuclei + ventral cochlear nuclei</li>
+</ul>
+</li>
+<li>in medulla - tonotopic map is maintained here</li>
+</ul>
+</li>
+<li><strong>Direction of the sound stimulus higher freq w/o phase lock (&gt;4khz)</strong> - attenuate going from one side of head to other, freq stays the same. In the <em>superior olive</em>, neurons have an identity. Right identity epsp from right, ipsp from left.<pre class="editor-colors lang-text"><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--bullet-point syntax--star syntax--text"><span class="syntax--punctuation syntax--definition syntax--item syntax--text"><span>*</span></span><span>&nbsp;neurons&nbsp;have&nbsp;an&nbsp;identity&nbsp;that&nbsp;is&nbsp;based&nbsp;on&nbsp;&quot;sound&nbsp;from&nbsp;the&nbsp;right&quot;&nbsp;or&nbsp;&quot;from&nbsp;the&nbsp;left.&quot;&nbsp;from&nbsp;a&nbsp;neuron&nbsp;that&nbsp;identifies&nbsp;as&nbsp;&quot;from&nbsp;the&nbsp;right&quot;:</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--paragraph syntax--text"><span>![](soundfrom.jpeg)</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--paragraph syntax--text"><span>*&nbsp;epsp&nbsp;from&nbsp;right&nbsp;ear&nbsp;will&nbsp;be&nbsp;larger&nbsp;if&nbsp;sound&nbsp;is&nbsp;louder&nbsp;in&nbsp;right&nbsp;ear</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--paragraph syntax--text"><span>*&nbsp;ipsp&nbsp;in&nbsp;left&nbsp;ear&nbsp;will&nbsp;be&nbsp;smaller&nbsp;if&nbsp;sound&nbsp;is&nbsp;quieter&nbsp;in&nbsp;left&nbsp;ear</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--paragraph syntax--text"><span>*&nbsp;so&nbsp;for&nbsp;sound&nbsp;from&nbsp;right:&nbsp;epsp&nbsp;overpowers&nbsp;the&nbsp;ipsp&nbsp;and&nbsp;neurons&nbsp;fire.</span></span></span></div><div class="line"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--paragraph syntax--text"><span>*&nbsp;works&nbsp;because&nbsp;**Sound&nbsp;Shadowing**&nbsp;-&nbsp;sound&nbsp;amplitude&nbsp;declines&nbsp;as&nbsp;it&nbsp;passes&nbsp;through&nbsp;your&nbsp;head.</span></span></span></div></pre><ul>
+<li><strong>Direction of the sound stimulus for low frequency sounds</strong> - where auditory neurons can phase lock, you can use time of arrival of the 2 ears to determine direction. Ears must be far apart for this, done in superior olive of medulla.<ul>
+<li><strong>Delay line</strong> - Again neurons have identities - &quot;sound from right&quot;, &quot;left&quot;, or &quot;center&quot;,etc. When neuron fires, we know sound came from particular direction.</li>
+<li><strong>Delays being important are</strong> - 1. how long sound takes to travel from one side to the other. 2. how long AP take to travel from one side to the other.</li>
+<li>For a neuron that has the identity of &quot;sound from the left&quot;
+<img src="/home/cfu288/Documents/CellNeuro/Images/NeuronE.jpeg" alt=""></li>
+<li>Neuron E fires for sound from left - why? Will only fire on  AP whenit gets epsps from L and R at the same time. Utilizes temporal summation, needs combinations of epsps. Timing of sound arrives at left ear -&gt; ABCDE. Right ear arrives with a bit of delay -&gt; EDCBA. With delay, EPSP from right and left hit neuron E about the same time.</li>
+</ul>
+</li>
+<li><strong>Hearing loss</strong> - losing hair cells - can they be induced to regenerate? research going on - birds can do it.</li>
+<li><strong>Cochelar implants</strong> - bypass hair cells entirely, use tonotopic organization of auditory neurons. Wires end at particular frequencies - shorter wire does higher freq.
+<img src="/home/cfu288/Documents/CellNeuro/Images/implant.jpeg" alt=""></li>
+<li>Sounds are picked up by an external microphone, sorted by frequency and electrodes stimulate auditory neurons for specific frequencies.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="motor">Motor</h3>
+<ul>
+<li><strong>Each muscle fiber is innervated by</strong> - 1 motor neuron</li>
+<li><strong>Each motor neuron can innervate</strong> - &gt;1 muscle fiber.</li>
+<li><strong>Motor unit</strong> - motor neuron + all fibers it innervates. Activating more motor units will increase the strength of a contraction.</li>
+<li>In the legs:<ul>
+<li><strong>Alpha motor neurons</strong> - muscles mostly innervated by these in the legs.</li>
+<li>Many different things can cause alpha motorneurons to fire, including sensory input about muscle stretch.</li>
+<li><strong>la afferent</strong> - Sensory receptor for stretch&#39;s axon tocrus .</li>
+<li>In CNS, <strong>Each motor neuron receives input</strong> - from several la afferents and each la afferents has inputs to several alpha mns.</li>
+<li><strong>Each single epsps from a la afferent</strong> - is sub-threshold, but can bring a mn to threshold if la afferent fires a burst of spikes and epsps sum temporally and/or several la afferents are activated and epsps sum by both spacial and temporal summation.</li>
+<li><strong>Strength of a muscle&#39;s contraction can be increased by</strong> - increasing amt of contraction by mn firing more ap on to muscle fibers and/or increasing the number of motor units in the muscle that are activated</li>
+<li><strong>motorneurons can e different sizes</strong> -small mn only activate a few fibers,  large mn innervate many fibers<ul>
+<li>small mn only activate a few fibers, when stimulated, may cause only a small contraction.</li>
+<li>large mn innervate many fibers, when stimulated, get bigger contraction. More force is generated</li>
+</ul>
+</li>
+<li><strong>suppose you want to lift an item</strong> - activate a few small mns, get a small contraction. Could do job but if not, bring in more mn units, brings in large mn which cause more fibers to contract. A graded strength to the contraction.</li>
+<li><strong>why does the small motorneurons get activated first?</strong> - being small, the la afferent synapses are closer to the SIZ so epsps are larger when they reach that place (length constant is effectively larger), its easier for an epsps generated by input from a la afferent to reach threshold in a small mn than a large mn. Less distance for it to travel.</li>
+<li>increasing strength of contraction means increasing tension in muscle.<ul>
+<li>As you recruit more motor units, each additional unit adds to the already existing tension.</li>
+<li>ex. if each motor unit adds in a 5% increase in tension, this means <strong>for a small contraction</strong> - the absolute amount of tension increase will be less than for an already large contraction with addition motor units activated.<ul>
+<li>1kg to start, add 5%, adding 50g</li>
+<li>100g to start, add 5%, adds 5g</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>sensory input on muscle stretch<ul>
+<li>inputs from the la afferents: what is the sensor, anyway<ul>
+<li><strong>sensory neuron in la afferents</strong> - gets stretched and stimulated. Surrounded by non-contractile capsule. Has muscle fibers on each end of it (intrafusal fibers). Muscle fibers outside this are extrafusal fibers.
+<img src="/home/cfu288/Documents/CellNeuro/Images/MuscleStretch.jpeg" alt="stretch sensors"></li>
+<li>sensory neuron is able to detect stretch on the muscle, even when it is at different lengths. how? by using the intrafusal fiber.</li>
+</ul>
+</li>
+<li>So muscle stretches, sensory neuron activated la afferents generate epsps on motorneurons</li>
+<li>motorneurons cross threshold, fire, shorten muscle until sensory neuron stops firing. Alleviates stretch on sensor</li>
+<li>the intrafusal fiber attached to the sensor is innervated by its own motorneuron and motorneurons</li>
+<li>the la afferents synapse with both the alpha motorneurons and the gamma motorneurons</li>
+<li>so <strong>as the extrafusal fibers contract</strong> - intrafusal do too, restoring tension on the sensor so it can be active if another stretch comes along  at the new shorter muscle length.
+<img src="/home/cfu288/Documents/CellNeuro/Images/SpineCS.jpeg" alt="spinal cross section"></li>
+<li>suppose you suddenly and rapidly withdrew your right leg</li>
+<li><strong>synergistic muscles</strong> - have the same action</li>
+<li><strong>antagonisitic muscles</strong> - have opposite action.</li>
+<li>reciprocal inhibition between antagonstic means by way of inhibitory interneurons.</li>
+</ul>
+</li>
+<li><strong>Motor patterns</strong> - Activity pattern of motor neuron (flight in insects)<ul>
+<li>These produce behaviors when repeated, you can get a rhythmic motor pattern.</li>
+<li>Wilson - locus fly wingbeat pattern can occur without any sensory information</li>
+<li><strong>Central pattern generator</strong> - pattern can occur without any sensory information. Neural circuitry that produces alternating activity among motorneurons without sensory feedback. Brain synapses with 2 interneurons, each which synapse with motor neuron(one which elevates, one depresses). Interneurons inhibit each other
+<img src="/home/cfu288/Documents/CellNeuro/Images/wingc.jpeg" alt="Wing circuitry"><ol>
+<li>Brain neuron fires, &quot;its time to fly&quot;</li>
+<li>Neuron B has a lower theshold than A</li>
+<li>Neuron B fires</li>
+<li>Neuron b inhibits A</li>
+<li>Neuron B stimulates D</li>
+<li>Wing goes down</li>
+<li>B fatigues, stops firing</li>
+<li>Now A fires, inhibits b</li>
+<li>A activates C</li>
+<li>Wing goes up</li>
+<li>Neurons that fire a burst of AP eventually fatigue and stop firing (run out of available NT)</li>
+<li>Neuro phys recording of all cells
+<img src="/home/cfu288/Documents/CellNeuro/Images/nphys.jpeg" alt="Neuro phys recording of all cells"><ul>
+<li>in image, neuron with lower threshold fires first. in above image, a fires first, has lower threshold</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>Alternative model to alternate activity : <strong>postinhibitory rebound</strong> - neuron is hyperpolarized for a while and hyperpolarization is flipped off suddenly, it will fire a burst of action potentials because hyperpolarization allowed more Na+ channels to close and get past the refractory period so more are ready to opem when Vm becomes more positive. Effectively, decreases threshold.<ul>
+<li>input from brain does not need to be continuous for this to work
+<img src="/home/cfu288/Documents/CellNeuro/Images/model.jpeg" alt="model">
+<img src="/home/cfu288/Documents/CellNeuro/Images/model1.jpeg" alt="model1"></li>
+<li>brain has input to neuron A, inhibitory</li>
+<li>brain inhibits A, shuts off,</li>
+<li>A fires due to postingibit rebound</li>
+<li>Inhibits B, fatigues, shuts off</li>
+<li>B fires by postinhib rebound</li>
+<li>Inhibits A fatigues</li>
+<li>B stops firing. A rebounds and fires, etc etc</li>
+<li>shut off by brain inhibition which slowly declines to avoid activating postinhibitory rebound</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="development-of-the-nervous-system">Development of the nervous system</h3>
+<ul>
+<li><strong>Carnorhabditis elegans</strong> - C. elegans - entire lineage of all its neurons has been tracked, know exactly what neuron developed from which original cell. But in most cases, cells develop based on combination of lineage, signals the cells were exposed to during development.</li>
+<li><strong>Fertilized egg</strong> - zygote cells divide rapidly eventually forming a blastula<ul>
+<li><strong>blastula</strong> - hollow ball of cells, inside cells exposed to cavity, outside the blastula exposed to external, middle exposed to neighboring cells</li>
+</ul>
+</li>
+<li>here cells can be exposed to different signals based on where they are located<ul>
+<li>inside blastula exposed to cavity</li>
+<li>outside the blastula exposed to external</li>
+<li>in middle somewhere - exposed to neighboring cells</li>
+</ul>
+</li>
+<li>Next step - <strong>gastrulation</strong> - cells from outside spread around the outside surface, trigger divide. Some find a crease that forms in the surface and they roll into the inside</li>
+<li><strong>blastopore</strong> - crease they move into during gastrulation</li>
+<li>the first crease this started as = dorsal lip of the blastopore</li>
+<li>Blastopore expands outside view:</li>
+<li><img src="/home/cfu288/Documents/CellNeuro/Images/gas.jpeg" alt="Blast img"></li>
+<li><strong>blastocoel</strong> - fluid-filled cavity of a blastula goes away as  blastopore opens to outside and forms the archenteron</li>
+<li>3 layered embryo:<ul>
+<li><strong>ectoderm</strong> -outside cells that have always been outside</li>
+<li><strong>endoderm</strong> -inside cells that line archenteron</li>
+<li><strong>mesoderm</strong> - outside cells that moved into inside via dorsal lip of blastopore</li>
+</ul>
+</li>
+<li>Mesodermal cells that entered via dorsal lip of balstophore because notochord</li>
+<li><strong>notocord</strong> - a rod like structure that forms in all chordates<ul>
+<li>it is on the dosal side of animal setting up the D-V axis</li>
+<li>it is elongated so it elongated embryo, creating an A-P axis.</li>
+</ul>
+</li>
+<li><strong>notochord induces</strong> - ectodermal cells above it to form nervous system, to change shape to flatten makes neural plate, then groove, then neural folds. Folds get taller and taller until the meet at top and form neural tube. Neural crest cells appear along side the neural tube.</li>
+<li><strong>notochord formation</strong> - ectodermal cells=&gt; neural plate =&gt; groove =&gt; folds =&gt; tube and crest
+<img src="/home/cfu288/Documents/CellNeuro/Images/noto.jpeg" alt="neural notochord">
+<img src="/home/cfu288/Documents/CellNeuro/Images/noto1.jpeg" alt="neural notochord"></li>
+<li>Then the cells change shape constricting neck, forming a groove to form</li>
+<li>groove expands to make neural folds</li>
+<li>folds get taller and taller until the meet at top and form neural tube.</li>
+<li>is covered with other ectodermal cells for skin</li>
+<li>Neural crest cells appear along side the neural tube.</li>
+<li>How does notochord induce ectoderm to become neural tube?</li>
+<li><strong>ectoderm can become</strong> - epidirmis or neural tube if exposed to notochord</li>
+<li><strong>epidermis is triggered to form when ectodermal cells are exposed to</strong> - BMP4</li>
+<li><strong>BMP4 is present throughout embryo, but more concentrated</strong> - ventrally and laterally</li>
+<li>in this dorsal area, there is BMP4 in ectoderm
+<img src="/home/cfu288/Documents/CellNeuro/Images/bmp1.jpeg" alt=""></li>
+<li><strong>Notochord secreted proteins</strong> that block the BMP4 receptor cells exposed to these, cannot -&gt; epidermis instead they turn in to neural tube.</li>
+<li><strong>For ectoderm, neural tube is default path unless</strong> - BMP4 is present
+<img src="/home/cfu288/Documents/CellNeuro/Images/BMP12.jpeg" alt=""></li>
+<li><strong>These blockers, secreted by notochord are</strong> - chordin, noggin, follistatin, nodal</li>
+<li><strong>Anterior-posterior differentiation</strong> - neural tube must differentiate a-&gt;p as (A)telencepelon, Diencephalon, Mesencephalon, Metencephalon, Mylencephalon(P), spinal chord</li>
+<li>Many signalling molecules involved, story is still not clear</li>
+<li><strong>Retnoic Acid</strong> - triggers posterior neural tube development. Activates homeobox genes for posterior cell identity.</li>
+</ul>
+<h3 id="dorsal-ventral-neural-tube-differentation">Dorsal Ventral neural tube differentation</h3>
+<ul>
+<li><strong>sensory more dorsal, interneurons in the ?, motor neurons more ?</strong> - dorsal, middle ,ventral
+<img src="/home/cfu288/Documents/CellNeuro/Images/DVdiff.jpeg" alt=""></li>
+<li><strong>Notochord</strong> - is below neural tube, secretes sonic hedgehog (shh) which interacts with cells on ventral neural tube and induces them to become floor plate cells</li>
+<li><strong>Ventral Floor plate cells</strong> - secrete shh, this + notochord ssh release leads to high concentration of shh in ventral neural tube</li>
+<li><strong>Dorsal neural tube cells</strong> - is exposed to BMP4. High concentration dorsal side of BMP4</li>
+<li>So neural tube ends  up with different proportions of BMP4 and SHH dorsally to ventrally - the 2 molecules interact and relative levels of the 2 induce cells exposed to them to become different types of cells
+<img src="/home/cfu288/Documents/CellNeuro/Images/bmpshh.jpeg" alt="bmp vs shh"><ul>
+<li><strong>High BMP4</strong> - sensory neurons</li>
+<li><strong>even BMP and SHH</strong> - interneurons</li>
+<li><strong>High SHH (floor plate cells)</strong> - motor neurons</li>
+<li>Meanwhile, <strong>during neural tube differentation, cells are dividing at a high rate up to</strong> - 250,000 cells every minute!
+<img src="" alt="cell division"></li>
+<li>newly formed neuron in the neural tube migrate
+<img src="/home/cfu288/Documents/CellNeuro/Images/newly.jpeg" alt="radial gilia"></li>
+<li><strong>cells divide in center, newly formed neurons</strong> - climb out onto outer layer of neural tube (so tube gets thicker by adding layers to the outside) using radial glial cells which make a scaffold the neuron attaches to.</li>
+</ul>
+</li>
+<li>other cells that migrate:<ul>
+<li><strong>neural crest cells</strong> - are born alongside neural tube (dorsally) and migrate to far-flung regions of the embryo following chemicals cues in the extracellular matrix. Some attract, some repel, some cause cells that pass over them to follow a particular developmental path to become a particular cell type</li>
+</ul>
+</li>
+<li><strong>neural crest cells can differentiate into sensory neurons if exposed to</strong> - leukocyte inducing factor</li>
+<li><strong>neural crest cells can differentiate into adrenergic neurons if exposed to</strong> -  first FGF2 <em>then</em> NGF</li>
+<li><strong>neural crest cells can differentiate into cholinergic neurons if exposed to</strong> -  first FGF2 <em>then</em> ciliary neurotrophic factor</li>
+<li><strong>neural crest cells can differentiate into melanocytes if exposed to</strong> - stem cell factor</li>
+<li><strong>neural crest cells can differentiate into chromaffin cells if exposed to</strong> - gluocontioids</li>
+<li><strong>neural crest cells can also differentiate into</strong> - other things including dentin in teeth.</li>
+<li>How do neurons &quot;know&quot; what neurons they need to synapse with?<ul>
+<li>sperry 1960s - rotated eye - V is D and D is V
+<img src="" alt="Frog eye, rotated dorsal and ventral part of the eye"><ul>
+<li>Frog does not compensate for rotated visual field, misses fly</li>
+<li>so next experiment was to cut optic nerve and rotate eye so neurons have to regrow. Now retinal ganglion cells</li>
+<li>new synaptic parters in the brain (tectum) (equivilant to the LGN)</li>
+<li>frog recovers, still misses, does not compensate. How do these neurons find old targets?</li>
+</ul>
+</li>
+<li>Basically retinal neurons (ganglion cells) found their old synaptic parters and reconnected with them.<ul>
+<li>turns out, not as precise as that, Tectum has a gradient of the molecule <strong>ephrin</strong>
+<img src="/home/cfu288/Documents/CellNeuro/Imgages/ep.jpeg" alt="ephrin"></li>
+<li>some neurons sensitive to epherin, will grow until conc of epherin is too high</li>
+<li><strong>Neurons grow into tectum until</strong> - they reach limits of their tolerance to ephrin. Then they stop growing, make a synapse.</li>
+<li>So not exactly the synapse remade but a synapse with the same type of tectum neuron as before</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Neuronal Outgrowth: Pathfinding<ul>
+<li><strong>extension of axon</strong> - growth cone extend highly active, mobile filopodia(uses actin and Ca++)<ul>
+<li>growth cones extend highly active, mobile filopodia</li>
+<li><strong>filopodia are filled</strong> -  with actin - use myosin and Ca++ to move, probe the enviorment looking for chemical cues</li>
+</ul>
+</li>
+<li>Molecules for guidance cues:<ul>
+<li><strong>Intergrins</strong> - laminin, fibronectin, tenascin. On growth cone and on extracellular matrix. If they share an intergrin these bing and &quot;tack&quot; axon down in that place.
+<img src="" alt=""><ul>
+<li>laminin</li>
+<li>fibronectin</li>
+<li>tenascin</li>
+</ul>
+</li>
+<li>molecules found on nearby cells include<ul>
+<li><strong>cadherins</strong> - calcium dependent, activates a biochemical cascade leading to attachment and further growth on growth cone and on other cell surfaces<ul>
+<li>if match, will bind.</li>
+</ul>
+</li>
+<li><strong>CAMs</strong> - Cell adhesion molecules, not ca++ dependent. Allows neurons will bind together, travel in groups. On growth cone and on glia Ng-CAMs or neurons N-CAM<ul>
+<li>binding leads to biochem cascade that promotes adhesion and more growth</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>short range guidance cues</strong> - Cadherins, cams, and intergrins.</li>
+<li><strong>long range attractants/repellants</strong> - Netrins, Semaphorins, collapsin.<ul>
+<li><strong>Netrins</strong> - can attract or repel from a distance</li>
+<li><strong>Semaphorins</strong> -when encounter a growth cone - interact with the placement of actin in the filopodia</li>
+<li><strong>collapsin</strong> - dismantles actin so causes growth cone to turn away from its source.</li>
+</ul>
+</li>
+<li><strong>growing axons will follow</strong> - other growing axons - bind by N-cams ( or maybe other molecules)</li>
+<li><strong>1st axon to find its way</strong> - Pioneer Axon, later developing axons follow the pioneer  </li>
+<li>poineer axons navigate a path using chemical cues as above</li>
+<li>can use other cells as long-range cues<ul>
+<li><strong>guide post cells</strong> - if destroyed, axons get &quot;lost&quot; forming tangles and random paths</li>
+<li><strong>growing axons may make transient</strong> - (temporary synapses with guide post cells)</li>
+<li>mammalian examples<ul>
+<li>cajal - <strong>Retzius cells in developing hippocampus</strong> - ingrowing axons find them and make synapses, cells die after job is done.<ul>
+<li>once the true target cells are born in hippocampus, thse axon switch to synapsing with them</li>
+<li>and cajal - rezius cells - job is done - they die</li>
+</ul>
+</li>
+<li><strong>Developing Visual cortex</strong> - LGN axons make temporary synapses w/ subplate cells until simple cells are born.<ul>
+<li>LGN neuron axons must synapse with &quot;correct&quot; simple cells in visual cortex</li>
+<li>LGN axons arrive in cortex before simple cells are born.</li>
+<li>LGN axons make temporary synapses w/ subplate cells that are present.</li>
+</ul>
+</li>
+<li><strong>if subplate cells are ablated</strong> - LGN axons will grow past this and gel lost. In cortex - make tangles, random directions.</li>
+</ul>
+</li>
+<li>some molecules promote both direction for axon and survival of the neuron.</li>
+<li><strong>Nerve growth factor NGF</strong> -  molecule that promotes both direction for axon and survival of the neuron.</li>
+<li><strong>Sympathetic neuron</strong> - born in sympathetic ganglia, have to grow out and find their targets. antibodies to NGF in developing mice. Very few symp neurons in ganglia</li>
+<li><strong>Adding NGF during development</strong> - leads to excessive numbers of symp neurons in ganglia  </li>
+<li><strong>Target tissue has mRNA for NGF, it doesn&#39;t translate it until</strong> - it it is contacted by growth cone of symp axon.
+<img src="/home/cfu288/Documents/CellNeuro/Images/targettissue.jpeg" alt="NGF made, secreted"><ul>
+<li>NGF made secreted by target tissue</li>
+<li>NGF binds receptors growth cone on growth cone contact</li>
+</ul>
+</li>
+<li><strong>TrkA receptors</strong> - when they bind NGF, NGF+TkA detach from membrane -&gt; cytoplasm<ul>
+<li>can remain in growth cone to stimulate further extension</li>
+<li>or be transported by retrograde axoplasmic transport -&gt; cell body</li>
+<li>to nucleus to promote transcription of genes for further growth + survival</li>
+</ul>
+</li>
+<li>NGF and TrkA is just one example, other GFs and receptors are used by other types of neurons</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>During development, more neurons are born than survive to adulthood - neurons must make synapses to survive.</li>
+<li><strong>During development, neurons must make ___ to survive</strong> - synapses.</li>
+<li>Next set of mechanisms are activity dependent - used in development and in behavioral plasticity</li>
+<li>Example LGN -<ul>
+<li>alternating layers of cells for each eye LRLR
+<img src="" alt="neuron L/R"></li>
+<li><strong>Early in development, left eye axons from ganglion cells make synapses in both layers (l and r)</strong> - activity dependent, non synchronized signals eventually get removed.</li>
+<li>Later:
+<img src="/home/cfu288/Documents/CellNeuro/Images/leye.jpeg" alt="only left to left synapse"></li>
+<li>synapses to the &quot;wrong&quot; layer are pruned away.<ul>
+<li>How?</li>
+<li>Lets talk about input from left eye</li>
+<li>waves of electrical activity sweep across ht retinas of both eyes</li>
+<li>coordinated in each eye so that neighboring cells are active together (then inactive)</li>
+<li>Cells project to LGN in topographic way - have inputs to LGN neurons</li>
+<li>Form left eye, most synapes to LGN are to the left layer but a few end up on the right layer.</li>
+<li>On the left layer, inputs are many and they are synchronized</li>
+<li>on the right layer, fewer inputs, and they are out of sync w/ the waves of activity from the right eye.</li>
+<li>on right layer, inputs that are in the minority(inputs from right) and out of sync get removed
+<img src="" alt="LGN layers"></li>
+</ul>
+</li>
+<li><strong>Ocular domninance</strong> - if R eye has ocular dominance, then R eye has majority of inputs.</li>
+<li><strong>Columns in VI ferret experiment, block all electrical activity in retina</strong> - put electrodes on the 2 optic nerves (L eye, R eye) and apply stimulation while ocular dominance columns. Later, if stimuli to 2 eyes are synchronous. many cells will be driven by both eyes. If stimuli to 2 eyes aren&#39;t in sync, hardly any cells driven by both eyes.<ul>
+<li>put electrodes on the 2 optic nerves (L eye, R eye)</li>
+<li>applies electrical stimulation to the 2 optic nerves:<ul>
+<li>do this for many days while ocular dominance columns are being formed
+A. in 1 set of animals: stimuli to 2 eyes are synchronous
+B. in 1 set of animals: stimuli to 2 eyes aren&#39;t in sync</li>
+</ul>
+</li>
+<li>Many days later, record in visual cortex for ocular dominance</li>
+<li>in group A, many cells driven by both eyes</li>
+<li>in group B, hardly any cells driven by both eyes.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></body>
+</html>
