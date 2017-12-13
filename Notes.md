@@ -2,32 +2,29 @@
   * **p Cells** - small receptive fields, high spacial resolution, color sensitive. info from fovea
   * **m Cells** - Large receptive fields, sensitive to contrast, sensitive to movement not color. Not fovea
   * P cells get info from fovea, m cells from other parts of the retina
+
 * **Brain and the Lateral Geniculate**
   * projections from retina cross the midline at the optic chiasm
     * (most of) right eye axons to left side of brain in primates, all axons in others
       * important in depth perception
-    * axons that receive inputs from the left half of the visual field from each eye will join up together in the right lateral geniculate.
+    * **Axons that receive inputs from the left half of the visual field from each eye** - will join up together in the right lateral geniculate.
     (IMG)
-    * Images from the right half of the vision field will fall on the Lateral side of the left retina and nasal side of right retina and the inputs from the left eye do not cross at the chiasm axons from the right eye do creoss at the chiasm and both meet up in the left lateral geniculate (LGN)
-  * Organization of the LGN   
-    * retina is mapped out in  a topographic map of the world
+    * **Images from the right half of the vision field will fall on** - the Lateral side of the left retina and nasal side of right retina and the inputs from the left eye do not cross at the chiasm axons from the right eye do creoss at the chiasm and both meet up in the left lateral geniculate (LGN)
+  * **Organization of the LGN** - 6 layers in the LGN, each layer has the topographic map, each map are stacked in perfect register.
+    * retina is mapped out in a topographic map of the world
     * 6 layers in the LGN, each layer has the topographic map, each map are stacked in perfect register.
-      * in other words, if experimentally you stick an electrode through theLGN, go straight through all 6 layers, all the cells you records will respond to the stimuli in the same place of the receptive field. Extra representation of the fovea.
-    * Layers 1/2 contain large **magnocellular cells** - They receive synapses from M ganglion cells.
-    * Layers 3-6 have smaller cells called **parvocellular cells** - receive input from P cells of retina
-      * **layers 1,4,6** - from the contralateral eye
-      * **Layers 2,3,5** - from ipsilateral eye
-    * M layer cells of layer 1/2 are not color sensitive, are sensitive to contrasts and motion
-    * P cells of layers 3-6 are color sensitive, high resolution.  Layers may see same part of the world but sensitive to different colors, 3 and 5 will have differnt color sensitivities for example.
+      * in other words, if experimentally you stick an electrode through the LGN, go straight through all 6 layers, all the cells you records will respond to the stimuli in the same place of the receptive field. Extra representation of the fovea.
+    * **magnocellular cells** - Large cells, they receive synapses from M ganglion cells. Found in Layers 1/2
+    * **parvocellular cells** - Small cells, receive input from P cells of retina. Found in layers 3-6.
+      * **layers 1,4,6** - from the contralateral eye, opposite to that on which a particular structure or condition occurs.
+      * **Layers 2,3,5** - from ipsilateral eye, belonging to or occurring on the same side of the body.
+    * **M layer cells of layer 1/2** - are not color sensitive, are sensitive to contrasts and motion
+    * **P cells of layers 3-6** - are color sensitive, high resolution.  Layers may see same part of the world but sensitive to different colors, 3 and 5 will have different color sensitivities for example.
     * Each cell in LGN has a particular piece of information that it can pass on to the next level of processing.
-    * But: only 25% of input to LGN is from retina, 75%comes from visual cortex and brainstem. What is it doing?
+    * But: **only 25% of input to LGN** - is from retina, 75% comes from visual cortex and brainstem. What is it doing?
     * LGN axons travel to visual cortex in occipital lobe.
     * terminate in a specific stop
-      * primary visual cortex.
-        * V1
-        * area 17
-        * striate cortex
-      * about 2mm thick, organized into 6 layers
+      * **primary visual cortex** - V1, area 17, striate cortex. about 2mm thick, organized into 6 layers. Each layer of visual cortex has topographic map, large portion dedicated to fovea
       * LGN axons project to layer 4. Depending on which layer from LGN go to diferent sublayers
         * different sublayers for magnocellular parvocellular
       * Each layer of visual cortex has topographic map, large portion dedicated to fovea
@@ -42,15 +39,11 @@
         * topographic map in each
         * orientation colums - cells in all layers in a vertical column have the same preferred orientation for light bars (or edges)
         * over a min or so, all possible orientations are represented.
-      * Ocular dominance columns
-        * each eye is represented in alternating bands of cells.
+      * **Ocular dominance columns** - each eye is represented in alternating bands of cells.
       * Color sensitivity in set of cells, call this collection of color sensitive cells a blob.
       * info from primary visual cortex gets sent to other layers of the cortex for "further processing"
-    * Depth perception
-      * Need two eyes that have some overlap in receptive fields
-      * Look at a point on 3D object points that are art of this object that are in front and behind **fixation point**
+    * **Depth perception** - Need two eyes that have some overlap in receptive fields. Look at a point on 3D object points that are part of this object that are in front and behind **fixation point**. This disparity is sensed by specific cells in the brain binocular disparity cells which interpret the images as part of one structure but in 3d
       * points that are part of this object that are in front and behind fixation point will fall on slightly different places on the 2 retinas
-      * this disparity is sensed by specific cells in the brain binocular disparity cells which interpret the images as part of one structure but in 3d
       * if disparities are too far apart, you will see 2 images
     * **Auditory system**
       * **Sound intensity** - measured in decibels, measured in logs
@@ -67,23 +60,16 @@
         * **Outer ear** - pinna - shape for localizing sound
             * ripples for localizing sound in vertical plane, point forward  for front-back.
           * shape + ripples help amplify specific sounds, 3-4k range, most human speech.
-        * **Middle ear** - Eardrum + ossicles
-          * ossicles = 3 bones, incus, malleus, stapes
-          * Sound hit eardrum which moves ossicles, stapes pushes inner ear
+        * **Middle ear** - Eardrum + ossicles. ossicles = 3 bones, incus, malleus, stapes. Sound hit eardrum which moves ossicles, stapes pushes inner ear
         * **Inner ear** - cochlea - coiled tube 35mm long
           * flexible partition down center dividing it into 2 chambers
-            * upper - **scala vestibuli**
-            * lower - **scala tympani**
-          * partition supports
-            * **basilar membrane**
-            * **tectorial membrane**
+            * **scala vestibuli** - upper part in cochlea
+            * **scala tympani** - lower part in cochlea
+          * **partition in cochlear membrane supports** -  **basilar membrane** and **tectorial membrane**
           * **Cochlea end nearest the ossicles**
-            * basil end has 2 memrane covered holes.
-            * oval window - stapes attaches
-            * round window
-          * **apical end of cochlea**
-            * Partition does not go all the way to the end, called heliocotrema, so s.vestibuli and tympani are not sealed from each other.
-            * sitting on the **basilar membrane** - are the sensory neurons = hair cells
+            * **basil end has 2 membrane covered holes** - oval window - stapes attaches, and round window
+          * **apical end of cochlea** - Partition does not go all the way to the end, called **heliocotrema**, so s.vestibuli and tympani are not sealed from each other.
+            * **basilar membrane** - sitting here are the sensory neurons = hair cells
               * **hair cells** - have cilia on the top of the cell, looked like someone snipped the hairs at an angle.
                 * longest hair is called a kinocillium and the others are called stereocillia. No axons.
                 * hair cells do not fire ap. Do not have axons. Synapse with auditory neurons signals are graded changes in Vm.
@@ -111,16 +97,16 @@
             * **When basilar membrane moves up** - during rarefaction phase of sound 'wave' the stereocilia move toward the kinocilium and the hair cell depolarizes.
             * **when the basilar membrane moves down** - during compression of the sound 'wave', stereocilia move away from the kinocilium, ion channel closes, hair cell hyperpolarizes
             * no sound - in between.
-            (IMG from phone)
+            ![](/Images/hyperpol.jpeg)
             * **What ions depolarize the hair cells?** + ion enters - K+. Hair cells are inside their own chamber, Scala media. Really high K+ conc outside cell, flows in
-            (IMG from phone)
+            ![](/Images/whationsdepol.jpeg)
             * So as hair cells move up and down and k+ channels or hair tips open then close s.tympani which the base of hair cells is in, has a more typical ionic composition, so:
               * as K+ enters hair top, hair depol, activates v-Ca++ channels which open. Ca++ enters, hair cell releases n.t.
               * On basal end of hair cells, this inc [Ca++]in opens Ca++ activated K+ channels.
             * here, K+ exits the cell. this brings Vm back to starting calue and then as motion of hair cell moves below starting position, more K+ cehannels on the hair tips are closed than at rest  
           * so Vm hyperpolarizes due to K+ exiting the basal portion of the cell
         * Vmrest 0> K+ enters hair tip, starts to depolarize, vgated Ca++ open, NT released, at peak Ca++ activated open on cell base(starts to hyper pol), More channels on hair tip are closed than at rest(when hyperpolarized), K+ exiting ca++ actin K+ channels.
-        (IMG)
+        ![](/Images/vmfoll.jpeg)
         * Vm follows the freq that sound is moving basilar membrane.
         * **Electrical tuning**:
           * anotger form of electrical tuning,
@@ -144,7 +130,7 @@
       * auditory neurons are tuned to frequency by which hair cells they receive input from
       * auditory neurons fire a.p. Fire when stimulated a big stimulus means lots of spikes, a lesser or one of freqencies from other hair cells that they do not receive input from, dont fire.
       * **Tuning curve** - describes auditory neuron's response on graph. Plot threshold on X, freq on y. Minimum response to generate a response as function of frequency of sound.
-      (IMG)
+      ![](/Images/tuning.jpeg)
         * Peak shows the best frequency. This is the frequency where the cell has the lowest threshold.
         * **Sharp curve** - narrowly tuned
         * **Broad curve** - Broadly tuned
@@ -161,7 +147,7 @@
     * **higher freq w/o phase lock (>4khz)** - attenuate going from one side of head to other, freq stays the same.
       * In the superior olive, here is what neurons do:
         * neurons have an identity that is based on "sound from the right" or "from the left." from a neuron that identifies as "from the right":
-        (IMG from phone)
+        ![](soundfrom.jpeg)
         * epsp from right ear will be larger if sound is louder in right ear
         * ipsp in left ear will be smaller if sound is quieter in left ear
         * so for sound from right: epsp overpowers the ipsp and neurons fire.
@@ -171,11 +157,11 @@
       * **Delay line** - Again neurons have identities - "sound from right", "left", or "center",etc. When neuron fires, we know sound came from particular direction.
       * **Delays being important are** - 1. how long sound takes to travel from one side to the other. 2. how long AP take to travel from one side to the other.
       * For a neuron that has the identity of "sound from the left"
-      (IMG from phone)
+      ![](/Images/NeuronE.jpeg)
       * Neuron E fires for sound from left - why? Will only fire on  AP whenit gets epsps from L and R at the same time. Utilizes temporal summation, needs combinations of epsps. Timing of sound arrives at left ear -> ABCDE. Right ear arrives with a bit of delay -> EDCBA. With delay, EPSP from right and left hit neuron E about the same time.
     * **Hearing loss** - losing hair cells - can they be induced to regenerate? research going on - birds can do it.
     * **Cochelar implants** - bypass hair cells entirely, use tonotopic organization of auditory neurons. Wires end at particular frequencies - shorter wire does higher freq.
-    (IMG from phone, mistake in image reverse high low labels)
+    ![](/Images/implant.jpeg)
     * Sounds are picked up by an external microphone, sorted by frequency and electrodes stimulate auditory neurons for specific frequencies.
 
 ### Motor
@@ -225,7 +211,7 @@
     * These produce behaviors when repeated, you can get a rhythmic motor pattern.
     * Wilson - locus fly wingbeat pattern can occur without any sensory information
     * **central pattern generator** - pattern can occur without any sensory information. Neural circuitry that produces alternating activity among motorneurons without sensory feedback. Brain synapses with 2 interneurons, each which synapse with motor neuron(one which elevates, one depresses). Interneurons inhibit each other
-    (IMG) ![Wing circuitry](/Images/wingc.jpeg)
+    ![Wing circuitry](/Images/wingc.jpeg)
       1. Brain neuron fires, "its time to fly"
       2. Neuron B has a lower theshold than A
       3. Neuron B fires
@@ -295,9 +281,9 @@
   ![](/Images/bmp1.jpeg)
   * Notochord - secreated proteins that block the BMP4 receptor cells exposed to these, cannot -> epidermis instead they turn in to neural tube.
   * For ectoderm, neural tube is default path undless BMP4 is present
-  ![]()
+  ![](/Images/BMP12.jpeg)
   * These blockers, secreted by notochord are: chordin, noggin, follistatin, nodal
-  * **Anterior-posterior differentiation**  - neural tube must differentiate a->p as (A)telencepelon, Diencephalon, Mesencephalon, Metencephalon, Mylencephalon(P), spinal chord
+  * **Anterior-posterior differentiation** - neural tube must differentiate a->p as (A)telencepelon, Diencephalon, Mesencephalon, Metencephalon, Mylencephalon(P), spinal chord
   * Many signalling molecules involved, story is still not clear
   * **Retnoic Acid** - triggers posterior neural tube development. Activates homeobox genes for posterior cell identity.
 
@@ -318,10 +304,10 @@
       * interneurons
       * motor neurons
     * High SHH (^) (floor plate cells)
-    * Meanwhile, cells are diciding at a high rate up to 250,000 cells every minute!
+    * Meanwhile, cells are dividing at a high rate up to 250,000 cells every minute!
     ![cell division]()
     * newly formed neuron in the neural tube migrate
-    ![radial gilia]()
+    ![radial gilia](/Images/newly.jpeg)
     * cells divide in center, newly formed neurons climb out onto outer layer of neural tube.
       * so tube gets thicker by adding layers to the outside
     * Neurons climb radial glial cells which make a scaffold the neuron attaches to.
@@ -339,7 +325,7 @@
       * frog recovers, stillmisses, does not compensate. How do these neurons find old targets?
     * Basically retinal neurons (ganglion cells) found their old synaptic parters and reconnected with them.
       * turns out, not as precise as that, Tectum has a gradient of the molecule **ephrin**
-      ![ephrin]()
+      ![ephrin](/Imgages/ep.jpeg)
       * some neurons sensitive to epherin, will grow until conc of epherin is too high
       * Neurons frow into tectum until they reach limits of their tolerance to ephrin. Then they stop growing, make a synapse.
       * So not exactly the synapse remade but a synapse with the same type of tectum neuron as before
@@ -388,7 +374,7 @@
           * very few symp neurons in ganglia
         * **Adding NGF during development** - leads to excessive numbers of symp neurons in ganglia  
         * Target tissue has mRNA for NGF, it doesn't translate it until it it is contacted by growth cone of symp axon.
-          ![NGF made, secreted]()
+          ![NGF made, secreted](/Images/targettissue.jpeg)
           * NGF made secreted by target tissue
           * NGF binds receptors growth cone on growth cone contact
         * TrkA receptors - when they bind NGF, NGF+TkA detach from membrane -> cytoplasm
@@ -403,7 +389,7 @@
       ![neuron L/R]()
       * Early in development, left eye axons from ganglion cells make synapses in both layers (l and r)
       * Later:
-      ![only left to left synapse]()
+      ![only left to left synapse](/Images/leye.jpeg)
       * synapses to the "wrong" layer are pruned away.
         * How?
         * Lets talk about input from left eye
